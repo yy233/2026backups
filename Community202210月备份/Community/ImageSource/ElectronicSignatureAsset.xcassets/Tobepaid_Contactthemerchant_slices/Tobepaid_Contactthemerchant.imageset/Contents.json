@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Tobepaid_Contactthemerchant.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Tobepaid_Contactthemerchant@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Tobepaid_Contactthemerchant@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

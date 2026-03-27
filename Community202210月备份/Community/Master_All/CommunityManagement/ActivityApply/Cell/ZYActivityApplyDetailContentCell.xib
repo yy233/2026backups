@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYActivityApplyDetailContentCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hP4-go-hLB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动主题活动主题活动主题活动主题活动主题活动" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-tm-p5P">
+                                <rect key="frame" x="16" y="16" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="f2B-CK-TWn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动内容活动内容活动内容活动内容活动内容活动内容" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yr-fh-LCS">
+                                <rect key="frame" x="16" y="48" width="343" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="faY-ne-rzH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6yr-fh-LCS" secondAttribute="bottom" constant="16" id="1fz-wQ-6xw"/>
+                            <constraint firstItem="6yr-fh-LCS" firstAttribute="top" secondItem="dc2-tm-p5P" secondAttribute="bottom" constant="12" id="Z3k-cp-3CD"/>
+                            <constraint firstItem="dc2-tm-p5P" firstAttribute="leading" secondItem="hP4-go-hLB" secondAttribute="leading" constant="16" id="b8B-3s-g3H"/>
+                            <constraint firstAttribute="trailing" secondItem="6yr-fh-LCS" secondAttribute="trailing" constant="16" id="bPU-iR-wTa"/>
+                            <constraint firstAttribute="trailing" secondItem="dc2-tm-p5P" secondAttribute="trailing" constant="16" id="cIw-IN-jIA"/>
+                            <constraint firstItem="dc2-tm-p5P" firstAttribute="top" secondItem="hP4-go-hLB" secondAttribute="top" constant="16" id="pdN-wm-a49"/>
+                            <constraint firstItem="6yr-fh-LCS" firstAttribute="leading" secondItem="hP4-go-hLB" secondAttribute="leading" constant="16" id="wr8-1P-Jc8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="hP4-go-hLB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0Wp-Ai-U7R"/>
+                    <constraint firstItem="hP4-go-hLB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4tA-KJ-mwB"/>
+                    <constraint firstAttribute="bottom" secondItem="hP4-go-hLB" secondAttribute="bottom" id="KzR-b3-igs"/>
+                    <constraint firstAttribute="trailing" secondItem="hP4-go-hLB" secondAttribute="trailing" id="syI-SY-sB0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentLabel" destination="6yr-fh-LCS" id="Yg0-5a-FoO"/>
+                <outlet property="titleLabel" destination="dc2-tm-p5P" id="eWP-kb-aWj"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="60"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYSmallShopContainerRentDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5W3-9l-2uK">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUk-p6-5aX">
+                            <rect key="frame" x="16" y="0.0" width="78" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="联系商家" image="cc_chat_icon">
+                                <color key="titleColor" red="0.53725490196078429" green="0.5490196078431373" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaQ-M1-hbv">
+                            <rect key="frame" x="293" y="11" width="105" height="38"/>
+                            <color key="backgroundColor" red="0.13333333333333333" green="0.81960784313725488" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="105" id="5gG-Sk-zvi"/>
+                                <constraint firstAttribute="height" constant="38" id="Swc-Yp-w6W"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="立即租用">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="19"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="UUk-p6-5aX" firstAttribute="leading" secondItem="5W3-9l-2uK" secondAttribute="leading" constant="16" id="7rD-kU-dmi"/>
+                        <constraint firstAttribute="height" constant="60" id="aZo-xM-Ee4"/>
+                        <constraint firstItem="UUk-p6-5aX" firstAttribute="top" secondItem="5W3-9l-2uK" secondAttribute="top" id="e01-A0-XuN"/>
+                        <constraint firstItem="oaQ-M1-hbv" firstAttribute="centerY" secondItem="5W3-9l-2uK" secondAttribute="centerY" id="ikk-1e-5m4"/>
+                        <constraint firstAttribute="trailing" secondItem="oaQ-M1-hbv" secondAttribute="trailing" constant="16" id="jM7-yv-mQh"/>
+                        <constraint firstAttribute="bottom" secondItem="UUk-p6-5aX" secondAttribute="bottom" id="sfS-Sj-r4t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5W3-9l-2uK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2SC-Oo-wHi"/>
+                <constraint firstAttribute="trailing" secondItem="5W3-9l-2uK" secondAttribute="trailing" id="J6R-kP-CiA"/>
+                <constraint firstItem="5W3-9l-2uK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xeT-iu-wXh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chatButton" destination="UUk-p6-5aX" id="vwc-HR-ItK"/>
+                <outlet property="rentButton" destination="oaQ-M1-hbv" id="dmB-bn-Lee"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="48"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cc_chat_icon" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

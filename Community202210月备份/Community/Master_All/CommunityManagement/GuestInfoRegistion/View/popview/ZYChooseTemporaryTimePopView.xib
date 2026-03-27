@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYChooseTemporaryTimePopView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fja-hL-CdS">
+                    <rect key="frame" x="73" y="270.66666666666669" width="268" height="195"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r17-pU-5Cz">
+                            <rect key="frame" x="0.0" y="0.0" width="268" height="60"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ta-rc-tCh">
+                                    <rect key="frame" x="0.0" y="59.333333333333314" width="268" height="0.6666666666666643"/>
+                                    <color key="backgroundColor" red="0.24313725490196078" green="0.31764705882352939" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="0.5" id="b6s-4p-TiN"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择临时码有效时限" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22Z-Gi-WqT">
+                                    <rect key="frame" x="65" y="21" width="138" height="18"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="22Z-Gi-WqT" firstAttribute="centerX" secondItem="r17-pU-5Cz" secondAttribute="centerX" id="2bO-bF-MQR"/>
+                                <constraint firstAttribute="trailing" secondItem="2ta-rc-tCh" secondAttribute="trailing" id="PcJ-wJ-NOj"/>
+                                <constraint firstItem="2ta-rc-tCh" firstAttribute="leading" secondItem="r17-pU-5Cz" secondAttribute="leading" id="VOi-X6-rjd"/>
+                                <constraint firstItem="22Z-Gi-WqT" firstAttribute="centerY" secondItem="r17-pU-5Cz" secondAttribute="centerY" id="dYi-fF-8jB"/>
+                                <constraint firstAttribute="height" constant="60" id="gdV-LO-JnC"/>
+                                <constraint firstAttribute="bottom" secondItem="2ta-rc-tCh" secondAttribute="bottom" id="pHz-9g-YV1"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAF-98-BH2">
+                            <rect key="frame" x="0.0" y="70" width="268" height="38.333333333333343"/>
+                            <state key="normal" title="30分钟">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUF-oM-bcz">
+                            <rect key="frame" x="0.0" y="108.33333333333331" width="268" height="38.333333333333343"/>
+                            <state key="normal" title="60分钟">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67V-tK-WhX">
+                            <rect key="frame" x="0.0" y="146.66666666666663" width="268" height="38.333333333333343"/>
+                            <state key="normal" title="90分钟">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666666666666" green="0.16078431372549018" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="67V-tK-WhX" secondAttribute="bottom" constant="10" id="6Bf-dr-ex3"/>
+                        <constraint firstItem="67V-tK-WhX" firstAttribute="leading" secondItem="fja-hL-CdS" secondAttribute="leading" id="ACU-St-azI"/>
+                        <constraint firstItem="PUF-oM-bcz" firstAttribute="height" secondItem="LAF-98-BH2" secondAttribute="height" id="B9t-N8-PEx"/>
+                        <constraint firstItem="67V-tK-WhX" firstAttribute="top" secondItem="PUF-oM-bcz" secondAttribute="bottom" id="HZL-qC-KZE"/>
+                        <constraint firstAttribute="width" constant="268" id="JNe-X8-8il"/>
+                        <constraint firstItem="r17-pU-5Cz" firstAttribute="top" secondItem="fja-hL-CdS" secondAttribute="top" id="KOr-YW-nzZ"/>
+                        <constraint firstItem="r17-pU-5Cz" firstAttribute="leading" secondItem="fja-hL-CdS" secondAttribute="leading" id="Spm-lW-Rny"/>
+                        <constraint firstAttribute="trailing" secondItem="LAF-98-BH2" secondAttribute="trailing" id="Yol-vQ-Oyu"/>
+                        <constraint firstItem="67V-tK-WhX" firstAttribute="height" secondItem="LAF-98-BH2" secondAttribute="height" id="Z7o-YW-Qr4"/>
+                        <constraint firstItem="PUF-oM-bcz" firstAttribute="leading" secondItem="fja-hL-CdS" secondAttribute="leading" id="bfl-z9-TCA"/>
+                        <constraint firstItem="PUF-oM-bcz" firstAttribute="top" secondItem="LAF-98-BH2" secondAttribute="bottom" id="c4k-Zr-5xm"/>
+                        <constraint firstAttribute="trailing" secondItem="67V-tK-WhX" secondAttribute="trailing" id="cy5-zu-mt7"/>
+                        <constraint firstItem="LAF-98-BH2" firstAttribute="leading" secondItem="fja-hL-CdS" secondAttribute="leading" id="eEh-Ut-ojE"/>
+                        <constraint firstAttribute="trailing" secondItem="PUF-oM-bcz" secondAttribute="trailing" id="eMp-tJ-Coq"/>
+                        <constraint firstItem="LAF-98-BH2" firstAttribute="top" secondItem="r17-pU-5Cz" secondAttribute="bottom" constant="10" id="sIB-hj-HSS"/>
+                        <constraint firstAttribute="trailing" secondItem="r17-pU-5Cz" secondAttribute="trailing" id="tdF-N2-Vry"/>
+                        <constraint firstAttribute="height" constant="195" id="zr4-Bq-n55"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fja-hL-CdS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OTc-Ro-c4W"/>
+                <constraint firstItem="fja-hL-CdS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yzN-8C-x9R"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="fja-hL-CdS" id="GRV-Cd-8fk"/>
+                <outlet property="lineView" destination="2ta-rc-tCh" id="rpc-60-4bW"/>
+                <outlet property="ninetyMinutesButton" destination="67V-tK-WhX" id="LU5-xZ-8Sp"/>
+                <outlet property="sixtyMinutesButton" destination="PUF-oM-bcz" id="Y7o-la-Nku"/>
+                <outlet property="thirtyMinutesButton" destination="LAF-98-BH2" id="XU6-zC-wHJ"/>
+                <outlet property="titleLabel" destination="22Z-Gi-WqT" id="sR0-mT-XwE"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="60"/>
+        </view>
+    </objects>
+</document>

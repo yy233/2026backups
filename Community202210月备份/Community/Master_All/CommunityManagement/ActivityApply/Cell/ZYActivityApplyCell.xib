@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYActivityApplyCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xr2-yp-k29">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NB3-JY-cjC">
+                                <rect key="frame" x="16" y="5" width="343" height="76"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBL-27-bvg">
+                                        <rect key="frame" x="2" y="16" width="30" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="2aC-rD-dhh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.10588235294117647" green="0.84313725490196079" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动主题活动主题活动" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oez-BT-obA">
+                                        <rect key="frame" x="34" y="16" width="295" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="报名时间：2021.07.28 09:00-2021.07.29 09:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmd-BJ-1ye">
+                                        <rect key="frame" x="34" y="44" width="309" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="I9g-ID-FzV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.066666666666666666" green="0.16078431372549018" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="QBL-27-bvg" firstAttribute="top" secondItem="NB3-JY-cjC" secondAttribute="top" constant="16" id="2h4-Bp-flJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Oez-BT-obA" secondAttribute="trailing" constant="14" id="Num-of-3FP"/>
+                                    <constraint firstItem="Qmd-BJ-1ye" firstAttribute="top" secondItem="Oez-BT-obA" secondAttribute="bottom" constant="10" id="SSW-lG-pnS"/>
+                                    <constraint firstItem="QBL-27-bvg" firstAttribute="leading" secondItem="NB3-JY-cjC" secondAttribute="leading" constant="2" id="TbQ-hQ-Dot"/>
+                                    <constraint firstItem="Oez-BT-obA" firstAttribute="leading" secondItem="QBL-27-bvg" secondAttribute="trailing" constant="2" id="eTJ-Vf-tXf"/>
+                                    <constraint firstItem="Qmd-BJ-1ye" firstAttribute="leading" secondItem="Oez-BT-obA" secondAttribute="leading" id="hez-Zp-ANu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qmd-BJ-1ye" secondAttribute="bottom" constant="15" id="oxi-fm-Yvi"/>
+                                    <constraint firstItem="Oez-BT-obA" firstAttribute="top" secondItem="NB3-JY-cjC" secondAttribute="top" constant="16" id="u7j-L8-jTK"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qmd-BJ-1ye" secondAttribute="trailing" id="wTc-Ic-L5H"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="7.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NB3-JY-cjC" secondAttribute="trailing" constant="16" id="4Hm-Sl-ZZA"/>
+                            <constraint firstItem="NB3-JY-cjC" firstAttribute="leading" secondItem="Xr2-yp-k29" secondAttribute="leading" constant="16" id="R8L-uL-R5i"/>
+                            <constraint firstItem="NB3-JY-cjC" firstAttribute="top" secondItem="Xr2-yp-k29" secondAttribute="top" constant="5" id="dxd-Qw-jws"/>
+                            <constraint firstAttribute="bottom" secondItem="NB3-JY-cjC" secondAttribute="bottom" constant="5" id="k7l-6C-jtC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Xr2-yp-k29" secondAttribute="trailing" id="7LB-vK-2et"/>
+                    <constraint firstItem="Xr2-yp-k29" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cSh-lB-gVu"/>
+                    <constraint firstItem="Xr2-yp-k29" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vqd-Ll-gan"/>
+                    <constraint firstAttribute="bottom" secondItem="Xr2-yp-k29" secondAttribute="bottom" id="xK4-EI-NW7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentV" destination="NB3-JY-cjC" id="mHh-ya-HtC"/>
+                <outlet property="dateLabel" destination="Qmd-BJ-1ye" id="JYf-7b-f6L"/>
+                <outlet property="numLabel" destination="QBL-27-bvg" id="A67-0x-rG5"/>
+                <outlet property="titleLabel" destination="Oez-BT-obA" id="pJo-26-tEe"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="59.598214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

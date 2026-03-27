@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYOtherIssueActivityTopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AON-fI-IrR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pension_icon" translatesAutoresizingMaskIntoConstraints="NO" id="89t-HP-oOP">
+                            <rect key="frame" x="16" y="0.0" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="7Bw-uY-owo"/>
+                                <constraint firstAttribute="width" constant="60" id="lLq-ce-SuU"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="夕阳生长的小花" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHn-jv-IQh">
+                            <rect key="frame" x="88" y="8" width="189" height="22"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" red="0.047058823530000002" green="0.047058823530000002" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年龄：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HS0-jH-zat">
+                            <rect key="frame" x="88" y="36" width="46" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.43137254899999999" green="0.44705882349999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="58岁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chg-w1-eac">
+                            <rect key="frame" x="134" y="36" width="34" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.43137254899999999" green="0.44705882349999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDi-Px-98y">
+                            <rect key="frame" x="283" y="10.666666666666664" width="76" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="8Xg-Ko-Hne"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="添加好友" image="yl_tjhy">
+                                <color key="titleColor" red="0.43137254899999999" green="0.44705882349999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT6-o5-UMu">
+                            <rect key="frame" x="314" y="36.666666666666664" width="45" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="交流" image="yl_lt">
+                                <color key="titleColor" red="0.43137254899999999" green="0.44705882349999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="89t-HP-oOP" firstAttribute="top" secondItem="AON-fI-IrR" secondAttribute="top" id="2TZ-5x-3o5"/>
+                        <constraint firstItem="HS0-jH-zat" firstAttribute="bottom" secondItem="89t-HP-oOP" secondAttribute="bottom" constant="-6" id="5GL-nY-Oh6"/>
+                        <constraint firstAttribute="trailing" secondItem="UT6-o5-UMu" secondAttribute="trailing" constant="16" id="5XT-Fx-18d"/>
+                        <constraint firstItem="NHn-jv-IQh" firstAttribute="top" secondItem="89t-HP-oOP" secondAttribute="top" constant="8" id="76z-Gs-7pW"/>
+                        <constraint firstItem="89t-HP-oOP" firstAttribute="leading" secondItem="AON-fI-IrR" secondAttribute="leading" constant="16" id="Kve-jn-ECz"/>
+                        <constraint firstItem="UT6-o5-UMu" firstAttribute="centerY" secondItem="chg-w1-eac" secondAttribute="centerY" id="XjF-6F-xPb"/>
+                        <constraint firstItem="TDi-Px-98y" firstAttribute="centerY" secondItem="NHn-jv-IQh" secondAttribute="centerY" id="YaF-gd-ef8"/>
+                        <constraint firstItem="HS0-jH-zat" firstAttribute="leading" secondItem="89t-HP-oOP" secondAttribute="trailing" constant="12" id="aes-HQ-Ovy"/>
+                        <constraint firstAttribute="trailing" secondItem="TDi-Px-98y" secondAttribute="trailing" constant="16" id="aoH-2y-ZgC"/>
+                        <constraint firstAttribute="height" constant="80" id="jPA-7j-xLm"/>
+                        <constraint firstItem="chg-w1-eac" firstAttribute="leading" secondItem="HS0-jH-zat" secondAttribute="trailing" id="o47-fa-7ed"/>
+                        <constraint firstItem="NHn-jv-IQh" firstAttribute="leading" secondItem="89t-HP-oOP" secondAttribute="trailing" constant="12" id="ohk-Pr-tvz"/>
+                        <constraint firstItem="TDi-Px-98y" firstAttribute="leading" secondItem="NHn-jv-IQh" secondAttribute="trailing" constant="6" id="qFQ-Of-1eg"/>
+                        <constraint firstItem="chg-w1-eac" firstAttribute="centerY" secondItem="HS0-jH-zat" secondAttribute="centerY" id="wbZ-PY-ebX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94509803921568625" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AON-fI-IrR" secondAttribute="trailing" id="fmw-Q6-WO3"/>
+                <constraint firstItem="AON-fI-IrR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fy9-it-la2"/>
+                <constraint firstItem="AON-fI-IrR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="p3B-qG-lVs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addFriendButton" destination="TDi-Px-98y" id="Zbe-BL-QsS"/>
+                <outlet property="ageLabel" destination="chg-w1-eac" id="GM9-Pq-uGD"/>
+                <outlet property="exchangeButton" destination="UT6-o5-UMu" id="NbA-EC-n4A"/>
+                <outlet property="iconImageView" destination="89t-HP-oOP" id="IyH-FV-xhz"/>
+                <outlet property="nameLabel" destination="NHn-jv-IQh" id="1SK-YP-oUU"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pension_icon" width="43" height="43"/>
+        <image name="yl_lt" width="16" height="16"/>
+        <image name="yl_tjhy" width="16" height="16"/>
+    </resources>
+</document>

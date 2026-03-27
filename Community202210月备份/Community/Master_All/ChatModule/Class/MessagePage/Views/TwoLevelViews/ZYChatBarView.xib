@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYChatBarView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaG-kz-Q0O">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eP3-Cu-svb">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.92156862745098034" green="0.92177987370032688" blue="0.92121991317458196" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="rh1-ej-2rY"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-Yv-l46">
+                            <rect key="frame" x="8" y="9" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="aW5-8j-Fi0"/>
+                                <constraint firstAttribute="height" constant="40" id="crs-zy-S3F"/>
+                            </constraints>
+                            <state key="normal" image="fun_voice_black"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WC9-zN-xEB">
+                            <rect key="frame" x="327" y="9" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="de7-zq-N3S"/>
+                                <constraint firstAttribute="width" constant="40" id="heU-sE-7Ja"/>
+                            </constraints>
+                            <state key="normal" image="fun_add_black"/>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ngx-5J-ZX3">
+                            <rect key="frame" x="53" y="10" width="274" height="37"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAC-iQ-CFL">
+                            <rect key="frame" x="287" y="10" width="40" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="R7W-9Q-KGN"/>
+                            </constraints>
+                            <state key="normal" image="fun_bq_black"/>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U1O-41-k3f">
+                            <rect key="frame" x="56" y="10" width="231" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="BAC-iQ-CFL" firstAttribute="bottom" secondItem="U1O-41-k3f" secondAttribute="bottom" id="0oH-MZ-W1N"/>
+                        <constraint firstAttribute="bottom" secondItem="U1O-41-k3f" secondAttribute="bottom" constant="10" id="1di-Hi-q97"/>
+                        <constraint firstAttribute="bottom" secondItem="WC9-zN-xEB" secondAttribute="bottom" constant="8" id="CqU-t7-IKa"/>
+                        <constraint firstItem="WC9-zN-xEB" firstAttribute="leading" secondItem="Ngx-5J-ZX3" secondAttribute="trailing" id="Eir-r0-GUg"/>
+                        <constraint firstItem="WC9-zN-xEB" firstAttribute="leading" secondItem="BAC-iQ-CFL" secondAttribute="trailing" id="FQ0-Xr-wJY"/>
+                        <constraint firstAttribute="bottom" secondItem="aFw-Yv-l46" secondAttribute="bottom" constant="8" id="GaN-hU-aXP"/>
+                        <constraint firstItem="Ngx-5J-ZX3" firstAttribute="top" secondItem="U1O-41-k3f" secondAttribute="top" id="HIb-q3-sXQ"/>
+                        <constraint firstItem="eP3-Cu-svb" firstAttribute="leading" secondItem="LaG-kz-Q0O" secondAttribute="leading" id="PDF-lX-2se"/>
+                        <constraint firstItem="BAC-iQ-CFL" firstAttribute="top" secondItem="U1O-41-k3f" secondAttribute="top" id="PcA-fZ-Rz9"/>
+                        <constraint firstItem="BAC-iQ-CFL" firstAttribute="leading" secondItem="U1O-41-k3f" secondAttribute="trailing" id="Q6R-Fc-aUW"/>
+                        <constraint firstItem="aFw-Yv-l46" firstAttribute="leading" secondItem="LaG-kz-Q0O" secondAttribute="leading" constant="8" id="TTT-VZ-RRV"/>
+                        <constraint firstItem="eP3-Cu-svb" firstAttribute="top" secondItem="LaG-kz-Q0O" secondAttribute="top" id="YtU-Us-F5F"/>
+                        <constraint firstAttribute="trailing" secondItem="WC9-zN-xEB" secondAttribute="trailing" constant="8" id="a8y-nw-9tD"/>
+                        <constraint firstAttribute="trailing" secondItem="eP3-Cu-svb" secondAttribute="trailing" id="dWs-q8-yCc"/>
+                        <constraint firstItem="U1O-41-k3f" firstAttribute="leading" secondItem="aFw-Yv-l46" secondAttribute="trailing" constant="8" id="kx6-df-Fkq"/>
+                        <constraint firstItem="U1O-41-k3f" firstAttribute="top" secondItem="LaG-kz-Q0O" secondAttribute="top" constant="10" id="lDC-6C-DyW"/>
+                        <constraint firstItem="Ngx-5J-ZX3" firstAttribute="leading" secondItem="aFw-Yv-l46" secondAttribute="trailing" constant="5" id="mU7-8a-G1N"/>
+                        <constraint firstItem="Ngx-5J-ZX3" firstAttribute="bottom" secondItem="U1O-41-k3f" secondAttribute="bottom" id="zir-Kj-b87"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LaG-kz-Q0O" secondAttribute="trailing" id="09L-Ip-fJb"/>
+                <constraint firstItem="LaG-kz-Q0O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jf8-GF-1Eq"/>
+                <constraint firstItem="LaG-kz-Q0O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fQY-pC-bIj"/>
+                <constraint firstAttribute="bottom" secondItem="LaG-kz-Q0O" secondAttribute="bottom" id="z94-pl-cFr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addButton" destination="WC9-zN-xEB" id="185-gI-9AN"/>
+                <outlet property="funButton" destination="BAC-iQ-CFL" id="L1L-Xp-o4R"/>
+                <outlet property="grayBackView" destination="Ngx-5J-ZX3" id="0Sh-OU-Fjh"/>
+                <outlet property="textView" destination="U1O-41-k3f" id="rS8-ex-6tM"/>
+                <outlet property="voiceButton" destination="aFw-Yv-l46" id="1un-LJ-iW7"/>
+            </connections>
+            <point key="canvasLocation" x="-70.28985507246378" y="43.614130434782609"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fun_add_black" width="25" height="25"/>
+        <image name="fun_bq_black" width="22" height="22"/>
+        <image name="fun_voice_black" width="25" height="25"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

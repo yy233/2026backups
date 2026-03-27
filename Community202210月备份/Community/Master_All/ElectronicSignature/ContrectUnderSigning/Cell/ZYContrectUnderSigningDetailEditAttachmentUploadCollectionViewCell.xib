@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZYContrectUnderSigningDetailEditAttachmentUploadCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8zC-dX-TeZ">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_contrect_upload_add" translatesAutoresizingMaskIntoConstraints="NO" id="o5x-u7-BJg">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3H-ck-gfg">
+                                <rect key="frame" x="80" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="6Aa-UO-Knj"/>
+                                    <constraint firstAttribute="height" constant="20" id="wEJ-uT-HcY"/>
+                                </constraints>
+                                <state key="normal" image="Upload_Picture_delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o5x-u7-BJg" firstAttribute="top" secondItem="8zC-dX-TeZ" secondAttribute="top" id="CvK-qf-9tA"/>
+                            <constraint firstItem="L3H-ck-gfg" firstAttribute="top" secondItem="8zC-dX-TeZ" secondAttribute="top" id="I36-It-WcK"/>
+                            <constraint firstAttribute="trailing" secondItem="o5x-u7-BJg" secondAttribute="trailing" id="Sk1-Fj-7Kl"/>
+                            <constraint firstAttribute="bottom" secondItem="o5x-u7-BJg" secondAttribute="bottom" id="ek4-Gb-Z7s"/>
+                            <constraint firstItem="o5x-u7-BJg" firstAttribute="leading" secondItem="8zC-dX-TeZ" secondAttribute="leading" id="eq9-kM-a5g"/>
+                            <constraint firstAttribute="trailing" secondItem="L3H-ck-gfg" secondAttribute="trailing" id="hVP-nI-axb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8zC-dX-TeZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rjQ-fC-1d8"/>
+                <constraint firstAttribute="trailing" secondItem="8zC-dX-TeZ" secondAttribute="trailing" id="tum-tV-knN"/>
+                <constraint firstAttribute="bottom" secondItem="8zC-dX-TeZ" secondAttribute="bottom" id="wDd-B2-s2H"/>
+                <constraint firstItem="8zC-dX-TeZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zZO-rN-INq"/>
+            </constraints>
+            <connections>
+                <outlet property="deletetButton" destination="L3H-ck-gfg" id="u0h-id-w1X"/>
+                <outlet property="iconImageView" destination="o5x-u7-BJg" id="0R1-z5-fXw"/>
+            </connections>
+            <point key="canvasLocation" x="-312" y="12"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Upload_Picture_delete" width="13.5" height="13.5"/>
+        <image name="ic_contrect_upload_add" width="102" height="102"/>
+    </resources>
+</document>

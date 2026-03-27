@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYQuestionnaireSurveyEditHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odn-VG-7Lv">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1、关于楼道放置垃圾桶，你的看法是？（多选）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2h-Xd-yGQ">
+                            <rect key="frame" x="16" y="18" width="382" height="18"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*最少选择1个，最多选择3个" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1O-vh-XVv">
+                            <rect key="frame" x="16" y="38" width="382" height="14.333333333333336"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="P2h-Xd-yGQ" firstAttribute="top" secondItem="odn-VG-7Lv" secondAttribute="top" constant="18" id="6UT-jk-7SU"/>
+                        <constraint firstAttribute="trailing" secondItem="P2h-Xd-yGQ" secondAttribute="trailing" constant="16" id="8vM-IU-eEm"/>
+                        <constraint firstItem="P2h-Xd-yGQ" firstAttribute="leading" secondItem="odn-VG-7Lv" secondAttribute="leading" constant="16" id="N58-od-ykE"/>
+                        <constraint firstItem="K1O-vh-XVv" firstAttribute="leading" secondItem="odn-VG-7Lv" secondAttribute="leading" constant="16" id="TfM-H6-vG7"/>
+                        <constraint firstAttribute="trailing" secondItem="K1O-vh-XVv" secondAttribute="trailing" constant="16" id="UCU-Yj-8qN"/>
+                        <constraint firstItem="K1O-vh-XVv" firstAttribute="top" secondItem="P2h-Xd-yGQ" secondAttribute="bottom" constant="2" id="pNV-PF-acH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="odn-VG-7Lv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Wm-Pp-102"/>
+                <constraint firstAttribute="trailing" secondItem="odn-VG-7Lv" secondAttribute="trailing" id="Ajs-Bz-aUl"/>
+                <constraint firstItem="odn-VG-7Lv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dm6-F1-okn"/>
+                <constraint firstAttribute="bottom" secondItem="odn-VG-7Lv" secondAttribute="bottom" id="dzg-ym-3vc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentV" destination="odn-VG-7Lv" id="Jxv-ez-2xH"/>
+                <outlet property="subLabel" destination="K1O-vh-XVv" id="KV8-bL-3hU"/>
+                <outlet property="titleLabel" destination="P2h-Xd-yGQ" id="t8l-zi-08B"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="67.255434782608702"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

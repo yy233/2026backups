@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYFamilyArchiveInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="老人头像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v9-5A-Xs4">
+                        <rect key="frame" x="16" y="22.5" width="69.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.16862745100000001" green="0.17254901959999999" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pension_skip" translatesAutoresizingMaskIntoConstraints="NO" id="pQR-hS-y46">
+                        <rect key="frame" x="353" y="27" width="6" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="9ja-Kh-h4y"/>
+                            <constraint firstAttribute="width" constant="6" id="GRY-Ab-bas"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_mortx" translatesAutoresizingMaskIntoConstraints="NO" id="Ycf-wX-ogR">
+                        <rect key="frame" x="299" y="10" width="46" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="bZZ-kF-PKM"/>
+                            <constraint firstAttribute="width" constant="46" id="c6k-Dc-ap5"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入联系电话" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aup-gy-exB">
+                        <rect key="frame" x="101.5" y="0.0" width="243.5" height="66"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.17254901960784313" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择出生日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szH-mp-rvL">
+                        <rect key="frame" x="230.5" y="23.5" width="114.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pQR-hS-y46" firstAttribute="leading" secondItem="aup-gy-exB" secondAttribute="trailing" constant="8" id="DuO-DC-0ip"/>
+                    <constraint firstItem="aup-gy-exB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="EIj-eG-PVc"/>
+                    <constraint firstItem="szH-mp-rvL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LXD-Zo-KZL"/>
+                    <constraint firstItem="pQR-hS-y46" firstAttribute="leading" secondItem="Ycf-wX-ogR" secondAttribute="trailing" constant="8" id="NIN-1C-ZDR"/>
+                    <constraint firstItem="aup-gy-exB" firstAttribute="leading" secondItem="9v9-5A-Xs4" secondAttribute="trailing" constant="16" id="RY1-EA-dFx"/>
+                    <constraint firstItem="pQR-hS-y46" firstAttribute="leading" secondItem="szH-mp-rvL" secondAttribute="trailing" constant="8" id="SIy-EB-10h"/>
+                    <constraint firstItem="pQR-hS-y46" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Uuc-b2-Rwv"/>
+                    <constraint firstItem="9v9-5A-Xs4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XDL-9g-GNd"/>
+                    <constraint firstAttribute="trailing" secondItem="pQR-hS-y46" secondAttribute="trailing" constant="16" id="aK9-7U-XQd"/>
+                    <constraint firstAttribute="bottom" secondItem="aup-gy-exB" secondAttribute="bottom" id="nFc-vA-r4i"/>
+                    <constraint firstItem="9v9-5A-Xs4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ptJ-Wi-ATM"/>
+                    <constraint firstItem="Ycf-wX-ogR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ujg-vE-Qo1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowImageView" destination="pQR-hS-y46" id="dlF-GV-4a8"/>
+                <outlet property="contentLabel" destination="szH-mp-rvL" id="hEu-Mp-tzg"/>
+                <outlet property="contentTF" destination="aup-gy-exB" id="ECZ-GV-qay"/>
+                <outlet property="iconImageView" destination="Ycf-wX-ogR" id="OyI-ug-51E"/>
+                <outlet property="titleLabel" destination="9v9-5A-Xs4" id="U6H-1W-rRd"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="64.955357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pension_skip" width="6" height="11"/>
+        <image name="yl_mortx" width="45" height="45"/>
+    </resources>
+</document>

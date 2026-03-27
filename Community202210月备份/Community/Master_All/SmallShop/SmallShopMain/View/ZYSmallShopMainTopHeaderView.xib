@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYSmallShopMainTopHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ3-Zx-KFy">
+                    <rect key="frame" x="370" y="11" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="KDi-eI-3FQ"/>
+                        <constraint firstAttribute="height" constant="28" id="RYI-vZ-dah"/>
+                    </constraints>
+                    <state key="normal" image="cc_wode_icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZ9-EF-dki">
+                    <rect key="frame" x="326" y="11" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="iRf-rU-gPc"/>
+                        <constraint firstAttribute="width" constant="28" id="jvi-MI-0Cj"/>
+                    </constraints>
+                    <state key="normal" image="cc_xiaoxi_icon"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="青岗湾小区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFs-Nr-efi">
+                    <rect key="frame" x="16" y="11.333333333333334" width="294" height="27.666666666666664"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <color key="textColor" red="0.16862745098039217" green="0.17254901960784313" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4U-Kw-5Nx">
+                    <rect key="frame" x="343" y="13" width="9" height="9"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.33725490196078434" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="9" id="jlP-AR-gYp"/>
+                        <constraint firstAttribute="width" constant="9" id="sQh-Ex-ciC"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="4.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bZ3-Zx-KFy" secondAttribute="trailing" constant="16" id="1d3-ye-8hM"/>
+                <constraint firstItem="t4U-Kw-5Nx" firstAttribute="trailing" secondItem="dZ9-EF-dki" secondAttribute="trailing" constant="-2" id="42i-Le-We4"/>
+                <constraint firstItem="bZ3-Zx-KFy" firstAttribute="leading" secondItem="dZ9-EF-dki" secondAttribute="trailing" constant="16" id="I0w-yJ-xYG"/>
+                <constraint firstItem="t4U-Kw-5Nx" firstAttribute="top" secondItem="dZ9-EF-dki" secondAttribute="top" constant="2" id="Ikd-pZ-knD"/>
+                <constraint firstItem="dZ9-EF-dki" firstAttribute="leading" secondItem="AFs-Nr-efi" secondAttribute="trailing" constant="16" id="MF6-Oh-SIE"/>
+                <constraint firstItem="dZ9-EF-dki" firstAttribute="centerY" secondItem="AFs-Nr-efi" secondAttribute="centerY" id="WYg-Qx-7A7"/>
+                <constraint firstItem="bZ3-Zx-KFy" firstAttribute="centerY" secondItem="dZ9-EF-dki" secondAttribute="centerY" id="Xj4-G5-FU6"/>
+                <constraint firstItem="AFs-Nr-efi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Z0A-M2-aLc"/>
+                <constraint firstAttribute="trailing" secondItem="bZ3-Zx-KFy" secondAttribute="trailing" constant="16" id="fnb-4u-gub"/>
+                <constraint firstItem="bZ3-Zx-KFy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wxo-4t-eqg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="messageButton" destination="dZ9-EF-dki" id="yoF-9k-arr"/>
+                <outlet property="personButton" destination="bZ3-Zx-KFy" id="iPL-cK-SLR"/>
+                <outlet property="titleLabel" destination="AFs-Nr-efi" id="Ku3-ph-2li"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="14.673913043478262"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cc_wode_icon" width="28" height="28"/>
+        <image name="cc_xiaoxi_icon" width="28" height="28"/>
+    </resources>
+</document>

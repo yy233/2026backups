@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYLifeCostHelpCenterTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门问题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Df-De-upS">
+                    <rect key="frame" x="16.000000000000004" y="9" width="57.333333333333343" height="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" red="0.16862745098039217" green="0.17254901960784313" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2HD-SW-KCV">
+                    <rect key="frame" x="0.0" y="34.666666666666664" width="414" height="0.3333333333333357"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="KZn-25-EmG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9Df-De-upS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9vm-Wc-i5A"/>
+                <constraint firstItem="9Df-De-upS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="DLp-YM-5h2"/>
+                <constraint firstAttribute="bottom" secondItem="2HD-SW-KCV" secondAttribute="bottom" id="DOt-XX-oYc"/>
+                <constraint firstItem="2HD-SW-KCV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Oan-fv-fLA"/>
+                <constraint firstAttribute="trailing" secondItem="2HD-SW-KCV" secondAttribute="trailing" id="RC2-B6-mTG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lineView" destination="2HD-SW-KCV" id="Xlh-6F-Ff3"/>
+                <outlet property="titleLabel" destination="9Df-De-upS" id="Led-Wh-fus"/>
+            </connections>
+            <point key="canvasLocation" x="27.536231884057973" y="64.402173913043484"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

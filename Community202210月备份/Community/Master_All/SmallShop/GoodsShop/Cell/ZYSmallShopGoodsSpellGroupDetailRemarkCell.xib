@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYSmallShopGoodsSpellGroupDetailRemarkCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ION-g7-pNV">
+                        <rect key="frame" x="16" y="10" width="343" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="描述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-Gw-Fh3">
+                                <rect key="frame" x="12" y="16" width="319" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.17254901959999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可以送货上门，或者到店来取，绝对正品" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7B-gX-RsY">
+                                <rect key="frame" x="12" y="44" width="319" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.43137254899999999" green="0.44705882349999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cuF-Gw-Fh3" firstAttribute="leading" secondItem="ION-g7-pNV" secondAttribute="leading" constant="12" id="0cw-Fd-dKw"/>
+                            <constraint firstAttribute="trailing" secondItem="E7B-gX-RsY" secondAttribute="trailing" constant="12" id="CIu-gF-RZX"/>
+                            <constraint firstItem="E7B-gX-RsY" firstAttribute="leading" secondItem="ION-g7-pNV" secondAttribute="leading" constant="12" id="HRF-0R-Qak"/>
+                            <constraint firstAttribute="bottom" secondItem="E7B-gX-RsY" secondAttribute="bottom" constant="22" id="KDt-YH-iPO"/>
+                            <constraint firstItem="E7B-gX-RsY" firstAttribute="top" secondItem="cuF-Gw-Fh3" secondAttribute="bottom" constant="10" id="kss-bK-uTd"/>
+                            <constraint firstAttribute="trailing" secondItem="cuF-Gw-Fh3" secondAttribute="trailing" constant="12" id="ouo-H0-u2E"/>
+                            <constraint firstItem="cuF-Gw-Fh3" firstAttribute="top" secondItem="ION-g7-pNV" secondAttribute="top" constant="16" id="p1k-Ey-IkR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ION-g7-pNV" secondAttribute="trailing" constant="16" id="J7h-o5-aFB"/>
+                    <constraint firstAttribute="bottom" secondItem="ION-g7-pNV" secondAttribute="bottom" id="Qup-2u-utQ"/>
+                    <constraint firstItem="ION-g7-pNV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Xz8-p6-39w"/>
+                    <constraint firstItem="ION-g7-pNV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fWu-HU-9aj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="remarkLabel" destination="E7B-gX-RsY" id="jZb-1C-eOa"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="55.915178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

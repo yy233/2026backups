@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYContractSignCompleteDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XtU-yG-VSt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Am-XT-elw">
+                            <rect key="frame" x="187" y="16" width="1" height="18"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="Yiv-Q9-6Xr"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9s-t1-3rC">
+                            <rect key="frame" x="0.0" y="0.0" width="187" height="50"/>
+                            <state key="normal" title="区块链司法存证">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiB-La-SMT">
+                            <rect key="frame" x="188" y="0.0" width="187" height="50"/>
+                            <state key="normal" title="下载合同">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N8-c2-GpB">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <state key="normal" title="区块链司法存证上链中...">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.14901960784313725" green="0.44705882352941173" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="IiB-La-SMT" firstAttribute="top" secondItem="XtU-yG-VSt" secondAttribute="top" id="0ws-2F-n8X"/>
+                        <constraint firstAttribute="bottom" secondItem="H9s-t1-3rC" secondAttribute="bottom" id="7Vw-S7-TWy"/>
+                        <constraint firstAttribute="height" constant="50" id="F6d-zJ-JVQ"/>
+                        <constraint firstItem="9N8-c2-GpB" firstAttribute="top" secondItem="XtU-yG-VSt" secondAttribute="top" id="Kcb-rm-qXX"/>
+                        <constraint firstItem="0Am-XT-elw" firstAttribute="centerX" secondItem="XtU-yG-VSt" secondAttribute="centerX" id="MSk-Wi-i65"/>
+                        <constraint firstAttribute="trailing" secondItem="IiB-La-SMT" secondAttribute="trailing" id="SLy-HC-VoI"/>
+                        <constraint firstItem="H9s-t1-3rC" firstAttribute="top" secondItem="XtU-yG-VSt" secondAttribute="top" id="Sjn-Xh-Um0"/>
+                        <constraint firstItem="0Am-XT-elw" firstAttribute="leading" secondItem="H9s-t1-3rC" secondAttribute="trailing" id="VWx-gt-fTs"/>
+                        <constraint firstAttribute="trailing" secondItem="9N8-c2-GpB" secondAttribute="trailing" id="XV9-Mc-wDt"/>
+                        <constraint firstItem="9N8-c2-GpB" firstAttribute="leading" secondItem="XtU-yG-VSt" secondAttribute="leading" id="Zfp-w7-xzX"/>
+                        <constraint firstAttribute="bottom" secondItem="9N8-c2-GpB" secondAttribute="bottom" id="dB9-3d-z4B"/>
+                        <constraint firstAttribute="bottom" secondItem="IiB-La-SMT" secondAttribute="bottom" id="hh3-Xu-J7n"/>
+                        <constraint firstItem="H9s-t1-3rC" firstAttribute="leading" secondItem="XtU-yG-VSt" secondAttribute="leading" id="kud-6K-CsX"/>
+                        <constraint firstItem="0Am-XT-elw" firstAttribute="top" secondItem="XtU-yG-VSt" secondAttribute="top" constant="16" id="tVQ-tf-fJc"/>
+                        <constraint firstAttribute="bottom" secondItem="0Am-XT-elw" secondAttribute="bottom" constant="16" id="vWk-dx-URk"/>
+                        <constraint firstItem="IiB-La-SMT" firstAttribute="leading" secondItem="0Am-XT-elw" secondAttribute="trailing" id="zov-tR-1L5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVZ-Ru-Sn5">
+                    <rect key="frame" x="0.0" y="50" width="375" height="0.0"/>
+                    <color key="backgroundColor" red="0.14901960784313725" green="0.44705882352941173" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tVZ-Ru-Sn5" secondAttribute="trailing" id="GnQ-aj-OAS"/>
+                <constraint firstItem="XtU-yG-VSt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HOg-a5-8PX"/>
+                <constraint firstItem="tVZ-Ru-Sn5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RDl-uD-VPR"/>
+                <constraint firstAttribute="bottom" secondItem="tVZ-Ru-Sn5" secondAttribute="bottom" id="Zsy-fm-2DL"/>
+                <constraint firstItem="tVZ-Ru-Sn5" firstAttribute="top" secondItem="XtU-yG-VSt" secondAttribute="bottom" id="gcy-Rr-dSU"/>
+                <constraint firstAttribute="trailing" secondItem="XtU-yG-VSt" secondAttribute="trailing" id="j6C-Gk-QeQ"/>
+                <constraint firstItem="XtU-yG-VSt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="meI-DP-3kV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="depositCertificateButton" destination="H9s-t1-3rC" id="c7r-Sa-wYz"/>
+                <outlet property="depositCertificateHandleButton" destination="9N8-c2-GpB" id="DuK-my-7xr"/>
+                <outlet property="downloadContractButton" destination="IiB-La-SMT" id="41j-86-i3P"/>
+                <outlet property="lineView" destination="0Am-XT-elw" id="Kh6-vo-CgD"/>
+            </connections>
+            <point key="canvasLocation" x="45.652173913043484" y="45.652173913043484"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

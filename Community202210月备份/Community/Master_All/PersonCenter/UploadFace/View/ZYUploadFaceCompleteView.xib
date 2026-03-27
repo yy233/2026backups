@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYUploadFaceCompleteView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Submit_success" translatesAutoresizingMaskIntoConstraints="NO" id="m4F-bF-h7t">
+                    <rect key="frame" x="165" y="306" width="84" height="84"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="giI-rk-2pk"/>
+                        <constraint firstAttribute="height" constant="84" id="xLZ-rW-9h9"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人脸上传成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZc-aG-qmN">
+                    <rect key="frame" x="161" y="406" width="92" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="m4F-bF-h7t" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-20" id="BDs-ue-Jan"/>
+                <constraint firstItem="vZc-aG-qmN" firstAttribute="top" secondItem="m4F-bF-h7t" secondAttribute="bottom" constant="16" id="BIM-ir-AG1"/>
+                <constraint firstItem="m4F-bF-h7t" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oYb-g7-pbS"/>
+                <constraint firstItem="vZc-aG-qmN" firstAttribute="centerX" secondItem="m4F-bF-h7t" secondAttribute="centerX" id="qXK-IN-dok"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="vZc-aG-qmN" id="63a-JC-hpS"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="61.956521739130437"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Submit_success" width="74.666664123535156" height="74.666664123535156"/>
+    </resources>
+</document>

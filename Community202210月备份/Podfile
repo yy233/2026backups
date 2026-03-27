@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'Community' do
+
+  pod 'SocketRocket'
+  pod 'lottie-ios', '2.5.3'
+  pod 'Ono'
+  pod 'ZXingObjC', '~> 3.0'
+  pod 'LBXAlertAction', '1.0.3'
+  pod 'ZYCornerRadius'
+  pod 'BRPickerView'
+  pod 'IQKeyboardManager'
+  pod 'UITableView+FDTemplateLayoutCell'
+  pod 'PNChart'
+  pod 'TTGTagCollectionView'
+  pod 'JPush'
+  pod 'CYLTabBarController'
+  pod 'ZFPlayer/Core'
+  pod 'ZFPlayer/ControlView'
+  pod 'ZFPlayer/AVPlayer'
+ 
+end

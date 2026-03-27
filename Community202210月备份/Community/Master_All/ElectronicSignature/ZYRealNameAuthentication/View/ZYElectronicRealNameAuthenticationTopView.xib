@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYElectronicRealNameAuthenticationTopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQS-nb-KUO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dd4-Mp-NUS">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="1XG-qu-g4X"/>
+                            </constraints>
+                            <state key="normal" image="ic_navi_return"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Dd4-Mp-NUS" firstAttribute="top" secondItem="MQS-nb-KUO" secondAttribute="top" id="37j-iL-kuI"/>
+                        <constraint firstAttribute="bottom" secondItem="Dd4-Mp-NUS" secondAttribute="bottom" id="4st-sx-8Sm"/>
+                        <constraint firstAttribute="height" constant="44" id="O0D-ji-yNH"/>
+                        <constraint firstItem="Dd4-Mp-NUS" firstAttribute="leading" secondItem="MQS-nb-KUO" secondAttribute="leading" id="xkH-EQ-Ij4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MQS-nb-KUO" secondAttribute="bottom" id="beD-Wn-cvj"/>
+                <constraint firstItem="MQS-nb-KUO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c3E-pW-4Lb"/>
+                <constraint firstAttribute="trailing" secondItem="MQS-nb-KUO" secondAttribute="trailing" id="vRc-4f-Mqz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backButton" destination="Dd4-Mp-NUS" id="lAx-xi-B4e"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_navi_return" width="8.6666669845581055" height="16"/>
+    </resources>
+</document>

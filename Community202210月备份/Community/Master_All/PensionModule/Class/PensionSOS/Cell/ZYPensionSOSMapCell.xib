@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYPensionSOSMapCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNY-lJ-lve">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xte-Y4-WAh">
+                        <rect key="frame" x="0.0" y="180" width="375" height="60"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmi-A4-6DV">
+                                <rect key="frame" x="16" y="0.0" width="343" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF9-bA-EVN">
+                                        <rect key="frame" x="310" y="14.5" width="15" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="5w7-xJ-XRI"/>
+                                            <constraint firstAttribute="width" constant="15" id="wyc-P0-li6"/>
+                                        </constraints>
+                                        <state key="normal" image="yl_SOS_yuyin"/>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="输入导航地点" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dpu-qL-rM2">
+                                        <rect key="frame" x="16" y="6" width="278" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="eF9-bA-EVN" firstAttribute="leading" secondItem="Dpu-qL-rM2" secondAttribute="trailing" constant="16" id="BM5-31-amv"/>
+                                    <constraint firstItem="eF9-bA-EVN" firstAttribute="centerY" secondItem="Gmi-A4-6DV" secondAttribute="centerY" id="MPJ-ab-meQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="eF9-bA-EVN" secondAttribute="trailing" constant="18" id="hbu-Bw-cXw"/>
+                                    <constraint firstAttribute="height" constant="50" id="q8z-7m-aaK"/>
+                                    <constraint firstItem="Dpu-qL-rM2" firstAttribute="leading" secondItem="Gmi-A4-6DV" secondAttribute="leading" constant="16" id="wLg-hQ-NXB"/>
+                                    <constraint firstAttribute="bottom" secondItem="Dpu-qL-rM2" secondAttribute="bottom" constant="6" id="wuq-9L-ffz"/>
+                                    <constraint firstItem="Dpu-qL-rM2" firstAttribute="top" secondItem="Gmi-A4-6DV" secondAttribute="top" constant="6" id="zJp-KF-NaL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gmi-A4-6DV" firstAttribute="top" secondItem="Xte-Y4-WAh" secondAttribute="top" id="6bB-Vg-Ruo"/>
+                            <constraint firstAttribute="height" constant="60" id="HB9-ys-4hR"/>
+                            <constraint firstItem="Gmi-A4-6DV" firstAttribute="leading" secondItem="Xte-Y4-WAh" secondAttribute="leading" constant="16" id="Vmy-JN-N9h"/>
+                            <constraint firstAttribute="trailing" secondItem="Gmi-A4-6DV" secondAttribute="trailing" constant="16" id="pnO-M1-dCm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xte-Y4-WAh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AGr-en-eFm"/>
+                    <constraint firstAttribute="trailing" secondItem="Xte-Y4-WAh" secondAttribute="trailing" id="BOT-YF-9aM"/>
+                    <constraint firstItem="dNY-lJ-lve" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CIt-ia-IdZ"/>
+                    <constraint firstAttribute="trailing" secondItem="dNY-lJ-lve" secondAttribute="trailing" id="DCa-ci-o8s"/>
+                    <constraint firstAttribute="bottom" secondItem="dNY-lJ-lve" secondAttribute="bottom" constant="30" id="KhG-p7-Smq"/>
+                    <constraint firstAttribute="bottom" secondItem="Xte-Y4-WAh" secondAttribute="bottom" id="NBp-JB-2Ny"/>
+                    <constraint firstItem="dNY-lJ-lve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sJM-Fk-0f1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mapContentView" destination="dNY-lJ-lve" id="n7Q-78-l3F"/>
+                <outlet property="searchTF" destination="Dpu-qL-rM2" id="TCo-78-eot"/>
+                <outlet property="searchView" destination="Gmi-A4-6DV" id="ryq-tB-LWa"/>
+                <outlet property="voiceButton" destination="eF9-bA-EVN" id="r9z-VA-9tn"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="64.955357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yl_SOS_yuyin" width="15" height="21"/>
+    </resources>
+</document>

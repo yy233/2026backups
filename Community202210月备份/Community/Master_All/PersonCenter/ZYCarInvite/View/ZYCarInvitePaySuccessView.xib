@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYCarInvitePaySuccessView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ci_chengg_icon" translatesAutoresizingMaskIntoConstraints="NO" id="rgo-dE-lAH">
+                    <rect key="frame" x="157" y="120" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="8aD-9A-68l"/>
+                        <constraint firstAttribute="height" constant="100" id="dL2-Jb-7KB"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJN-W8-lMH">
+                    <rect key="frame" x="170.33333333333334" y="240" width="73.666666666666657" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在10分钟内离场" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eis-Ib-VZQ">
+                    <rect key="frame" x="145.33333333333334" y="279" width="123.66666666666666" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="超出时间段可能产生新的费用" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EId-o8-m5a">
+                    <rect key="frame" x="107.66666666666669" y="303" width="199" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTg-Yv-dD2">
+                    <rect key="frame" x="107" y="421" width="200" height="44"/>
+                    <color key="backgroundColor" red="0.14901960780000001" green="0.44705882349999998" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Vur-qk-haA"/>
+                        <constraint firstAttribute="height" constant="44" id="ilA-39-isW"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="确认">
+                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Eis-Ib-VZQ" firstAttribute="top" secondItem="iJN-W8-lMH" secondAttribute="bottom" constant="18" id="0Xa-91-Ped"/>
+                <constraint firstItem="VTg-Yv-dD2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1vg-Kp-QLw"/>
+                <constraint firstItem="iJN-W8-lMH" firstAttribute="top" secondItem="rgo-dE-lAH" secondAttribute="bottom" constant="20" id="2i9-DR-jyO"/>
+                <constraint firstItem="iJN-W8-lMH" firstAttribute="centerX" secondItem="rgo-dE-lAH" secondAttribute="centerX" id="5dD-EV-2lY"/>
+                <constraint firstItem="Eis-Ib-VZQ" firstAttribute="centerX" secondItem="iJN-W8-lMH" secondAttribute="centerX" id="Dgm-t8-Y50"/>
+                <constraint firstItem="EId-o8-m5a" firstAttribute="centerX" secondItem="Eis-Ib-VZQ" secondAttribute="centerX" id="VLn-6E-NyL"/>
+                <constraint firstItem="rgo-dE-lAH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ygf-Bp-XZt"/>
+                <constraint firstItem="rgo-dE-lAH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="120" id="t8H-SE-gcJ"/>
+                <constraint firstItem="EId-o8-m5a" firstAttribute="top" secondItem="Eis-Ib-VZQ" secondAttribute="bottom" constant="6" id="tfS-CR-80K"/>
+                <constraint firstItem="VTg-Yv-dD2" firstAttribute="top" secondItem="EId-o8-m5a" secondAttribute="bottom" constant="100" id="zWk-Ht-igm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="okButton" destination="VTg-Yv-dD2" id="5bV-Ft-jFm"/>
+                <outlet property="subLabel1" destination="Eis-Ib-VZQ" id="dJa-N3-jQo"/>
+                <outlet property="subLabel2" destination="EId-o8-m5a" id="IDv-Qa-SYP"/>
+                <outlet property="titleLabel" destination="iJN-W8-lMH" id="XwO-Go-S6r"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="69"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ci_chengg_icon" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYOwnersVotePlanCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNE-3y-XeY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前投票进度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jez-nR-WIV">
+                                <rect key="frame" x="16" y="16" width="92" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10人参与了投票/共50人名额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BA4-Va-ds4">
+                                <rect key="frame" x="16" y="46" width="179.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZR-dl-5nG">
+                                <rect key="frame" x="0.0" y="83" width="375" height="8"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.047058823529411764" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="Jtt-Wk-dZs"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHf-c6-at1">
+                                <rect key="frame" x="80" y="141" width="215" height="215"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dHf-c6-at1" secondAttribute="height" multiplier="1:1" id="g3a-qm-fpE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BA4-Va-ds4" firstAttribute="top" secondItem="Jez-nR-WIV" secondAttribute="bottom" constant="12" id="CuA-a5-KHM"/>
+                            <constraint firstItem="Jez-nR-WIV" firstAttribute="top" secondItem="SNE-3y-XeY" secondAttribute="top" constant="16" id="E2U-eG-7Qd"/>
+                            <constraint firstAttribute="trailing" secondItem="dHf-c6-at1" secondAttribute="trailing" constant="80" id="ItB-WD-f1E"/>
+                            <constraint firstItem="Jez-nR-WIV" firstAttribute="leading" secondItem="SNE-3y-XeY" secondAttribute="leading" constant="16" id="MF5-R9-X4l"/>
+                            <constraint firstItem="dHf-c6-at1" firstAttribute="leading" secondItem="SNE-3y-XeY" secondAttribute="leading" constant="80" id="QyB-QZ-GmA"/>
+                            <constraint firstAttribute="bottom" secondItem="dHf-c6-at1" secondAttribute="bottom" constant="54" id="VSg-Nm-AoG"/>
+                            <constraint firstItem="GZR-dl-5nG" firstAttribute="leading" secondItem="SNE-3y-XeY" secondAttribute="leading" id="jGT-uG-rPZ"/>
+                            <constraint firstItem="dHf-c6-at1" firstAttribute="top" secondItem="GZR-dl-5nG" secondAttribute="bottom" constant="50" id="tsG-rX-3u0"/>
+                            <constraint firstItem="BA4-Va-ds4" firstAttribute="leading" secondItem="SNE-3y-XeY" secondAttribute="leading" constant="16" id="uxT-yl-Y7C"/>
+                            <constraint firstAttribute="trailing" secondItem="GZR-dl-5nG" secondAttribute="trailing" id="v8g-IH-hx7"/>
+                            <constraint firstItem="GZR-dl-5nG" firstAttribute="top" secondItem="BA4-Va-ds4" secondAttribute="bottom" constant="20" id="vQZ-Kp-iA4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SNE-3y-XeY" secondAttribute="bottom" id="1AF-t3-i42"/>
+                    <constraint firstItem="SNE-3y-XeY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="60s-he-mV6"/>
+                    <constraint firstAttribute="trailing" secondItem="SNE-3y-XeY" secondAttribute="trailing" id="ZQ6-7p-oRv"/>
+                    <constraint firstItem="SNE-3y-XeY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e5k-1D-OFw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentLabel" destination="BA4-Va-ds4" id="FIG-1j-FeE"/>
+                <outlet property="pieChartView" destination="dHf-c6-at1" id="VnC-K9-puf"/>
+                <outlet property="subView" destination="GZR-dl-5nG" id="8TI-h2-Ixs"/>
+                <outlet property="titleLabel" destination="Jez-nR-WIV" id="cf3-2x-LPJ"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="61"/>
+        </tableViewCell>
+    </objects>
+</document>

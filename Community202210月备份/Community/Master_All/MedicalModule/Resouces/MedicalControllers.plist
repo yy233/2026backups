@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>首页</string>
+		<key>iconNameNormal</key>
+		<string>yl_shouyeh</string>
+		<key>iconNameHighlight</key>
+		<string>yl_shouye</string>
+		<key>className</key>
+		<string>ZYMedicalMainVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的医疗</string>
+		<key>iconNameNormal</key>
+		<string>yl_myh</string>
+		<key>iconNameHighlight</key>
+		<string>yl_my</string>
+		<key>className</key>
+		<string>ZYMyMedicalVC</string>
+	</dict>
+</array>
+</plist>

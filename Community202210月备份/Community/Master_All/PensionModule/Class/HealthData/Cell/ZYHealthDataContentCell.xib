@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYHealthDataContentCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="con-1K-4ZT">
+                        <rect key="frame" x="26" y="5" width="323" height="98"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_heart" translatesAutoresizingMaskIntoConstraints="NO" id="i3c-c4-hWQ">
+                                <rect key="frame" x="20" y="24" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="wPK-Pg-7j1"/>
+                                    <constraint firstAttribute="height" constant="50" id="yrv-cL-lTC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="心率" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLE-0Q-72f">
+                                <rect key="frame" x="88" y="24" width="41" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="检测心率，呵护您的健康。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHn-j0-cKz">
+                                <rect key="frame" x="88" y="56" width="184" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_tiaozhuan" translatesAutoresizingMaskIntoConstraints="NO" id="Vsq-Pw-zPJ">
+                                <rect key="frame" x="294.5" y="42" width="8.5" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14.5" id="UPA-VX-QZl"/>
+                                    <constraint firstAttribute="width" constant="8.5" id="wRP-tH-3mx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77254901960784317" green="0.78823529411764703" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YHn-j0-cKz" firstAttribute="bottom" secondItem="i3c-c4-hWQ" secondAttribute="bottom" id="ITl-kV-FDm"/>
+                            <constraint firstAttribute="trailing" secondItem="Vsq-Pw-zPJ" secondAttribute="trailing" constant="20" id="NCb-Cf-S6X"/>
+                            <constraint firstItem="Vsq-Pw-zPJ" firstAttribute="centerY" secondItem="con-1K-4ZT" secondAttribute="centerY" id="PAR-jb-6Ef"/>
+                            <constraint firstItem="i3c-c4-hWQ" firstAttribute="centerY" secondItem="con-1K-4ZT" secondAttribute="centerY" id="Rws-Nj-ss7"/>
+                            <constraint firstItem="YHn-j0-cKz" firstAttribute="leading" secondItem="i3c-c4-hWQ" secondAttribute="trailing" constant="18" id="eBP-or-QKZ"/>
+                            <constraint firstItem="PLE-0Q-72f" firstAttribute="top" secondItem="i3c-c4-hWQ" secondAttribute="top" id="k5U-MC-CqI"/>
+                            <constraint firstItem="PLE-0Q-72f" firstAttribute="leading" secondItem="i3c-c4-hWQ" secondAttribute="trailing" constant="18" id="onJ-BW-sXU"/>
+                            <constraint firstItem="i3c-c4-hWQ" firstAttribute="leading" secondItem="con-1K-4ZT" secondAttribute="leading" constant="20" id="qON-hd-T9l"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="con-1K-4ZT" secondAttribute="bottom" constant="5" id="4JU-Qe-tQJ"/>
+                    <constraint firstItem="con-1K-4ZT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="im1-ah-vKF"/>
+                    <constraint firstAttribute="trailing" secondItem="con-1K-4ZT" secondAttribute="trailing" constant="26" id="lpd-Tp-1FR"/>
+                    <constraint firstItem="con-1K-4ZT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="sLl-o9-b2i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentV" destination="con-1K-4ZT" id="fok-PB-kTw"/>
+                <outlet property="iconImageView" destination="i3c-c4-hWQ" id="piP-lm-pLD"/>
+                <outlet property="subTitleLabel" destination="YHn-j0-cKz" id="NzP-KT-1PE"/>
+                <outlet property="titleLabel" destination="PLE-0Q-72f" id="JMO-mX-sNq"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="62.946428571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yl_heart" width="50" height="50"/>
+        <image name="yl_tiaozhuan" width="8.5" height="15"/>
+    </resources>
+</document>

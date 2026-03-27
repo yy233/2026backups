@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYMedicalMainTopView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_toptc" translatesAutoresizingMaskIntoConstraints="NO" id="jZ2-R0-wJQ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFI-cM-Z1P">
+                    <rect key="frame" x="162" y="120" width="90" height="30"/>
+                    <color key="backgroundColor" red="0.38431372549019605" green="0.95294117647058818" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="8xf-by-gQQ"/>
+                        <constraint firstAttribute="height" constant="30" id="IAP-lo-rqK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="立即查看" image="yl_jiantou">
+                        <color key="titleColor" red="0.94117647058823528" green="0.94509803921568625" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_chahua" translatesAutoresizingMaskIntoConstraints="NO" id="TzU-a9-SJU">
+                    <rect key="frame" x="240" y="12" width="124" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="2Go-Ft-fYy"/>
+                        <constraint firstAttribute="width" constant="124" id="dxJ-uR-kzh"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_wenzi" translatesAutoresizingMaskIntoConstraints="NO" id="Txh-WG-VEL">
+                    <rect key="frame" x="40" y="28" width="188" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="188" id="4ac-bb-dVu"/>
+                        <constraint firstAttribute="height" constant="44" id="pjE-2m-fz7"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94509803921568625" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jZ2-R0-wJQ" secondAttribute="bottom" constant="15" id="ANS-hA-oPw"/>
+                <constraint firstItem="TzU-a9-SJU" firstAttribute="leading" secondItem="UFI-cM-Z1P" secondAttribute="trailing" constant="-12" id="Hww-tj-FS3"/>
+                <constraint firstAttribute="bottom" secondItem="UFI-cM-Z1P" secondAttribute="bottom" id="L3t-12-MJN"/>
+                <constraint firstItem="jZ2-R0-wJQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PJe-eN-XNe"/>
+                <constraint firstItem="TzU-a9-SJU" firstAttribute="leading" secondItem="Txh-WG-VEL" secondAttribute="trailing" constant="12" id="Qxg-Q9-cXC"/>
+                <constraint firstItem="UFI-cM-Z1P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="X0Y-Gx-jR7"/>
+                <constraint firstItem="TzU-a9-SJU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="gyv-hu-i2o"/>
+                <constraint firstItem="jZ2-R0-wJQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ifN-pI-bWO"/>
+                <constraint firstItem="TzU-a9-SJU" firstAttribute="top" secondItem="Txh-WG-VEL" secondAttribute="top" constant="-16" id="jRu-2J-aAR"/>
+                <constraint firstAttribute="trailing" secondItem="jZ2-R0-wJQ" secondAttribute="trailing" id="xZM-gN-XHL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="showButton" destination="UFI-cM-Z1P" id="K1V-y2-Ked"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="59.510869565217398"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="yl_chahua" width="124.66666412353516" height="90.666664123535156"/>
+        <image name="yl_jiantou" width="4.6666665077209473" height="8"/>
+        <image name="yl_toptc" width="375" height="133.66667175292969"/>
+        <image name="yl_wenzi" width="188" height="44.666667938232422"/>
+    </resources>
+</document>

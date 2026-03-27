@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYSOSAddressBookAddHospitalCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGa-gG-ICo">
+                        <rect key="frame" x="16" y="10" width="343" height="85"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_mor" translatesAutoresizingMaskIntoConstraints="NO" id="Kmn-bd-F7e">
+                                <rect key="frame" x="10" y="22.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Cvq-k2-E3X"/>
+                                    <constraint firstAttribute="width" constant="40" id="e32-Xy-9hK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未添加医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMd-WG-G9n">
+                                <rect key="frame" x="58" y="32" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-V3-5aI">
+                                <rect key="frame" x="253" y="26" width="80" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="gr8-mk-NUn"/>
+                                    <constraint firstAttribute="height" constant="33" id="tZt-yB-z5j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="立即添加">
+                                    <color key="titleColor" red="0.16862745098039217" green="0.17254901960784313" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xUW-V3-5aI" secondAttribute="trailing" constant="10" id="C6L-YJ-ltD"/>
+                            <constraint firstAttribute="height" constant="85" id="CNv-Ms-m40"/>
+                            <constraint firstItem="Kmn-bd-F7e" firstAttribute="centerY" secondItem="GGa-gG-ICo" secondAttribute="centerY" id="E0u-jg-CqM"/>
+                            <constraint firstItem="iMd-WG-G9n" firstAttribute="leading" secondItem="Kmn-bd-F7e" secondAttribute="trailing" constant="8" id="VH3-Hx-jqS"/>
+                            <constraint firstItem="Kmn-bd-F7e" firstAttribute="leading" secondItem="GGa-gG-ICo" secondAttribute="leading" constant="10" id="bbQ-FR-g5L"/>
+                            <constraint firstItem="iMd-WG-G9n" firstAttribute="centerY" secondItem="Kmn-bd-F7e" secondAttribute="centerY" id="qTB-FF-Bca"/>
+                            <constraint firstItem="xUW-V3-5aI" firstAttribute="centerY" secondItem="iMd-WG-G9n" secondAttribute="centerY" id="rHS-SF-FR0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="7.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GGa-gG-ICo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WRL-qZ-XMc"/>
+                    <constraint firstItem="GGa-gG-ICo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xtf-1a-5LY"/>
+                    <constraint firstAttribute="trailing" secondItem="GGa-gG-ICo" secondAttribute="trailing" constant="16" id="z0F-4z-emE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addHospitalButton" destination="xUW-V3-5aI" id="owx-gF-FWU"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="65"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yl_mor" width="40" height="40"/>
+    </resources>
+</document>

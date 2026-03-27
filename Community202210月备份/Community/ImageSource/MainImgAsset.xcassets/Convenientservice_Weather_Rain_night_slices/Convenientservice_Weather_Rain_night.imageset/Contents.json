@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Convenientservice_Weather_Rain_night.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Convenientservice_Weather_Rain_night@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Convenientservice_Weather_Rain_night@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYRentContractDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H84-iV-48Y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUa-qH-hcY">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <state key="normal" title="区块链司法存证上链中...">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="zUa-qH-hcY" secondAttribute="bottom" id="64e-Ez-AoD"/>
+                        <constraint firstAttribute="height" constant="50" id="X2j-lW-mL1"/>
+                        <constraint firstItem="zUa-qH-hcY" firstAttribute="leading" secondItem="H84-iV-48Y" secondAttribute="leading" id="bHv-5B-E4h"/>
+                        <constraint firstItem="zUa-qH-hcY" firstAttribute="top" secondItem="H84-iV-48Y" secondAttribute="top" id="eTn-WQ-MVa"/>
+                        <constraint firstAttribute="trailing" secondItem="zUa-qH-hcY" secondAttribute="trailing" id="tei-uc-ubC"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CuE-FA-HI3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFd-xl-sKI">
+                            <rect key="frame" x="187" y="16" width="1" height="18"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="zEZ-d5-sP9"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQP-Bj-kQn">
+                            <rect key="frame" x="0.0" y="0.0" width="187" height="50"/>
+                            <state key="normal" title="区块链司法存证">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWw-Jw-ViE">
+                            <rect key="frame" x="188" y="0.0" width="187" height="50"/>
+                            <state key="normal" title="下载合同">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fWw-Jw-ViE" firstAttribute="leading" secondItem="xFd-xl-sKI" secondAttribute="trailing" id="1sf-Qp-2Bm"/>
+                        <constraint firstAttribute="trailing" secondItem="fWw-Jw-ViE" secondAttribute="trailing" id="5YQ-zt-0os"/>
+                        <constraint firstAttribute="height" constant="50" id="EW3-XN-T7B"/>
+                        <constraint firstItem="fQP-Bj-kQn" firstAttribute="top" secondItem="CuE-FA-HI3" secondAttribute="top" id="JaX-NL-vYN"/>
+                        <constraint firstItem="fQP-Bj-kQn" firstAttribute="leading" secondItem="CuE-FA-HI3" secondAttribute="leading" id="PNp-6w-rb1"/>
+                        <constraint firstItem="xFd-xl-sKI" firstAttribute="leading" secondItem="fQP-Bj-kQn" secondAttribute="trailing" id="TPp-aR-Yaj"/>
+                        <constraint firstItem="xFd-xl-sKI" firstAttribute="centerY" secondItem="CuE-FA-HI3" secondAttribute="centerY" id="blg-km-4g5"/>
+                        <constraint firstAttribute="bottom" secondItem="fQP-Bj-kQn" secondAttribute="bottom" id="e7c-dv-INX"/>
+                        <constraint firstAttribute="bottom" secondItem="xFd-xl-sKI" secondAttribute="bottom" constant="16" id="jdM-zQ-BPS"/>
+                        <constraint firstItem="fWw-Jw-ViE" firstAttribute="top" secondItem="CuE-FA-HI3" secondAttribute="top" id="n9n-bp-qfD"/>
+                        <constraint firstItem="xFd-xl-sKI" firstAttribute="centerX" secondItem="CuE-FA-HI3" secondAttribute="centerX" id="oQR-Dj-Ovf"/>
+                        <constraint firstItem="xFd-xl-sKI" firstAttribute="top" secondItem="CuE-FA-HI3" secondAttribute="top" constant="16" id="ymx-wb-hwJ"/>
+                        <constraint firstAttribute="bottom" secondItem="fWw-Jw-ViE" secondAttribute="bottom" id="ynH-pR-6Ny"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.14901960784313725" green="0.44705882352941173" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CuE-FA-HI3" secondAttribute="trailing" id="AMl-DT-Kkc"/>
+                <constraint firstItem="H84-iV-48Y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UH7-C0-Z4O"/>
+                <constraint firstItem="CuE-FA-HI3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z6x-ho-iYy"/>
+                <constraint firstItem="H84-iV-48Y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bgx-Ep-S38"/>
+                <constraint firstAttribute="trailing" secondItem="H84-iV-48Y" secondAttribute="trailing" id="iez-86-rM9"/>
+                <constraint firstItem="CuE-FA-HI3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mmw-Tf-mGT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cochainFinishView" destination="CuE-FA-HI3" id="uDZ-OJ-FQI"/>
+                <outlet property="depositCertificateButton" destination="fQP-Bj-kQn" id="eJw-ze-zfh"/>
+                <outlet property="downloadContractButton" destination="fWw-Jw-ViE" id="n7h-PM-DQh"/>
+                <outlet property="lineView" destination="xFd-xl-sKI" id="hou-Mv-xxk"/>
+                <outlet property="statusButton" destination="zUa-qH-hcY" id="yW8-Wa-Ddw"/>
+                <outlet property="statusView" destination="H84-iV-48Y" id="wno-Za-rar"/>
+            </connections>
+            <point key="canvasLocation" x="100.72463768115942" y="52.989130434782609"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYNewFriendsVc">
+            <connections>
+                <outlet property="statusHeightConstraint" destination="dDC-ok-Yoa" id="Ym4-e7-uYu"/>
+                <outlet property="tableView" destination="tJ1-7x-FBb" id="yWP-ne-SWj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOS-8h-cqy">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFu-YO-PKg">
+                            <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO5-a3-rus">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="44" id="Qn5-ba-sPw"/>
+                                    </constraints>
+                                    <state key="normal" image="userinfo_back"/>
+                                    <connections>
+                                        <action selector="backButtonClicked:" destination="-1" eventType="touchUpInside" id="uTh-dN-QSZ"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新的好友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfB-U1-jhh">
+                                    <rect key="frame" x="170.33333333333334" y="11.666666666666668" width="73.666666666666657" height="21.000000000000004"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGh-5e-Ta2">
+                                    <rect key="frame" x="360" y="0.0" width="44" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="44" id="bgv-DI-oeE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="添加">
+                                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addButtonClicked:" destination="-1" eventType="touchUpInside" id="vYz-zF-wOt"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="GfB-U1-jhh" firstAttribute="centerX" secondItem="LFu-YO-PKg" secondAttribute="centerX" id="5sG-ZL-A89"/>
+                                <constraint firstItem="GfB-U1-jhh" firstAttribute="centerY" secondItem="LFu-YO-PKg" secondAttribute="centerY" id="GwN-6V-ehJ"/>
+                                <constraint firstItem="PO5-a3-rus" firstAttribute="top" secondItem="LFu-YO-PKg" secondAttribute="top" id="JMZ-SG-oYH"/>
+                                <constraint firstItem="PO5-a3-rus" firstAttribute="leading" secondItem="LFu-YO-PKg" secondAttribute="leading" id="RwD-49-Mre"/>
+                                <constraint firstItem="hGh-5e-Ta2" firstAttribute="top" secondItem="LFu-YO-PKg" secondAttribute="top" id="Yyx-wx-F1o"/>
+                                <constraint firstAttribute="bottom" secondItem="PO5-a3-rus" secondAttribute="bottom" id="nHU-cd-1Xd"/>
+                                <constraint firstAttribute="trailing" secondItem="hGh-5e-Ta2" secondAttribute="trailing" constant="10" id="rNm-HW-0TB"/>
+                                <constraint firstAttribute="height" constant="44" id="rOR-dq-kKi"/>
+                                <constraint firstAttribute="bottom" secondItem="hGh-5e-Ta2" secondAttribute="bottom" id="uci-6r-yh7"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub0-iX-WAY">
+                            <rect key="frame" x="0.0" y="64" width="414" height="1"/>
+                            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="qmO-rq-w9O"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tJ1-7x-FBb">
+                            <rect key="frame" x="0.0" y="65" width="414" height="671"/>
+                            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="tJ1-7x-FBb" secondAttribute="bottom" id="0cG-ce-hhh"/>
+                        <constraint firstItem="LFu-YO-PKg" firstAttribute="leading" secondItem="kOS-8h-cqy" secondAttribute="leading" id="2gD-PT-43m"/>
+                        <constraint firstItem="tJ1-7x-FBb" firstAttribute="leading" secondItem="kOS-8h-cqy" secondAttribute="leading" id="Fdh-KO-aVZ"/>
+                        <constraint firstAttribute="trailing" secondItem="ub0-iX-WAY" secondAttribute="trailing" id="PSD-Cv-fdx"/>
+                        <constraint firstItem="ub0-iX-WAY" firstAttribute="leading" secondItem="kOS-8h-cqy" secondAttribute="leading" id="W27-R8-bOe"/>
+                        <constraint firstItem="ub0-iX-WAY" firstAttribute="top" secondItem="LFu-YO-PKg" secondAttribute="bottom" id="WRL-Fz-Ndr"/>
+                        <constraint firstAttribute="trailing" secondItem="LFu-YO-PKg" secondAttribute="trailing" id="Xz0-DH-ifb"/>
+                        <constraint firstItem="LFu-YO-PKg" firstAttribute="top" secondItem="kOS-8h-cqy" secondAttribute="top" constant="20" id="dDC-ok-Yoa"/>
+                        <constraint firstAttribute="trailing" secondItem="tJ1-7x-FBb" secondAttribute="trailing" id="luk-0P-2bf"/>
+                        <constraint firstItem="tJ1-7x-FBb" firstAttribute="top" secondItem="LFu-YO-PKg" secondAttribute="bottom" constant="1" id="yBm-qX-IwG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kOS-8h-cqy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NGs-yQ-SOc"/>
+                <constraint firstAttribute="trailing" secondItem="kOS-8h-cqy" secondAttribute="trailing" id="O8Z-rF-5rB"/>
+                <constraint firstItem="kOS-8h-cqy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xa8-UW-jHP"/>
+                <constraint firstAttribute="bottom" secondItem="kOS-8h-cqy" secondAttribute="bottom" id="f6E-PB-Aiu"/>
+            </constraints>
+            <point key="canvasLocation" x="47.826086956521742" y="44.836956521739133"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="userinfo_back" width="8.6666669845581055" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

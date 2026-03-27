@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYHouseRepairIssueRecordPopView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RpW-Wq-fc4">
+                    <rect key="frame" x="0.0" y="756" width="414" height="210"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3w-Ue-Orf">
+                            <rect key="frame" x="360" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="Lgr-CM-GGi"/>
+                                <constraint firstAttribute="width" constant="44" id="OLc-bW-IwQ"/>
+                            </constraints>
+                            <state key="normal" image="hr_xiala_icon"/>
+                        </button>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lui-r0-qAZ">
+                            <rect key="frame" x="194.66666666666666" y="30" width="24.666666666666657" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="voice_animation1" translatesAutoresizingMaskIntoConstraints="NO" id="Yx6-gC-gbw">
+                            <rect key="frame" x="157" y="72" width="100" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="C63-Ky-1PE"/>
+                                <constraint firstAttribute="height" constant="16" id="KFV-vL-OHo"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuG-wd-qSP">
+                            <rect key="frame" x="179" y="113" width="56" height="56"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="4qo-cb-ShO"/>
+                                <constraint firstAttribute="width" constant="56" id="eS1-6J-zBa"/>
+                            </constraints>
+                            <state key="normal" image="hr_record_icon"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="28"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="按住说话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roy-oC-xMB">
+                            <rect key="frame" x="178.33333333333334" y="179" width="57.333333333333343" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="ZuG-wd-qSP" firstAttribute="centerX" secondItem="RpW-Wq-fc4" secondAttribute="centerX" id="Aok-v5-6Kc"/>
+                        <constraint firstAttribute="trailing" secondItem="m3w-Ue-Orf" secondAttribute="trailing" constant="10" id="D6C-6q-PrZ"/>
+                        <constraint firstItem="roy-oC-xMB" firstAttribute="top" secondItem="ZuG-wd-qSP" secondAttribute="bottom" constant="10" id="Gdb-mc-bmd"/>
+                        <constraint firstAttribute="height" constant="210" id="Jik-gl-5JH"/>
+                        <constraint firstItem="Yx6-gC-gbw" firstAttribute="top" secondItem="Lui-r0-qAZ" secondAttribute="bottom" constant="25" id="OFV-te-0Ae"/>
+                        <constraint firstItem="roy-oC-xMB" firstAttribute="centerX" secondItem="RpW-Wq-fc4" secondAttribute="centerX" id="RQz-8v-yIg"/>
+                        <constraint firstItem="Lui-r0-qAZ" firstAttribute="centerX" secondItem="RpW-Wq-fc4" secondAttribute="centerX" id="UG7-XY-9cx"/>
+                        <constraint firstItem="Lui-r0-qAZ" firstAttribute="top" secondItem="RpW-Wq-fc4" secondAttribute="top" constant="30" id="c0d-0b-sHV"/>
+                        <constraint firstItem="Yx6-gC-gbw" firstAttribute="centerX" secondItem="RpW-Wq-fc4" secondAttribute="centerX" id="f0o-ih-XX6"/>
+                        <constraint firstItem="ZuG-wd-qSP" firstAttribute="top" secondItem="Yx6-gC-gbw" secondAttribute="bottom" constant="25" id="gfY-sI-Aoi"/>
+                        <constraint firstItem="m3w-Ue-Orf" firstAttribute="top" secondItem="RpW-Wq-fc4" secondAttribute="top" id="meY-3N-G5j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="RpW-Wq-fc4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Te-yd-TPM"/>
+                <constraint firstAttribute="trailing" secondItem="RpW-Wq-fc4" secondAttribute="trailing" id="Q0C-my-tQN"/>
+                <constraint firstAttribute="bottom" secondItem="RpW-Wq-fc4" secondAttribute="bottom" constant="-230" id="VMC-7E-G6T"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLabel" destination="roy-oC-xMB" id="Gce-tr-SQk"/>
+                <outlet property="contentHeightConstraint" destination="Jik-gl-5JH" id="3kA-sh-kbb"/>
+                <outlet property="contentV" destination="RpW-Wq-fc4" id="KHY-Am-tUx"/>
+                <outlet property="contentViewBottomConstraint" destination="VMC-7E-G6T" id="edV-dd-xTr"/>
+                <outlet property="downButton" destination="m3w-Ue-Orf" id="Eer-E6-JG4"/>
+                <outlet property="voiceButton" destination="ZuG-wd-qSP" id="qiD-Nj-asX"/>
+                <outlet property="voiceImageView" destination="Yx6-gC-gbw" id="ZF1-GU-InX"/>
+                <outlet property="voiceTimeLabel" destination="Lui-r0-qAZ" id="h52-bx-bwS"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="59.510869565217398"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hr_record_icon" width="56" height="56"/>
+        <image name="hr_xiala_icon" width="15.666666984558105" height="7"/>
+        <image name="voice_animation1" width="76" height="26"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

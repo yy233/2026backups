@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYCarInvitePayBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgp-Vz-VSp">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEi-eZ-0OW">
+                            <rect key="frame" x="264" y="0.0" width="150" height="55"/>
+                            <color key="backgroundColor" red="0.14901960780000001" green="0.44705882349999998" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="OS2-lW-sTs"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="立即支付">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsg-4l-nbx">
+                            <rect key="frame" x="25" y="25" width="11.333333333333336" height="13.333333333333336"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <color key="textColor" red="1" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-7y-ynJ">
+                            <rect key="frame" x="38.333333333333329" y="11.999999999999998" width="51.333333333333329" height="31.333333333333329"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                            <color key="textColor" red="1" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="dEi-eZ-0OW" firstAttribute="top" secondItem="hgp-Vz-VSp" secondAttribute="top" id="0WI-0W-KbY"/>
+                        <constraint firstItem="bVD-7y-ynJ" firstAttribute="leading" secondItem="Gsg-4l-nbx" secondAttribute="trailing" constant="2" id="1oK-H9-KfF"/>
+                        <constraint firstItem="bVD-7y-ynJ" firstAttribute="centerY" secondItem="hgp-Vz-VSp" secondAttribute="centerY" id="V1T-Hf-RHq"/>
+                        <constraint firstItem="Gsg-4l-nbx" firstAttribute="leading" secondItem="hgp-Vz-VSp" secondAttribute="leading" constant="25" id="ctz-ul-18m"/>
+                        <constraint firstAttribute="trailing" secondItem="dEi-eZ-0OW" secondAttribute="trailing" id="cwC-xl-iWI"/>
+                        <constraint firstAttribute="height" constant="55" id="j3e-oI-LI4"/>
+                        <constraint firstItem="bVD-7y-ynJ" firstAttribute="bottom" secondItem="Gsg-4l-nbx" secondAttribute="bottom" constant="5" id="m9x-FT-kUR"/>
+                        <constraint firstAttribute="bottom" secondItem="dEi-eZ-0OW" secondAttribute="bottom" id="vcs-8e-Cmr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hgp-Vz-VSp" secondAttribute="trailing" id="FgZ-mM-C1C"/>
+                <constraint firstItem="hgp-Vz-VSp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="a2R-ag-PxY"/>
+                <constraint firstItem="hgp-Vz-VSp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rBS-IY-VL7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentV" destination="hgp-Vz-VSp" id="JWI-j3-hpn"/>
+                <outlet property="payButton" destination="dEi-eZ-0OW" id="qUB-K4-pCY"/>
+                <outlet property="priceLabel" destination="bVD-7y-ynJ" id="E1K-Pm-MqG"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="68.478260869565219"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

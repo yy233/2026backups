@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>首页</string>
+		<key>iconNameNormal</key>
+		<string>shouye_h</string>
+		<key>iconNameHighlight</key>
+		<string>home</string>
+		<key>className</key>
+		<string>ZYPensionMainVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>健康数据</string>
+		<key>iconNameNormal</key>
+		<string>health_h</string>
+		<key>iconNameHighlight</key>
+		<string>health</string>
+		<key>className</key>
+		<string>ZYHealthDataVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的养老</string>
+		<key>iconNameNormal</key>
+		<string>oldman_h</string>
+		<key>iconNameHighlight</key>
+		<string>oldman</string>
+		<key>className</key>
+		<string>ZYMyPensionVC</string>
+	</dict>
+</array>
+</plist>

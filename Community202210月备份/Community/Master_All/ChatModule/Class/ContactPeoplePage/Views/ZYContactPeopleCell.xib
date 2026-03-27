@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYContactPeopleCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOa-ZU-OjQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tc_21" translatesAutoresizingMaskIntoConstraints="NO" id="1YB-Gc-Qs2">
+                                <rect key="frame" x="16" y="12" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="Pko-xq-vO4"/>
+                                    <constraint firstAttribute="height" constant="42" id="RUn-yC-jvj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刘强东" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN0-bp-9zN">
+                                <rect key="frame" x="68" y="15" width="291" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1k-RJ-8aO">
+                                <rect key="frame" x="68" y="35" width="291" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.68235294117647061" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tN0-bp-9zN" firstAttribute="leading" secondItem="1YB-Gc-Qs2" secondAttribute="trailing" constant="10" id="9ti-D9-OcE"/>
+                            <constraint firstItem="1YB-Gc-Qs2" firstAttribute="centerY" secondItem="JOa-ZU-OjQ" secondAttribute="centerY" id="Bpo-An-uBX"/>
+                            <constraint firstAttribute="trailing" secondItem="n1k-RJ-8aO" secondAttribute="trailing" constant="16" id="EN9-Sm-FpI"/>
+                            <constraint firstItem="tN0-bp-9zN" firstAttribute="top" secondItem="1YB-Gc-Qs2" secondAttribute="top" constant="3" id="OG2-bG-63O"/>
+                            <constraint firstItem="n1k-RJ-8aO" firstAttribute="bottom" secondItem="1YB-Gc-Qs2" secondAttribute="bottom" constant="-3" id="ZDe-0V-zsm"/>
+                            <constraint firstItem="n1k-RJ-8aO" firstAttribute="leading" secondItem="1YB-Gc-Qs2" secondAttribute="trailing" constant="10" id="aLA-Ep-d9o"/>
+                            <constraint firstAttribute="trailing" secondItem="tN0-bp-9zN" secondAttribute="trailing" constant="16" id="gvg-QM-eIG"/>
+                            <constraint firstItem="1YB-Gc-Qs2" firstAttribute="leading" secondItem="JOa-ZU-OjQ" secondAttribute="leading" constant="16" id="zBS-rn-8IP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JOa-ZU-OjQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AP3-W0-z0g"/>
+                    <constraint firstItem="JOa-ZU-OjQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FrV-WI-AFG"/>
+                    <constraint firstAttribute="trailing" secondItem="JOa-ZU-OjQ" secondAttribute="trailing" id="cPU-DW-X6m"/>
+                    <constraint firstAttribute="bottom" secondItem="JOa-ZU-OjQ" secondAttribute="bottom" id="wlo-GD-lfQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="1YB-Gc-Qs2" id="vUa-XQ-kgw"/>
+                <outlet property="nameLabel" destination="tN0-bp-9zN" id="SFE-Vw-i88"/>
+                <outlet property="remarkLabel" destination="n1k-RJ-8aO" id="4sg-Cx-Xsi"/>
+            </connections>
+            <point key="canvasLocation" x="-251" y="27"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tc_21" width="49" height="49"/>
+    </resources>
+</document>

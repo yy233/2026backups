@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZYReportAboutRepairApplyTextCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2t-qD-EgO">
+                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bx_Pictureselection_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="6Ir-Qd-8d9">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ir-Qd-8d9" firstAttribute="top" secondItem="C2t-qD-EgO" secondAttribute="top" id="Dr5-3r-g8z"/>
+                            <constraint firstAttribute="trailing" secondItem="6Ir-Qd-8d9" secondAttribute="trailing" id="aIE-CW-kOG"/>
+                            <constraint firstAttribute="bottom" secondItem="6Ir-Qd-8d9" secondAttribute="bottom" id="gEb-3z-qHj"/>
+                            <constraint firstItem="6Ir-Qd-8d9" firstAttribute="leading" secondItem="C2t-qD-EgO" secondAttribute="leading" id="zHt-wM-k3t"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lnt-iq-45w">
+                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LMg-hX-SCI">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQd-ff-zSL">
+                                <rect key="frame" x="49" y="6" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="wxM-CA-7It"/>
+                                    <constraint firstAttribute="width" constant="20" id="zUu-H1-Moe"/>
+                                </constraints>
+                                <state key="normal" image="release_delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LMg-hX-SCI" secondAttribute="trailing" id="6Cm-zK-16j"/>
+                            <constraint firstAttribute="bottom" secondItem="LMg-hX-SCI" secondAttribute="bottom" id="TCH-ao-bqg"/>
+                            <constraint firstItem="LMg-hX-SCI" firstAttribute="top" secondItem="Lnt-iq-45w" secondAttribute="top" id="VQR-1H-zkT"/>
+                            <constraint firstItem="LMg-hX-SCI" firstAttribute="leading" secondItem="Lnt-iq-45w" secondAttribute="leading" id="ZJ4-es-6Si"/>
+                            <constraint firstItem="jQd-ff-zSL" firstAttribute="top" secondItem="Lnt-iq-45w" secondAttribute="top" constant="6" id="b9x-Cu-csa"/>
+                            <constraint firstAttribute="trailing" secondItem="jQd-ff-zSL" secondAttribute="trailing" constant="6" id="lel-Fj-Mhg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Lnt-iq-45w" secondAttribute="trailing" id="1uY-hM-tVX"/>
+                <constraint firstItem="Lnt-iq-45w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3H1-W6-f3c"/>
+                <constraint firstItem="Lnt-iq-45w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="60J-ML-Fdq"/>
+                <constraint firstItem="C2t-qD-EgO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FiN-hg-U3z"/>
+                <constraint firstItem="C2t-qD-EgO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TfV-Zw-wR3"/>
+                <constraint firstAttribute="bottom" secondItem="C2t-qD-EgO" secondAttribute="bottom" id="YUz-WI-iRb"/>
+                <constraint firstAttribute="trailing" secondItem="C2t-qD-EgO" secondAttribute="trailing" id="dZE-GK-3p1"/>
+                <constraint firstAttribute="bottom" secondItem="Lnt-iq-45w" secondAttribute="bottom" id="x6I-pN-gX8"/>
+            </constraints>
+            <connections>
+                <outlet property="addView" destination="C2t-qD-EgO" id="iFE-6P-z8p"/>
+                <outlet property="deleteButton" destination="jQd-ff-zSL" id="V7Q-an-6tD"/>
+                <outlet property="editView" destination="Lnt-iq-45w" id="cnx-s0-DXh"/>
+                <outlet property="iconImageView" destination="LMg-hX-SCI" id="F9h-C5-hWk"/>
+            </connections>
+            <point key="canvasLocation" x="28.985507246376812" y="56.919642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bx_Pictureselection_Icon" width="72.5" height="72.5"/>
+        <image name="release_delete" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYQuestionnaireSurveyEditOptionCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3nN-gf-Y7g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47g-jX-0iA">
+                                <rect key="frame" x="16" y="5" width="343" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPl-xe-YVF">
+                                        <rect key="frame" x="10" y="7.5" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="kX4-gf-ktH"/>
+                                            <constraint firstAttribute="width" constant="20" id="kwi-kQ-3XY"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="wd_weigouxuan_icon"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每层楼道放置一个" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZM-me-MFS">
+                                        <rect key="frame" x="38" y="9" width="295" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="iPl-xe-YVF" firstAttribute="leading" secondItem="47g-jX-0iA" secondAttribute="leading" constant="10" id="1br-ZT-B6g"/>
+                                    <constraint firstAttribute="bottom" secondItem="4ZM-me-MFS" secondAttribute="bottom" constant="9" id="Gqx-9d-wxc"/>
+                                    <constraint firstItem="4ZM-me-MFS" firstAttribute="leading" secondItem="iPl-xe-YVF" secondAttribute="trailing" constant="8" id="Peh-MF-Cal"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ZM-me-MFS" secondAttribute="trailing" constant="10" id="SFI-bM-r6b"/>
+                                    <constraint firstItem="4ZM-me-MFS" firstAttribute="top" secondItem="47g-jX-0iA" secondAttribute="top" constant="9" id="bgH-SZ-yXA"/>
+                                    <constraint firstItem="iPl-xe-YVF" firstAttribute="centerY" secondItem="47g-jX-0iA" secondAttribute="centerY" id="p4m-CV-VFm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="47g-jX-0iA" firstAttribute="leading" secondItem="3nN-gf-Y7g" secondAttribute="leading" constant="16" id="6Mx-CP-cV0"/>
+                            <constraint firstItem="47g-jX-0iA" firstAttribute="top" secondItem="3nN-gf-Y7g" secondAttribute="top" constant="5" id="GNI-dw-RKg"/>
+                            <constraint firstAttribute="bottom" secondItem="47g-jX-0iA" secondAttribute="bottom" constant="5" id="RTL-it-fyl"/>
+                            <constraint firstAttribute="trailing" secondItem="47g-jX-0iA" secondAttribute="trailing" constant="16" id="TeE-oi-Env"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="3nN-gf-Y7g" secondAttribute="trailing" id="SlG-ce-HK6"/>
+                    <constraint firstAttribute="bottom" secondItem="3nN-gf-Y7g" secondAttribute="bottom" id="XQO-zp-jBj"/>
+                    <constraint firstItem="3nN-gf-Y7g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dgY-AI-Ywx"/>
+                    <constraint firstItem="3nN-gf-Y7g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hKb-6q-q8k"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentLabel" destination="4ZM-me-MFS" id="VZS-Lk-7Vv"/>
+                <outlet property="contentV" destination="3nN-gf-Y7g" id="TUK-dx-kOo"/>
+                <outlet property="selectButton" destination="iPl-xe-YVF" id="598-I9-ab2"/>
+                <outlet property="subContentV" destination="47g-jX-0iA" id="hPD-2x-Dem"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="wd_weigouxuan_icon" width="20" height="20"/>
+    </resources>
+</document>

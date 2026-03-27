@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYHealthDataDeviceCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_pic01" translatesAutoresizingMaskIntoConstraints="NO" id="uVP-jb-iqX">
+                        <rect key="frame" x="20" y="12" width="66" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="66" id="X5T-cY-3nS"/>
+                            <constraint firstAttribute="width" constant="66" id="uop-V6-apN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已绑定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHC-hn-4se">
+                        <rect key="frame" x="104" y="49" width="40" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.43137254901960786" green="0.44705882352941173" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yl_bracelet_success" translatesAutoresizingMaskIntoConstraints="NO" id="viU-W0-p3U">
+                        <rect key="frame" x="104" y="24" width="10" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="X5Y-i1-v22"/>
+                            <constraint firstAttribute="width" constant="10" id="oV3-9N-18r"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S50-7812" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwj-VA-Q1T">
+                        <rect key="frame" x="120" y="22.5" width="235" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.047058823529411764" green="0.047058823529411764" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zHC-hn-4se" firstAttribute="leading" secondItem="uVP-jb-iqX" secondAttribute="trailing" constant="18" id="9vY-Nv-Ejs"/>
+                    <constraint firstItem="uVP-jb-iqX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="IBg-Dg-OIc"/>
+                    <constraint firstItem="qwj-VA-Q1T" firstAttribute="leading" secondItem="viU-W0-p3U" secondAttribute="trailing" constant="6" id="Jqo-pQ-XSc"/>
+                    <constraint firstAttribute="trailing" secondItem="qwj-VA-Q1T" secondAttribute="trailing" constant="20" id="KHN-RD-hfV"/>
+                    <constraint firstItem="uVP-jb-iqX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TCP-1U-xv9"/>
+                    <constraint firstItem="qwj-VA-Q1T" firstAttribute="centerY" secondItem="viU-W0-p3U" secondAttribute="centerY" id="gVy-mm-8c7"/>
+                    <constraint firstItem="viU-W0-p3U" firstAttribute="centerY" secondItem="uVP-jb-iqX" secondAttribute="centerY" constant="-12" id="p2m-Hl-80j"/>
+                    <constraint firstItem="viU-W0-p3U" firstAttribute="leading" secondItem="uVP-jb-iqX" secondAttribute="trailing" constant="18" id="p6T-11-EhT"/>
+                    <constraint firstItem="zHC-hn-4se" firstAttribute="centerY" secondItem="uVP-jb-iqX" secondAttribute="centerY" constant="12" id="uau-ck-iJw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="deviceNameLabel" destination="qwj-VA-Q1T" id="OKY-sm-P7i"/>
+                <outlet property="deviceStatusImageView" destination="viU-W0-p3U" id="Iew-w9-wFL"/>
+                <outlet property="iconImageView" destination="uVP-jb-iqX" id="Pbs-Z8-bgo"/>
+                <outlet property="statusLabel" destination="zHC-hn-4se" id="oWF-hg-7kb"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="61.607142857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yl_bracelet_success" width="10.5" height="18"/>
+        <image name="yl_pic01" width="66" height="66"/>
+    </resources>
+</document>

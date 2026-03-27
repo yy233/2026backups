@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "houseRent_public_icon_WhiteColor.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "houseRent_public_icon_WhiteColor@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "houseRent_public_icon_WhiteColor@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

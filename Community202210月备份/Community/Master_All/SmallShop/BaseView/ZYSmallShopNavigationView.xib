@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYSmallShopNavigationView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8du-4e-GuR">
+                    <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfO-ww-J4w">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="IHt-3W-i8W"/>
+                            </constraints>
+                            <state key="normal" image="ic_navi_return"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="等待付款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0B-vx-oDl">
+                            <rect key="frame" x="170.33333333333334" y="11.666666666666668" width="73.666666666666657" height="21.000000000000004"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Sxd-Yt-ox8"/>
+                        <constraint firstItem="AfO-ww-J4w" firstAttribute="leading" secondItem="8du-4e-GuR" secondAttribute="leading" id="bGN-zA-uFR"/>
+                        <constraint firstAttribute="bottom" secondItem="AfO-ww-J4w" secondAttribute="bottom" id="e4S-wQ-AVK"/>
+                        <constraint firstItem="q0B-vx-oDl" firstAttribute="centerY" secondItem="8du-4e-GuR" secondAttribute="centerY" id="gW3-A9-Ifz"/>
+                        <constraint firstItem="q0B-vx-oDl" firstAttribute="centerX" secondItem="8du-4e-GuR" secondAttribute="centerX" id="uxw-3z-B6k"/>
+                        <constraint firstItem="AfO-ww-J4w" firstAttribute="top" secondItem="8du-4e-GuR" secondAttribute="top" id="wak-dU-Q9a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8du-4e-GuR" secondAttribute="trailing" id="JDB-z9-X7j"/>
+                <constraint firstItem="8du-4e-GuR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VhJ-b3-70O"/>
+                <constraint firstAttribute="bottom" secondItem="8du-4e-GuR" secondAttribute="bottom" id="sgm-8I-QGr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backButton" destination="AfO-ww-J4w" id="SUW-d3-AFG"/>
+                <outlet property="titleLabel" destination="q0B-vx-oDl" id="MCi-hj-vqW"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="58"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_navi_return" width="10.666666984558105" height="18.666666030883789"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

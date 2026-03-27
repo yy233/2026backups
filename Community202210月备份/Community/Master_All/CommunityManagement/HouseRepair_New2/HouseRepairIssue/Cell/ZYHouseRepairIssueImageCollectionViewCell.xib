@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZYHouseRepairIssueImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDk-BF-RXF">
+                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hr_pictureselection_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-gO-Z24">
+                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wvq-gO-Z24" firstAttribute="top" secondItem="vDk-BF-RXF" secondAttribute="top" id="6Rn-Gw-70O"/>
+                            <constraint firstItem="wvq-gO-Z24" firstAttribute="leading" secondItem="vDk-BF-RXF" secondAttribute="leading" id="KAm-mG-STS"/>
+                            <constraint firstAttribute="bottom" secondItem="wvq-gO-Z24" secondAttribute="bottom" id="XuH-t3-5gL"/>
+                            <constraint firstAttribute="trailing" secondItem="wvq-gO-Z24" secondAttribute="trailing" id="dAv-3x-6rz"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgj-sC-whI">
+                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-tU-u85">
+                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r33-Q6-BU5">
+                                <rect key="frame" x="47" y="6" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="atd-K1-EyE"/>
+                                    <constraint firstAttribute="height" constant="12" id="u1u-lp-BSI"/>
+                                </constraints>
+                                <state key="normal" image="hr_delete_icon"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="H3Q-tU-u85" secondAttribute="bottom" id="0b6-2a-eBG"/>
+                            <constraint firstItem="H3Q-tU-u85" firstAttribute="leading" secondItem="rgj-sC-whI" secondAttribute="leading" id="BtK-Jb-KPv"/>
+                            <constraint firstAttribute="trailing" secondItem="r33-Q6-BU5" secondAttribute="trailing" constant="6" id="GdN-97-hOk"/>
+                            <constraint firstAttribute="trailing" secondItem="H3Q-tU-u85" secondAttribute="trailing" id="lW4-Lq-RmD"/>
+                            <constraint firstItem="H3Q-tU-u85" firstAttribute="top" secondItem="rgj-sC-whI" secondAttribute="top" id="zXv-pT-HAv"/>
+                            <constraint firstItem="r33-Q6-BU5" firstAttribute="top" secondItem="rgj-sC-whI" secondAttribute="top" constant="6" id="zjx-hA-3OH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="rgj-sC-whI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0dG-qQ-QZR"/>
+                <constraint firstItem="vDk-BF-RXF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3RN-V6-NQq"/>
+                <constraint firstItem="vDk-BF-RXF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NG3-2C-hzs"/>
+                <constraint firstAttribute="trailing" secondItem="rgj-sC-whI" secondAttribute="trailing" id="d5q-KK-Y25"/>
+                <constraint firstAttribute="bottom" secondItem="vDk-BF-RXF" secondAttribute="bottom" id="k4M-2n-egF"/>
+                <constraint firstAttribute="bottom" secondItem="rgj-sC-whI" secondAttribute="bottom" id="n5i-Y0-ALg"/>
+                <constraint firstAttribute="trailing" secondItem="vDk-BF-RXF" secondAttribute="trailing" id="oNN-kU-AgZ"/>
+                <constraint firstItem="rgj-sC-whI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rZe-hh-nQk"/>
+            </constraints>
+            <connections>
+                <outlet property="addView" destination="vDk-BF-RXF" id="W3y-Sp-Bc3"/>
+                <outlet property="deleteButton" destination="r33-Q6-BU5" id="0mV-j5-QWl"/>
+                <outlet property="editView" destination="rgj-sC-whI" id="p69-VN-nlu"/>
+                <outlet property="iconImageView" destination="H3Q-tU-u85" id="Z44-AT-PMK"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="59.933035714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="hr_delete_icon" width="10.5" height="10.5"/>
+        <image name="hr_pictureselection_Icon" width="55" height="55"/>
+    </resources>
+</document>

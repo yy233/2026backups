@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYOwnersVoteDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWi-BH-2dD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.66666666666666663"/>
+                    <color key="backgroundColor" red="0.15294117647058825" green="0.29019607843137252" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="XoF-M0-WqX"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh7-eH-uBC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Bwq-kX-ZSg"/>
+                    </constraints>
+                    <state key="normal" title="提交">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gYN-e7-dKZ">
+                    <rect key="frame" x="0.0" y="50" width="375" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.16078431372549018" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Zh7-eH-uBC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0YA-5N-RWC"/>
+                <constraint firstItem="gYN-e7-dKZ" firstAttribute="top" secondItem="Zh7-eH-uBC" secondAttribute="bottom" id="2IG-PW-rnC"/>
+                <constraint firstItem="gYN-e7-dKZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3MC-NQ-OkY"/>
+                <constraint firstAttribute="trailing" secondItem="gYN-e7-dKZ" secondAttribute="trailing" id="CLp-8b-RKu"/>
+                <constraint firstItem="Zh7-eH-uBC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F8g-SE-NQD"/>
+                <constraint firstItem="xWi-BH-2dD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fuf-t8-wnG"/>
+                <constraint firstAttribute="trailing" secondItem="Zh7-eH-uBC" secondAttribute="trailing" id="LtG-wu-cBQ"/>
+                <constraint firstAttribute="trailing" secondItem="xWi-BH-2dD" secondAttribute="trailing" id="VUm-D5-7p4"/>
+                <constraint firstItem="xWi-BH-2dD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="chi-dm-7SM"/>
+                <constraint firstAttribute="bottom" secondItem="gYN-e7-dKZ" secondAttribute="bottom" id="gvp-Au-Vpr"/>
+                <constraint firstItem="gYN-e7-dKZ" firstAttribute="top" secondItem="Zh7-eH-uBC" secondAttribute="bottom" id="l47-Ks-FfW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lineView" destination="xWi-BH-2dD" id="X2A-lK-F2r"/>
+                <outlet property="submitButton" destination="Zh7-eH-uBC" id="jmU-WM-1IE"/>
+            </connections>
+            <point key="canvasLocation" x="50.000000000000007" y="60.326086956521742"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Allaccountnumbers_Unfold_night.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Allaccountnumbers_Unfold_night@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Allaccountnumbers_Unfold_night@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYSOSAddressBookEmptyCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-Fo-n5z">
+                        <rect key="frame" x="24" y="40" width="20" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxW-0K-h5c">
+                                <rect key="frame" x="7" y="1.5" width="6.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zxW-0K-h5c" firstAttribute="centerY" secondItem="dnh-Fo-n5z" secondAttribute="centerY" id="Bm5-Ag-lEJ"/>
+                            <constraint firstAttribute="width" constant="20" id="Oht-hQ-XKj"/>
+                            <constraint firstAttribute="height" constant="20" id="UAz-Ya-qws"/>
+                            <constraint firstItem="zxW-0K-h5c" firstAttribute="centerX" secondItem="dnh-Fo-n5z" secondAttribute="centerX" id="nlS-ms-dfa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请点击下方“+”号添加SOS救助人/机构" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4i-Nu-0ZS">
+                        <rect key="frame" x="52" y="41" width="299" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="299" id="yeu-7w-pZa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.17254901960784313" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dnh-Fo-n5z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="63r-gW-rDt"/>
+                    <constraint firstItem="dnh-Fo-n5z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="dNH-gk-o98"/>
+                    <constraint firstAttribute="bottom" secondItem="r4i-Nu-0ZS" secondAttribute="bottom" constant="21" id="h2f-Bc-WxQ"/>
+                    <constraint firstItem="r4i-Nu-0ZS" firstAttribute="leading" secondItem="dnh-Fo-n5z" secondAttribute="trailing" constant="8" id="hzJ-r1-Q2J"/>
+                    <constraint firstItem="r4i-Nu-0ZS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="41" id="mQm-Ch-2Kc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="r4i-Nu-0ZS" id="UQz-7F-48A"/>
+                <outlet property="contentLabelWidthConstraint" destination="yeu-7w-pZa" id="5aK-Ja-OrQ"/>
+                <outlet property="numLabel" destination="zxW-0K-h5c" id="jvv-w8-H2R"/>
+                <outlet property="numView" destination="dnh-Fo-n5z" id="BSb-em-Dtc"/>
+            </connections>
+            <point key="canvasLocation" x="124" y="-1"/>
+        </tableViewCell>
+    </objects>
+</document>

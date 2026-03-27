@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYCommunityFairMyIssueEmptyView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="release_nothing" translatesAutoresizingMaskIntoConstraints="NO" id="3aT-jQ-Zx4">
+                    <rect key="frame" x="95" y="221.66666666666663" width="224" height="133"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="133" id="J5d-b9-ikf"/>
+                        <constraint firstAttribute="width" constant="224" id="LFe-k3-Jdt"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前没有任何发布哦！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFe-3W-NVP">
+                    <rect key="frame" x="130.66666666666666" y="364.66666666666669" width="152.99999999999997" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVe-or-AD3">
+                    <rect key="frame" x="0.0" y="685.66666666666663" width="414" height="0.33333333333337123"/>
+                    <color key="backgroundColor" red="0.1529411765" green="0.2901960784" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="hf6-36-JLj"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vmn-Aa-4Kf">
+                    <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlq-F0-qrT">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="9FA-ag-Aem"/>
+                            </constraints>
+                            <state key="normal" title="我要发布">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.16078431369999999" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="8NY-z9-vMS"/>
+                        <constraint firstItem="wlq-F0-qrT" firstAttribute="leading" secondItem="Vmn-Aa-4Kf" secondAttribute="leading" id="AqK-Pg-qoc"/>
+                        <constraint firstItem="wlq-F0-qrT" firstAttribute="top" secondItem="Vmn-Aa-4Kf" secondAttribute="top" id="nny-lA-DMM"/>
+                        <constraint firstAttribute="trailing" secondItem="wlq-F0-qrT" secondAttribute="trailing" id="who-Y9-Y15"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ZFe-3W-NVP" firstAttribute="top" secondItem="3aT-jQ-Zx4" secondAttribute="bottom" constant="10" id="8x1-iy-gAF"/>
+                <constraint firstItem="Vmn-Aa-4Kf" firstAttribute="top" secondItem="ZVe-or-AD3" secondAttribute="bottom" id="AVi-Bo-mj0"/>
+                <constraint firstAttribute="trailing" secondItem="Vmn-Aa-4Kf" secondAttribute="trailing" id="EvS-Wb-3t0"/>
+                <constraint firstItem="ZFe-3W-NVP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Fbw-La-4AR"/>
+                <constraint firstItem="Vmn-Aa-4Kf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fnv-5W-msq"/>
+                <constraint firstAttribute="bottom" secondItem="Vmn-Aa-4Kf" secondAttribute="bottom" id="P7P-r7-Tmd"/>
+                <constraint firstItem="3aT-jQ-Zx4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-80" id="QH3-Jq-dgu"/>
+                <constraint firstAttribute="trailing" secondItem="ZVe-or-AD3" secondAttribute="trailing" id="WKq-be-3lZ"/>
+                <constraint firstItem="ZVe-or-AD3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XRi-ZC-W2k"/>
+                <constraint firstItem="3aT-jQ-Zx4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YbC-vt-1jo"/>
+                <constraint firstItem="Vmn-Aa-4Kf" firstAttribute="top" secondItem="ZVe-or-AD3" secondAttribute="bottom" id="Yqp-IG-PEz"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomView" destination="Vmn-Aa-4Kf" id="GnW-C3-HBw"/>
+                <outlet property="lineView" destination="ZVe-or-AD3" id="wqd-52-oIA"/>
+                <outlet property="releaseButton" destination="wlq-F0-qrT" id="bpd-RN-i2W"/>
+                <outlet property="releaseViewHeightConstraint" destination="8NY-z9-vMS" id="XtX-qz-zYG"/>
+                <outlet property="titleLabel" destination="ZFe-3W-NVP" id="hKp-Aj-Y9G"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="57"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="release_nothing" width="224" height="133"/>
+    </resources>
+</document>

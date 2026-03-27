@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="KGk-i7-Jjw" customClass="ZYMoulageHelperVcTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7w-TW-Qy1">
+                        <rect key="frame" x="16" y="6" width="343" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template_yrz" translatesAutoresizingMaskIntoConstraints="NO" id="YkP-Wv-HtV">
+                                <rect key="frame" x="12" y="13" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="6xp-2y-cnO"/>
+                                    <constraint firstAttribute="height" constant="18" id="edm-Rd-O94"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合同名称合同名称合同名称合同名称合同名称合同名称" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opo-mC-agn">
+                                <rect key="frame" x="32" y="12" width="239" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erb-34-5hJ">
+                                <rect key="frame" x="283" y="25" width="50" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="DMS-O1-ki7"/>
+                                    <constraint firstAttribute="width" constant="50" id="SWz-br-TA6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="查看">
+                                    <color key="titleColor" red="0.14901960784313725" green="0.44705882352941173" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020-08-05 09:10:40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6n-q9-KVE">
+                                <rect key="frame" x="12" y="43" width="259" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="vmg-lP-BYo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="R6n-q9-KVE" secondAttribute="bottom" constant="12" id="2eO-jm-Ye9"/>
+                            <constraint firstItem="Opo-mC-agn" firstAttribute="top" secondItem="g7w-TW-Qy1" secondAttribute="top" constant="12" id="JjY-Ts-6ns"/>
+                            <constraint firstItem="R6n-q9-KVE" firstAttribute="leading" secondItem="g7w-TW-Qy1" secondAttribute="leading" constant="12" id="OXS-hz-YTX"/>
+                            <constraint firstItem="erb-34-5hJ" firstAttribute="centerY" secondItem="g7w-TW-Qy1" secondAttribute="centerY" id="PJq-38-iyL"/>
+                            <constraint firstItem="erb-34-5hJ" firstAttribute="leading" secondItem="Opo-mC-agn" secondAttribute="trailing" constant="12" id="Qen-uG-A9F"/>
+                            <constraint firstItem="R6n-q9-KVE" firstAttribute="top" secondItem="Opo-mC-agn" secondAttribute="bottom" constant="10" id="Qq2-8V-0Sh"/>
+                            <constraint firstItem="erb-34-5hJ" firstAttribute="leading" secondItem="R6n-q9-KVE" secondAttribute="trailing" constant="12" id="ZTc-C1-icD"/>
+                            <constraint firstItem="Opo-mC-agn" firstAttribute="leading" secondItem="YkP-Wv-HtV" secondAttribute="trailing" constant="2" id="cXe-Nm-QHl"/>
+                            <constraint firstItem="YkP-Wv-HtV" firstAttribute="top" secondItem="g7w-TW-Qy1" secondAttribute="top" constant="13" id="fg6-0z-bka"/>
+                            <constraint firstAttribute="trailing" secondItem="erb-34-5hJ" secondAttribute="trailing" constant="10" id="gOf-do-0TC"/>
+                            <constraint firstItem="YkP-Wv-HtV" firstAttribute="leading" secondItem="g7w-TW-Qy1" secondAttribute="leading" constant="12" id="yaV-gF-eMg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="g7w-TW-Qy1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="3CA-Wh-Pbj"/>
+                    <constraint firstAttribute="trailing" secondItem="g7w-TW-Qy1" secondAttribute="trailing" constant="16" id="Fxp-Oc-BHh"/>
+                    <constraint firstAttribute="bottom" secondItem="g7w-TW-Qy1" secondAttribute="bottom" constant="6" id="kyP-Y1-1vu"/>
+                    <constraint firstItem="g7w-TW-Qy1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="pqu-0k-JoL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentV" destination="g7w-TW-Qy1" id="c3u-di-0Ye"/>
+                <outlet property="dateLabel" destination="R6n-q9-KVE" id="vOS-UX-ElK"/>
+                <outlet property="showButton" destination="erb-34-5hJ" id="2YA-iA-ssR"/>
+                <outlet property="titleLabel" destination="Opo-mC-agn" id="MeB-iW-z2R"/>
+                <outlet property="yrzImageView" destination="YkP-Wv-HtV" id="JaY-GL-BFb"/>
+                <outlet property="yrzImageViewRightConstraint" destination="cXe-Nm-QHl" id="aTk-JW-jod"/>
+                <outlet property="yrzImageViewWidthConstraint" destination="6xp-2y-cnO" id="xWB-pP-RKF"/>
+            </connections>
+            <point key="canvasLocation" x="-138.40579710144928" y="0.6696428571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="template_yrz" width="16" height="16"/>
+    </resources>
+</document>

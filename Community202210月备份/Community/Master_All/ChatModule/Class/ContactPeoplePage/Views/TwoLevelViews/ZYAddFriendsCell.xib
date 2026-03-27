@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYAddFriendsCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReR-Lc-q8f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addf_radar" translatesAutoresizingMaskIntoConstraints="NO" id="Qrf-Cg-52P">
+                                <rect key="frame" x="16" y="3" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3DF-3y-5IE"/>
+                                    <constraint firstAttribute="width" constant="60" id="F3b-od-aUb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="雷达加朋友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O11-g4-23L">
+                                <rect key="frame" x="78" y="12" width="76.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫描周边的智慧好友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwR-Rk-6S0">
+                                <rect key="frame" x="78" y="38" width="119.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.68235294117647061" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_back" translatesAutoresizingMaskIntoConstraints="NO" id="lDj-KN-O5A">
+                                <rect key="frame" x="353" y="27" width="6" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="cXr-2J-MDv"/>
+                                    <constraint firstAttribute="width" constant="6" id="h7E-K5-ZE3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qrf-Cg-52P" firstAttribute="leading" secondItem="ReR-Lc-q8f" secondAttribute="leading" constant="16" id="07I-r8-nH8"/>
+                            <constraint firstItem="Qrf-Cg-52P" firstAttribute="centerY" secondItem="ReR-Lc-q8f" secondAttribute="centerY" id="6YM-AV-8xo"/>
+                            <constraint firstAttribute="trailing" secondItem="lDj-KN-O5A" secondAttribute="trailing" constant="16" id="Dwq-zz-Rig"/>
+                            <constraint firstAttribute="bottom" secondItem="XwR-Rk-6S0" secondAttribute="bottom" constant="12" id="Jdn-Z4-ME6"/>
+                            <constraint firstItem="lDj-KN-O5A" firstAttribute="centerY" secondItem="ReR-Lc-q8f" secondAttribute="centerY" id="hMB-bd-v9j"/>
+                            <constraint firstItem="XwR-Rk-6S0" firstAttribute="leading" secondItem="Qrf-Cg-52P" secondAttribute="trailing" constant="2" id="k0p-Gs-Sjz"/>
+                            <constraint firstItem="O11-g4-23L" firstAttribute="top" secondItem="ReR-Lc-q8f" secondAttribute="top" constant="12" id="kD7-kt-5zW"/>
+                            <constraint firstItem="O11-g4-23L" firstAttribute="leading" secondItem="Qrf-Cg-52P" secondAttribute="trailing" constant="2" id="mFL-1N-8tO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ReR-Lc-q8f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8qZ-33-D0w"/>
+                    <constraint firstItem="ReR-Lc-q8f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CRu-64-rxq"/>
+                    <constraint firstAttribute="trailing" secondItem="ReR-Lc-q8f" secondAttribute="trailing" id="Qe5-Si-evZ"/>
+                    <constraint firstAttribute="bottom" secondItem="ReR-Lc-q8f" secondAttribute="bottom" id="gDq-u6-yl6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="Qrf-Cg-52P" id="H6x-Le-oE0"/>
+                <outlet property="subTitleStrLabel" destination="XwR-Rk-6S0" id="sI7-0V-IK8"/>
+                <outlet property="titleStrLabel" destination="O11-g4-23L" id="83a-LE-NRx"/>
+            </connections>
+            <point key="canvasLocation" x="81.884057971014499" y="7.3660714285714279"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="addf_radar" width="61.5" height="61.5"/>
+        <image name="ic_back" width="6.5" height="12"/>
+    </resources>
+</document>

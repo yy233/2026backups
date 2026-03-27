@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZYChatInformationTopCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6UE-Zp-q7O">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-avatar_s" translatesAutoresizingMaskIntoConstraints="NO" id="sJe-jA-aPm">
+                                <rect key="frame" x="20" y="15" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ALd-gy-3Wr"/>
+                                    <constraint firstAttribute="width" constant="50" id="goL-sZ-Ddu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英雄联盟" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMd-uM-c3P">
+                                <rect key="frame" x="2" y="73" width="86" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.11" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kMd-uM-c3P" firstAttribute="leading" secondItem="6UE-Zp-q7O" secondAttribute="leading" constant="2" id="59x-Ue-a7t"/>
+                            <constraint firstAttribute="trailing" secondItem="kMd-uM-c3P" secondAttribute="trailing" constant="2" id="6cX-zZ-3LB"/>
+                            <constraint firstItem="sJe-jA-aPm" firstAttribute="centerX" secondItem="6UE-Zp-q7O" secondAttribute="centerX" id="Ewx-la-RjI"/>
+                            <constraint firstItem="kMd-uM-c3P" firstAttribute="top" secondItem="sJe-jA-aPm" secondAttribute="bottom" constant="8" id="HBL-Sb-dC6"/>
+                            <constraint firstItem="sJe-jA-aPm" firstAttribute="centerY" secondItem="6UE-Zp-q7O" secondAttribute="centerY" constant="-10" id="PCH-5N-RF0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6UE-Zp-q7O" secondAttribute="bottom" id="0od-8A-ke3"/>
+                <constraint firstItem="6UE-Zp-q7O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LbX-Uf-E1Y"/>
+                <constraint firstAttribute="trailing" secondItem="6UE-Zp-q7O" secondAttribute="trailing" id="MeT-6z-SfX"/>
+                <constraint firstItem="6UE-Zp-q7O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qid-JC-6KM"/>
+            </constraints>
+            <connections>
+                <outlet property="iconImageView" destination="sJe-jA-aPm" id="HEJ-i8-kro"/>
+                <outlet property="titleLabel" destination="kMd-uM-c3P" id="dj2-ch-7Ub"/>
+            </connections>
+            <point key="canvasLocation" x="-97" y="38"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="user-avatar_s" width="50" height="50"/>
+    </resources>
+</document>

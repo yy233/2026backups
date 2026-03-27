@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYChatFunctionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="213"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zgn-Qp-3wa">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="213"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-Yg-EZh">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="mg0-dA-2OU"/>
+                            </constraints>
+                        </view>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-GX-xxg">
+                            <rect key="frame" x="16" y="16" width="343" height="181"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="b3e-aV-A6B">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="3qS-GX-xxg" secondAttribute="bottom" constant="16" id="SNz-zL-6W7"/>
+                        <constraint firstAttribute="trailing" secondItem="3qS-GX-xxg" secondAttribute="trailing" constant="16" id="TSZ-CM-Akn"/>
+                        <constraint firstItem="3qS-GX-xxg" firstAttribute="top" secondItem="Zgn-Qp-3wa" secondAttribute="top" constant="16" id="Y8Z-wQ-v6z"/>
+                        <constraint firstItem="ckn-Yg-EZh" firstAttribute="top" secondItem="Zgn-Qp-3wa" secondAttribute="top" id="cxV-MT-AIJ"/>
+                        <constraint firstItem="ckn-Yg-EZh" firstAttribute="leading" secondItem="Zgn-Qp-3wa" secondAttribute="leading" id="f2R-NZ-qOX"/>
+                        <constraint firstItem="3qS-GX-xxg" firstAttribute="leading" secondItem="Zgn-Qp-3wa" secondAttribute="leading" constant="16" id="tAZ-jv-gJJ"/>
+                        <constraint firstAttribute="trailing" secondItem="ckn-Yg-EZh" secondAttribute="trailing" id="w20-qw-4q6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Zgn-Qp-3wa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8On-xH-oZ8"/>
+                <constraint firstItem="Zgn-Qp-3wa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EqD-4a-t0e"/>
+                <constraint firstAttribute="trailing" secondItem="Zgn-Qp-3wa" secondAttribute="trailing" id="Kc1-xX-Bwj"/>
+                <constraint firstAttribute="bottom" secondItem="Zgn-Qp-3wa" secondAttribute="bottom" id="WqF-xM-aIj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="3qS-GX-xxg" id="vcH-rl-u62"/>
+            </connections>
+            <point key="canvasLocation" x="-7.9710144927536239" y="32.201086956521742"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

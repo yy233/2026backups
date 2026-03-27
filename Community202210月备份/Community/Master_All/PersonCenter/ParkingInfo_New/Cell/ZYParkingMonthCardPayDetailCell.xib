@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZYParkingMonthCardPayDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1f-oB-kbV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MM4-c9-OyB">
+                                <rect key="frame" x="16" y="49.5" width="343" height="0.5"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94509803920000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="CVz-BO-wpQ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择小区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80l-SY-fOM">
+                                <rect key="frame" x="23" y="16" width="105" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="f8n-ha-IbL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="世纪佳缘小区停车场" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkh-68-khI">
+                                <rect key="frame" x="128" y="16" width="224" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="80l-SY-fOM" firstAttribute="centerY" secondItem="b1f-oB-kbV" secondAttribute="centerY" id="Cs3-bz-7gJ"/>
+                            <constraint firstItem="Kkh-68-khI" firstAttribute="centerY" secondItem="b1f-oB-kbV" secondAttribute="centerY" id="Jey-Lm-Cbv"/>
+                            <constraint firstItem="MM4-c9-OyB" firstAttribute="leading" secondItem="b1f-oB-kbV" secondAttribute="leading" constant="16" id="XQ8-JK-x9N"/>
+                            <constraint firstAttribute="trailing" secondItem="Kkh-68-khI" secondAttribute="trailing" constant="23" id="gba-0e-LQe"/>
+                            <constraint firstItem="80l-SY-fOM" firstAttribute="leading" secondItem="b1f-oB-kbV" secondAttribute="leading" constant="23" id="ldq-LH-HgD"/>
+                            <constraint firstItem="Kkh-68-khI" firstAttribute="leading" secondItem="80l-SY-fOM" secondAttribute="trailing" id="qq6-Nk-2nh"/>
+                            <constraint firstAttribute="trailing" secondItem="MM4-c9-OyB" secondAttribute="trailing" constant="16" id="uBj-76-iQc"/>
+                            <constraint firstAttribute="bottom" secondItem="MM4-c9-OyB" secondAttribute="bottom" id="vX3-vL-sVA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="b1f-oB-kbV" secondAttribute="bottom" id="13f-bd-uz3"/>
+                    <constraint firstItem="b1f-oB-kbV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7xB-KT-c3U"/>
+                    <constraint firstAttribute="trailing" secondItem="b1f-oB-kbV" secondAttribute="trailing" id="amP-dD-1dM"/>
+                    <constraint firstItem="b1f-oB-kbV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lqO-MN-a8O"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentLabel" destination="Kkh-68-khI" id="w1l-Zs-63l"/>
+                <outlet property="contentV" destination="b1f-oB-kbV" id="v6h-AB-v83"/>
+                <outlet property="lineView" destination="MM4-c9-OyB" id="5hF-rV-8hf"/>
+                <outlet property="titleLabel" destination="80l-SY-fOM" id="YNH-zi-OqE"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="72"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
