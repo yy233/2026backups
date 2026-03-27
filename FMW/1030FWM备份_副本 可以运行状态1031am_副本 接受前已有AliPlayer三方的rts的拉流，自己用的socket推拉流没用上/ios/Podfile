@@ -1,0 +1,52 @@
+plugin 'cocoapods-pod-linkage'
+
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '14.0'
+use_frameworks! :linkage => :static
+
+target 'CodeLabApp' do
+  pod 'BasicKit', :path => 'DevelopmentPods/BasicKit'
+  pod 'APIKit', :path => 'DevelopmentPods/APIKit'
+  pod 'LocationKit', :path => 'DevelopmentPods/LocationKit'
+  pod 'BasicUIKit', :path => 'DevelopmentPods/BasicUIKit'
+  pod 'AlbumUIKit', :path => 'DevelopmentPods/AlbumUIKit'
+  pod 'VideoPlayerKit', :path => 'DevelopmentPods/VideoPlayerKit'
+  pod 'ImagePreviewKit', :path => 'DevelopmentPods/ImagePreviewKit'
+  pod 'XML', :path => 'DevelopmentPods/XML'
+  pod 'DOM', :path => 'DevelopmentPods/DOM'
+
+  # MARK: - GitHub
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'MBProgressHUD'
+  pod 'SnapKit'
+  pod 'ZipArchive'
+  pod 'DeviceKit'
+  pod "PageControls/SnakePageControl"
+  pod 'YYImage'
+  pod 'TagListView'
+  pod 'IQKeyboardManagerSwift'
+  pod 'APNGKit'
+  pod 'DGCharts'
+  
+  #MARK: - 企业服务
+  pod 'HyphenateChat'
+  pod 'AliPlayerSDK_iOS'
+  pod 'AliyunOSSiOS'
+end
+
+# fix compile issue for Xcode 14.3
+# https://stackoverflow.com/questions/75574268/missing-file-libarclite-iphoneos-a-xcode-14-3
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+         end
+        target.build_configurations.each do |config|
+            config.build_settings['CODE_SIGN_IDENTITY'] = ''
+        end
+    end
+ end
+end

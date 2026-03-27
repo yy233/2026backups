@@ -1,0 +1,11 @@
+framework module ImagePreviewKit {
+  umbrella header "ImagePreviewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ImagePreviewKit.Swift {
+  header "ImagePreviewKit-Swift.h"
+  requires objc
+}

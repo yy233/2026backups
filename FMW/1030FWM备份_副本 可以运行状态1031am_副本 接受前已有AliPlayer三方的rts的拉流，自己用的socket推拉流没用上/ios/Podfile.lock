@@ -1,0 +1,173 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AlbumUIKit (0.2.6):
+    - BasicKit
+    - BasicUIKit
+    - SnapKit
+  - AliPlayerSDK_iOS (6.5.0):
+    - AliPlayerSDK_iOS/AliPlayerSDK (= 6.5.0)
+  - AliPlayerSDK_iOS/AliPlayerSDK (6.5.0)
+  - AliyunOSSiOS (2.10.18)
+  - APIKit (0.3.1):
+    - Alamofire
+    - BasicKit
+    - Kingfisher
+  - APNGKit (2.2.2):
+    - Delegate (~> 1.1)
+  - BasicKit (0.2.1)
+  - BasicUIKit (0.1.0):
+    - APIKit
+    - BasicKit
+    - DeviceKit
+    - Kingfisher
+    - KingfisherWebP
+    - MBProgressHUD
+    - MJRefresh
+    - SnapKit
+  - Delegate (1.2.0)
+  - DeviceKit (5.0.0)
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - DOM (0.0.1)
+  - HyphenateChat (4.1.1)
+  - ImagePreviewKit (0.1.0):
+    - AlbumUIKit
+    - BasicUIKit
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (7.9.0)
+  - KingfisherWebP (1.5.1):
+    - Kingfisher (~> 7.8)
+    - libwebp (>= 1.1.0)
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - LocationKit (0.1.0):
+    - BasicKit
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - PageControls/SnakePageControl (1.0.1)
+  - SnapKit (5.6.0)
+  - TagListView (1.4.1)
+  - VideoPlayerKit (0.1.0):
+    - AliPlayerSDK_iOS
+    - BasicKit
+    - BasicUIKit
+    - SnapKit
+  - XML (0.0.1):
+    - DOM
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlbumUIKit (from `DevelopmentPods/AlbumUIKit`)
+  - AliPlayerSDK_iOS
+  - AliyunOSSiOS
+  - APIKit (from `DevelopmentPods/APIKit`)
+  - APNGKit
+  - BasicKit (from `DevelopmentPods/BasicKit`)
+  - BasicUIKit (from `DevelopmentPods/BasicUIKit`)
+  - DeviceKit
+  - DGCharts
+  - DOM (from `DevelopmentPods/DOM`)
+  - HyphenateChat
+  - ImagePreviewKit (from `DevelopmentPods/ImagePreviewKit`)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - LocationKit (from `DevelopmentPods/LocationKit`)
+  - MBProgressHUD
+  - PageControls/SnakePageControl
+  - SnapKit
+  - TagListView
+  - VideoPlayerKit (from `DevelopmentPods/VideoPlayerKit`)
+  - XML (from `DevelopmentPods/XML`)
+  - YYImage
+  - ZipArchive
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AliPlayerSDK_iOS
+    - AliyunOSSiOS
+    - APNGKit
+    - Delegate
+    - DeviceKit
+    - DGCharts
+    - HyphenateChat
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - MBProgressHUD
+    - MJRefresh
+    - PageControls
+    - SnapKit
+    - TagListView
+    - YYImage
+    - ZipArchive
+
+EXTERNAL SOURCES:
+  AlbumUIKit:
+    :path: DevelopmentPods/AlbumUIKit
+  APIKit:
+    :path: DevelopmentPods/APIKit
+  BasicKit:
+    :path: DevelopmentPods/BasicKit
+  BasicUIKit:
+    :path: DevelopmentPods/BasicUIKit
+  DOM:
+    :path: DevelopmentPods/DOM
+  ImagePreviewKit:
+    :path: DevelopmentPods/ImagePreviewKit
+  LocationKit:
+    :path: DevelopmentPods/LocationKit
+  VideoPlayerKit:
+    :path: DevelopmentPods/VideoPlayerKit
+  XML:
+    :path: DevelopmentPods/XML
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AlbumUIKit: 73f7a597355e4cfb61f06a16fb5c16c457d2b843
+  AliPlayerSDK_iOS: 58838e01ba82c298e58be2594ad860e36b67cf42
+  AliyunOSSiOS: e683c1b1faa0657b5cd02de733628cf996f4cd93
+  APIKit: 33e74749abe8ed848baf2fa5d8b4c4188eb78369
+  APNGKit: 3aec564dd6adc11ec43864cd43d619b8884fe03e
+  BasicKit: 9ccb3283cc9fad9bd7202ae13b95feb246b2f8b2
+  BasicUIKit: 31898b50301a4e939d0554f1c8150ae3a02aeafd
+  Delegate: 3ee255bee55b844f6f603fcec0aae1e267e13811
+  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  DOM: 708f1f74b77309d93855df3ace11177fa7168d7e
+  HyphenateChat: 95aa4abbad0e763f513acbe21ff9543f50b886cd
+  ImagePreviewKit: 7e000f18988287d35f09873ba7f3aad89b050275
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  KingfisherWebP: 5f09e73282425173754bba18898378582dd0bf7f
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  LocationKit: d9b89ca33909f54f5169c1606a44e8772ed03c14
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  PageControls: fc2436c93e79419521a6de5d46d84722593e2949
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  VideoPlayerKit: cf173132922511b4adc4735192511555f9be50dd
+  XML: 0c78c6ebabdaba846518ef766ad43745850d0c91
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: d53d44e50f843b66eb2179f38d22d5fd8d6dc60f
+
+COCOAPODS: 1.12.1

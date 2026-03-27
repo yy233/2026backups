@@ -1,0 +1,11 @@
+framework module BasicUIKit {
+  umbrella header "BasicUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module BasicUIKit.Swift {
+  header "BasicUIKit-Swift.h"
+  requires objc
+}

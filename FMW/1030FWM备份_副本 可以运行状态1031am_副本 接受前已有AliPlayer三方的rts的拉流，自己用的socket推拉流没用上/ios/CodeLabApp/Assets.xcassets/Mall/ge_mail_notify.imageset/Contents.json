@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ge_mail_notify.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

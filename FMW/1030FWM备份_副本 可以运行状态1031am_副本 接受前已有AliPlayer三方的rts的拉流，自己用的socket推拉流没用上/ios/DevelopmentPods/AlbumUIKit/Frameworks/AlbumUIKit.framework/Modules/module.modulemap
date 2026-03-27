@@ -1,0 +1,11 @@
+framework module AlbumUIKit {
+  umbrella header "AlbumUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlbumUIKit.Swift {
+  header "AlbumUIKit-Swift.h"
+  requires objc
+}

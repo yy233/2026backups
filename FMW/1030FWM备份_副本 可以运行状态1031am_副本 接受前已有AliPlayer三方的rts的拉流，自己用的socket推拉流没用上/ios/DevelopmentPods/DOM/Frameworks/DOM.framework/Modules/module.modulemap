@@ -1,0 +1,11 @@
+framework module DOM {
+  umbrella header "DOM-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DOM.Swift {
+  header "DOM-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module XML {
+  umbrella header "XML-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module XML.Swift {
+  header "XML-Swift.h"
+  requires objc
+}

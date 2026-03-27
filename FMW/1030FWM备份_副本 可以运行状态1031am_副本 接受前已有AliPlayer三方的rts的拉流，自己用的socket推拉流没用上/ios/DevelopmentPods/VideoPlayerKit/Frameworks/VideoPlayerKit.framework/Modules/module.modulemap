@@ -1,0 +1,11 @@
+framework module VideoPlayerKit {
+  umbrella header "VideoPlayerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module VideoPlayerKit.Swift {
+  header "VideoPlayerKit-Swift.h"
+  requires objc
+}
