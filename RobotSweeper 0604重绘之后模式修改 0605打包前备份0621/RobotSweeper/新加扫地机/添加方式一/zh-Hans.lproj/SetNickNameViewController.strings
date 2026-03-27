@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "请输入机器人名称"; ObjectID = "IPK-Qg-fnf"; */
+"IPK-Qg-fnf.text" = "请输入机器人名称";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "VlP-5y-94i"; */
+"VlP-5y-94i.normalTitle" = "保存";
+
+/* Class = "UITextField"; placeholder = "请输入"; ObjectID = "iJQ-6d-S5X"; */
+"iJQ-6d-S5X.placeholder" = "请输入";

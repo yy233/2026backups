@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c49f90e3-addd-4df0-b860-327308e91478++8387",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c49f90e3-addd-4df0-b860-327308e91478++8387" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c49f90e3-addd-4df0-b860-327308e91478++8387" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C2F07FB-E62B-478D-AC41-FCF3E7737E53",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c49f90e3-addd-4df0-b860-327308e91478++8387" : "RobotSweeper%2026%E4%B8%8A%E5%8D%88\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RobotSweeper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RobotSweeper  26上午\/RobotSweeper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/106.14.92.98",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c49f90e3-addd-4df0-b860-327308e91478++8387"
+    }
+  ]
+}

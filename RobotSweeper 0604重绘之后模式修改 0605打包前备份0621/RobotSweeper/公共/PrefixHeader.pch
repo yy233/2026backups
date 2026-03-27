@@ -1,0 +1,343 @@
+//
+//  PrefixHeader.pch
+//  RobotSweeper
+//
+//  Created by Joey on 2018/1/26.
+//  Copyright © 2018年 余莹. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "YBassViewController.h"
+
+
+
+#pragma mark -- //_____________________________
+#import "RobotSweeper-Swift.h"
+
+#pragma mark -- //______________________________model
+#import "UserTool.h"
+
+#import "ShareUser.h"
+#import "UserModel.h"
+#import "MachineModel.h"
+#import "ModelOfVersionInfo.h"
+
+#define kFriendNameKey @"friendName"
+#define kFriendStatusObj @"friendStatus"
+
+
+#define KAPPName "晶果"
+
+//_____加密
+#import "AesEDsweep.h"
+#pragma mark -- //______________________________vc
+
+#import "LoginViewController.h"
+#import "RegistViewController.h"
+#import "PassWordViewController.h"
+#import "CodeSendOkViewController.h"
+#import "SetPassWordViewController.h"
+#import "AddNewViewController.h"
+#import "SearchNewViewController.h"
+#import "SucceedSearchGetWifiViewController.h"
+#import "SetMachineNameViewController.h"
+
+
+//
+#import "MapModeChoosePopView.h"//地图页的模式选择
+ 
+
+
+//扫地机设置页
+#import "RobotSetViewController.h"
+#import "ClearnCodeViewController.h"//打扫记录
+#import "CreateQrCodeViewController.h"//二维码创建页
+#import "GenerateQrCodeViewController.h"//扫一扫
+//#import "ProductGuideViewController.h"//产品指南
+#import "YPageViewController.h"//产品指南
+#import "DeviceBindingDetailsViewController.h"//设备绑定详情
+#import "FirmwareUpdateDetailViewController.h"//固件更新
+#import "AboutThisRobotViewController.h"//关于本机
+
+//
+ 
+#import "RemoteMonitorTwoNoMonitorViewController.h"//监控遥控页2有监控的
+#pragma mark -- //______________________________view
+#import "AddNewCollectionViewCell.h"
+#import "AddNewFooterView.h"
+
+#pragma mark -- //______________________________tool
+#import "MMDrawerController.h"
+#import "NSString+MJExtension.h"
+#import "MJExtension.h"
+#import "ToolOfBasic.h"
+#import "MBProgressHUD+MJ.h"
+#import "MJRefresh.h"
+#import "MMDrawerController.h"
+#import "UIViewController+MMDrawerController.h"
+#import "Masonry.h"
+#import "FMDB.h"
+#import "LKDBHelper.h"
+#import "SGQRCode.h"
+#import "UIImageView+WebCache.h"//SD图片
+#import "ThemeData.h"//多个主题data
+#import "MapDataTool.h"//地图页原点数据
+
+#pragma mark -- //______________________________
+//#import "GCDAsyncSocket.h"
+//#import "GCDAsyncUdpSocket.h"
+
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+
+#pragma mark -- //______________________________testAA
+//#define Dtest 2 只会走1
+//#ifdef  Dtest
+//#define AA @"1111"
+//#else
+//#define AA @"2222"
+//#endif
+
+#pragma mark -- //______________________________网络
+#import "ToolOfNetWork.h"
+
+//_________________________
+#define AccountNum      @"accountNum"
+#define PasswordNum     @"passwordNum"
+
+#define MainTypeNumStr  @"mainTypeNumStr" //当前颜色状态00 01 02 03 
+
+//#define BASE_URL @"http://sweeperus.robotleo.com:8081/sweeper/" //1130美服
+//#define BASE_URL @"http://47.254.81.94:8081/sweeper/" //0103美服ip
+//#define BASE_URL @"http://139.224.17.51:8122/sweeper/" //1130 国服 测试服
+#define BASE_URL @"http://sweep.robotleo.com:8081/sweeper/"//1213正式服
+//#define BASE_URL @"http://192.168.8.111:8080/sweeper/"////192.168.8.111 0409ces
+
+
+
+//系统语言切换相应服务器
+#import "NowLanguageTool.h"
+//暂时不用美服
+//#define NowLanguageIsZh 2
+//#ifdef  NowLanguageIsZh
+//#define BASE_URL @"http://sweep.robotleo.com:8081/sweeper/"//1213正式服
+//#else
+//#define BASE_URL @"http://sweeperus.robotleo.com:8081/sweeper/" //1130美服
+//#endif
+
+//----三合一之前的服
+ 
+
+#define BASEIMG_URL @""
+#define BASEUserFace_URL @""
+
+
+#define S_smsSend         @"sms/sendSmsCode"  //获取验证码
+#define S_smsConfirm      @"sms/confirm"      //校验验证码
+#define S_userRegist      @"user/regist"      //注册账号
+#define S_userLogin       @"user/login"       //登陆
+
+#define S_userForgetPassword @"user/forgetPassword" //忘记密码
+#define S_userChangePassWord @"user/changePassWord" //修改密码
+
+#define S_equipmentAddEqu     @"equipment/addEqu"    //添加扫地机
+#define S_equipmentRemove     @"equipment/remove"     //删除扫地
+#define S_equipmentRemoveAll  @"equipment/removeAll"  //删除所有
+#define S_equipmentQuery      @"equipment/query"      //查询所有
+#define S_equipmentDeletAllAndAddEqu @"equipment/addEquReset" //Wi-Fi方法添加扫地机时调用的接口。此接口可以解绑扫地机原绑定的所有手机。仅当前手机唯一绑定
+
+
+#define S_RobotCleanLog       @"log/selectLog"//扫地机清扫记录
+#define S_RobotdeleteLog       @"log/deleteLog"//清除扫地机清扫记录
+
+#define S_equipmentUpdateNickName    @"equipment/updateNickName" //修改昵称
+#define S_equipmentselectSweepUser    @"equipment/selectSweepUser" //获取绑定列表 用户表
+#define S_advice   @"advice" //反馈内容
+
+
+#define S_getEquNews  @"message/getEquNews" //扫地机消息中心之设备消息
+#define S_removeAll @"message/removeAll" //消息中心的删除
+#define S_remove @"message/remove" //消息中心的删除
+
+#define S_insertIOSLogByURL @"iosLogController/insertIOSLogByURL"//ios 提醒服务器去更新相关数据
+#define S_getIOSLogList @"iosLogController/getIOSLogList" //ios 历史更新列表数据
+
+
+//获取手机和扫地机的绑定时间 用户表与扫地机表交互的表http://service.robotleo.com:8080/sweep/advice
+
+#define S_equipmentUpdateLogControllerInsert @"equipmentUpdateLogController/insert" //插入用户版本升级日志 在每个新版本第一次登录时上传版本 --扫地机？
+
+#define S_ClientUpdateLogControllerInsert @"clientUpdateLogController/insert" //app 客户端？
+
+
+      
+#define K_XUNIQIANG @"xuniqiang"
+
+#define K_DocumentArr  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);
+
+//xml
+
+//#define S_Xml_Url @"http://test.robotleo.com:6080/"
+//
+//#define S_XmlOfFile_Url(_xml_File)  [NSString stringWithFormat:@"%@%@", S_Xml_Url, _xml_File]
+//
+//#define S_sweeperUpdateSlamXmlOfQg [NSString stringWithFormat:@"%@%@", S_Xml_Url, @"file/ginkgor/upgrade/ginkgor_robot/NavigationUpdate.xml"]
+
+
+#pragma mark -- //______________________________国服测试服
+
+////导航版
+//#define S_cs_sweeperUpdateSlamXmlOfQg @"http://test.robotleo.com:6080/file/ginkgor/upgrade/ginkgor_robot/NavigationUpdate.xml"
+//#define S_cs_sweeperUpdateSlamXmlOfKw @"http://test.robotleo.com:6080/file/NavigationUpdate.xml"
+//#define S_cs_sweeperUpdateSlamXmlOfBleam @"http://test.robotleo.com:6080/file/bleamn/update/NavigationUpdate.xml"
+//
+////控制版
+//#define S_cs_sweeperUpdateCtrlXmlOfQg @"http://test.robotleo.com:6080/file/ginkgor/upgrade/ginkgor_robot/ControllerUpdate.xml"
+//#define S_cs_sweeperUpdateCtrlXmlOfKw @"http://test.robotleo.com:6080/file/ControllerUpdate.xml"
+//#define S_cs_sweeperUpdateCtrlXmlOfBleam @"http://test.robotleo.com:6080/file/bleamn/update/ControllerUpdate.xml"
+
+
+//xml是否升级的判断 本app在获取到数据 !=200时 不去获取xml数据 不去比较做升级 0103
+//#define S_XmlVCOfgetVersionStatus @"versionController/getVersionStatus"
+//0218新增 更换掉上面的判断是否允许的接口 有新键值
+#define S_XmlVCOfgetUpgradeStatus @"versionController/getUpgradeStatus"
+
+#pragma mark -- //______________________________国服正式服 有型号位  需要拼接
+//#define S_xmlBaseUrl @"http://47.254.81.94:8081/sweeper/" //美服的basexml ip 0103测试使用
+//正式服的basexml
+#define S_xmlBaseUrl @"http://sweep.robotleo.com:8081/file/"
+
+//品牌和设备号
+#define S_xmlQg(_typeId) [NSString stringWithFormat:@"ginkgor/update/%@/",_typeId]
+#define S_xmlKw(_typeId) [NSString stringWithFormat:@"kingwer/update/%@/",_typeId]
+#define S_xmlBleamn(_typeId) [NSString stringWithFormat:@"bleamn/update/%@/",_typeId]
+
+
+#define S_xmlC @"ControllerUpdate.xml"  //控制板
+#define S_xmlS @"NavigationUpdate.xml"  //导航版
+//-____________________稳定版地址
+//导航版
+#define S_sweeperUpdateSlamXmlOfQg(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlQg(_typeId),S_xmlS]
+
+#define S_sweeperUpdateSlamXmlOfKw(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlKw(_typeId),S_xmlS]
+#define S_sweeperUpdateSlamXmlOfBleam(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlBleamn(_typeId),S_xmlS]
+
+//控制版
+#define S_sweeperUpdateCtrlXmlOfQg(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlQg(_typeId),S_xmlC]
+#define S_sweeperUpdateCtrlXmlOfKw(_typeId) [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlKw(_typeId),S_xmlC]
+#define S_sweeperUpdateCtrlXmlOfBleam(_typeId) [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlBleamn(_typeId),S_xmlC]
+
+//-____________________非稳定版地址
+//0218 deta版的xml地址拼接部分
+#define S_xmlCT @"ControllerUpdateTest.xml"  //控制板
+#define S_xmlST @"NavigationUpdateTest.xml"  //导航版
+
+//导航版
+#define S_sweeperUpdateSlamXmlOfQgT(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlQg(_typeId),S_xmlST]
+
+#define S_sweeperUpdateSlamXmlOfKwT(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlKw(_typeId),S_xmlST]
+#define S_sweeperUpdateSlamXmlOfBleamT(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlBleamn(_typeId),S_xmlST]
+
+//控制版
+#define S_sweeperUpdateCtrlXmlOfQgT(_typeId)  [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlQg(_typeId),S_xmlCT]
+#define S_sweeperUpdateCtrlXmlOfKwT(_typeId) [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlKw(_typeId),S_xmlCT]
+#define S_sweeperUpdateCtrlXmlOfBleamT(_typeId) [NSString stringWithFormat:@"%@%@%@",S_xmlBaseUrl,S_xmlBleamn(_typeId),S_xmlCT]
+
+//正式服的xml地址end
+
+#pragma mark -- //______________________________other
+//导航栏高度
+#define Y_getRectNavAndStatusHight  (self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height)
+
+
+#define Y_Device_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define Y_Device_Is_IPHONE_X ([UIScreen mainScreen].bounds.size.height == 812.0f) ? YES : NO
+//TAG
+#define TAG_BTN 120
+//TAG
+#define TAG_BTN_B 200
+//
+#define TAG_BTN_C 300
+
+
+#define Y_DLog  NSLog(@"当前是:%@",NSStringFromSelector(_cmd));
+#define Y_DLoog  NSLog(@"当前是: %@ %@",[self class],NSStringFromSelector(_cmd));
+//图片
+#define Y_IMAGE(_imgName) [UIImage imageNamed:_imgName]
+#define Y_IMAGE_ORIGINAL(_imgName) [[UIImage imageNamed:_imgName]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+
+//storyboard
+#define Y_storyBoard_id(_idOfVC)  [[UIStoryboard storyboardWithName: _idOfVC bundle:nil] instantiateViewControllerWithIdentifier:_idOfVC];
+
+#define SBInterface(name) [UIStoryboard storyboardWithName:name bundle:nil]
+#define Y_VCInSB(vcName, sbName) [SBInterface(sbName) instantiateViewControllerWithIdentifier:vcName]
+
+
+//---------------------------------------------------------------------------
+//typeof它返回值是一个字符串，该字符串说明运算数的类型。防止出现内存泄漏
+#define Y_WEAKSELF  __weak typeof(self) weakSelf = self;
+#define Y_NLG(_str)  NSLog(_str);
+#define Y_MBP_SuccMessage [MBProgressHUD showSuccess:responsObject[@"message"]];
+#define Y_MBP_ErrMessage   [MBProgressHUD showError:responsObject[@"message"]];
+#define Y_MBP_Error    [MBProgressHUD showError:@"加载失败"];
+#define Y_MBP_Success  [MBProgressHUD showSuccess:@"加载成功"];
+#define Y_MBP_Save_Error    [MBProgressHUD showError:@"保存失败"];
+#define Y_MBP_Save_Success  [MBProgressHUD showSuccess:@"保存成功"];
+#define Y_MBP_Message  [MBProgressHUD showMessage:@"加载中"];
+#define Y_MBP_Hide     [MBProgressHUD hideHUD];
+
+//屏幕宽高
+#define Y_mainW [UIScreen mainScreen].bounds.size.width
+#define Y_mainH [UIScreen mainScreen].bounds.size.height
+
+//方法——检查您的网络设置
+#define Y_NET_Reachable(_CODE) if ([self currentNetworkStatus]) {_CODE}else{[MBProgressHUD showError:@"网络异常,请检查您的网络设置!"];}
+#define Y_NET_REACHABLE(_CODEA ,_CODEB) if ([self currentNetworkStatus]) {_CODEA}else{[MBProgressHUD showError:@"网络异常,请检查您的网络设置!"];_CODEB}
+#define Y_CODEB
+
+#define Y_pageSize 20
+#define Y_pageSizeStr @"20"
+
+
+//方法——正在加载
+#define Y_Wait [MBProgressHUD showMessage:@"正在加载"];
+#define Y_Hide [MBProgressHUD hideHUD];
+//后台返回的状态码是bool需要转换
+#define _Success  [[responsObject objectForKey:@"code"] intValue]==200
+#define _SuccessOrErrCode  [[responsObject objectForKey:@"code"] intValue]
+// url拼接
+#define Y_BASEURL(_URL)  [NSString stringWithFormat:@"%@%@", BASE_URL, _URL]
+#define Y_BASEIMGURL(_URL)  [NSString stringWithFormat:@"%@%@", BASEIMG_URL, _URL]
+#define Y_BASEUserFaceURL(_URL)  [NSString stringWithFormat:@"%@%@", BASEUserFace_URL, _URL]
+
+// RGB颜色转换（16进制->10进制）
+
+#define Y_ColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// 获取RGB颜色
+#define Y_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define Y_RGB(r,g,b)  Y_RGBA(r,g,b,1.0f)
+
+
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width//获取屏幕宽高
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+#define ELSareArea  (MAX(Device_Width, Device_Height)  == 812 ? 34.00 : 0.00)
+#define NAVH (MAX(Device_Width, Device_Height)  == 812 ? 88 : 64)
+#define TABBARH (MAX(Device_Width, Device_Height)  == 812 ? 83 : 49)
+
+
+#endif /* PrefixHeader_pch */

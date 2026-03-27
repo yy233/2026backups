@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "请连接到机器人的Wi-Fi，格式为...sweep..."; ObjectID = "3MK-SJ-URT"; */
+"3MK-SJ-URT.text" = "Please connect to the robot's Wi-Fi, its format is...CleanRobot...";
+
+/* Class = "UIButton"; normalTitle = "切换"; ObjectID = "Is6-BH-S7A"; */
+"Is6-BH-S7A.normalTitle" = "Switch";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "Oc1-9o-2c1"; */
+"Oc1-9o-2c1.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "当前Wi-Fi为空"; ObjectID = "fbZ-Ij-rru"; */
+"fbZ-Ij-rru.text" = "Current Wi-Fi is empty";
+
+/* Class = "UILabel"; text = "当前手机Wi-Fi:"; ObjectID = "hjc-rS-KJu"; */
+"hjc-rS-KJu.text" = "Current Wi-Fi:";

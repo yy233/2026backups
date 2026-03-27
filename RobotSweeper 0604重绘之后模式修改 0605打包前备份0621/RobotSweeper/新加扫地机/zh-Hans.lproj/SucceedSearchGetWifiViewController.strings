@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "如果不是您要添加的机器人，请返回上一页重新搜索"; ObjectID = "3K5-uI-67L"; */
+"3K5-uI-67L.text" = "如果不是您要添加的机器人，请返回上一页重新搜索";
+
+/* Class = "UIButton"; normalTitle = "密码密文显示"; ObjectID = "H30-nV-JFJ"; */
+"H30-nV-JFJ.normalTitle" = "密码密文显示";
+
+/* Class = "UIButton"; selectedTitle = "密码密文显示"; ObjectID = "H30-nV-JFJ"; */
+"H30-nV-JFJ.selectedTitle" = "密码密文显示";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "LvH-T8-4l0"; */
+"LvH-T8-4l0.placeholder" = "请输入密码";
+
+/* Class = "UILabel"; text = "已经为您找到了一个机器人"; ObjectID = "aR6-KN-mFv"; */
+"aR6-KN-mFv.text" = "已经为您找到了一个机器人";
+
+/* Class = "UILabel"; text = "不支持5G"; ObjectID = "b4n-vA-uH4"; */
+"b4n-vA-uH4.text" = "不支持5G";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "n1r-pp-c3D"; */
+"n1r-pp-c3D.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "请输入要让机器人连接的Wi-Fi"; ObjectID = "n6a-r0-naE"; */
+"n6a-r0-naE.text" = "请输入要让机器人连接的Wi-Fi";
+
+/* Class = "UITextField"; placeholder = "请输入Wi-Fi名（不支持5G）"; ObjectID = "sxg-ud-IJY"; */
+"sxg-ud-IJY.placeholder" = "请输入Wi-Fi名（不支持5G）";
+
+/* Class = "UILabel"; text = "机器人ID"; ObjectID = "tBF-dZ-ki7"; */
+"tBF-dZ-ki7.text" = "机器人ID";
+
+/* Class = "UIButton"; normalTitle = "记住密码"; ObjectID = "tRh-7v-g7h"; */
+"tRh-7v-g7h.normalTitle" = "记住密码";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "清扫力度"; ObjectID = "Jxx-Ti-l3c"; */
+"Jxx-Ti-l3c.text" = "Cleaning strength";
+
+/* Class = "UILabel"; text = "强力"; ObjectID = "Z1r-gf-qkg"; */
+//"标准" = "standard";
+//"静音" = "silence";
+//"强力" = "powerful";
+"Z1r-gf-qkg.text" = "powerful";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "b9D-8f-o6P"; */
+"b9D-8f-o6P.text" = "silence";
+
+/* Class = "UILabel"; text = "标准"; ObjectID = "hLu-8s-El7"; */
+"hLu-8s-El7.text" = "standard";

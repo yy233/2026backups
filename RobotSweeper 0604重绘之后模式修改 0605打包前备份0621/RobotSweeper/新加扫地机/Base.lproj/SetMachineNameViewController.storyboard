@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Set Machine Name View Controller-->
+        <scene sceneID="T0Y-FT-nha">
+            <objects>
+                <viewController storyboardIdentifier="SetMachineNameViewController" id="TBp-qi-rjx" customClass="SetMachineNameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DEc-NX-p4X"/>
+                        <viewControllerLayoutGuide type="bottom" id="vX6-7Q-lA0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hgr-px-w1y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fsg-2L-RVG">
+                                <rect key="frame" x="0.0" y="84" width="375" height="267"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="扫地机图标" translatesAutoresizingMaskIntoConstraints="NO" id="edB-9J-VWU">
+                                        <rect key="frame" x="107.5" y="54" width="160" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="edB-9J-VWU" secondAttribute="height" multiplier="1:1" id="eYK-2E-jGo"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="edB-9J-VWU" firstAttribute="height" secondItem="Fsg-2L-RVG" secondAttribute="height" multiplier="0.6" id="BAb-jF-FQv"/>
+                                    <constraint firstItem="edB-9J-VWU" firstAttribute="centerY" secondItem="Fsg-2L-RVG" secondAttribute="centerY" id="WTG-LT-Z0M"/>
+                                    <constraint firstItem="edB-9J-VWU" firstAttribute="centerX" secondItem="Fsg-2L-RVG" secondAttribute="centerX" id="edv-3U-YYc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入机器人名称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mT-Na-Rpj">
+                                <rect key="frame" x="20" y="366" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WlR-zI-ka8">
+                                <rect key="frame" x="0.0" y="402" width="375" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="boF-gE-6s4"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="spY-24-sqd">
+                                <rect key="frame" x="20" y="418.5" width="335" height="21"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hja-a1-hyE">
+                                <rect key="frame" x="56.5" y="580.5" width="262" height="40"/>
+                                <color key="backgroundColor" red="0.87833553549999999" green="0.87848657370000005" blue="0.8783260584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="23w-LU-6bw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="保存">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveBtnAction:" destination="TBp-qi-rjx" eventType="touchUpInside" id="gYw-o7-B7A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96068006750000001" green="0.96084433790000001" blue="0.96066969629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7mT-Na-Rpj" firstAttribute="top" secondItem="Fsg-2L-RVG" secondAttribute="bottom" constant="15" id="9FP-ZW-fu2"/>
+                            <constraint firstItem="Fsg-2L-RVG" firstAttribute="height" secondItem="Hgr-px-w1y" secondAttribute="height" multiplier="0.4" id="G2z-nW-Ly8"/>
+                            <constraint firstItem="Fsg-2L-RVG" firstAttribute="top" secondItem="DEc-NX-p4X" secondAttribute="bottom" constant="20" id="GSd-ns-jXV"/>
+                            <constraint firstItem="hja-a1-hyE" firstAttribute="centerY" secondItem="Hgr-px-w1y" secondAttribute="centerY" multiplier="1.8" id="LeA-Z9-mRm"/>
+                            <constraint firstItem="WlR-zI-ka8" firstAttribute="leading" secondItem="Hgr-px-w1y" secondAttribute="leading" id="N7y-Td-Kiy"/>
+                            <constraint firstAttribute="trailing" secondItem="WlR-zI-ka8" secondAttribute="trailing" id="Nf1-FF-hjt"/>
+                            <constraint firstItem="spY-24-sqd" firstAttribute="leading" secondItem="Hgr-px-w1y" secondAttribute="leading" constant="20" id="P1S-QK-9c6"/>
+                            <constraint firstItem="hja-a1-hyE" firstAttribute="centerX" secondItem="Hgr-px-w1y" secondAttribute="centerX" id="Ph3-Gu-hNd"/>
+                            <constraint firstItem="spY-24-sqd" firstAttribute="centerY" secondItem="WlR-zI-ka8" secondAttribute="centerY" id="boY-P6-tuO"/>
+                            <constraint firstItem="7mT-Na-Rpj" firstAttribute="leading" secondItem="Hgr-px-w1y" secondAttribute="leading" constant="20" id="edY-XR-gcH"/>
+                            <constraint firstItem="hja-a1-hyE" firstAttribute="width" secondItem="Hgr-px-w1y" secondAttribute="width" multiplier="0.7" id="j4b-S7-qov"/>
+                            <constraint firstAttribute="trailing" secondItem="spY-24-sqd" secondAttribute="trailing" constant="20" id="mag-KH-bxd"/>
+                            <constraint firstItem="WlR-zI-ka8" firstAttribute="top" secondItem="7mT-Na-Rpj" secondAttribute="bottom" constant="15" id="piP-81-u6P"/>
+                            <constraint firstAttribute="trailing" secondItem="7mT-Na-Rpj" secondAttribute="trailing" constant="20" id="rD4-uj-rqX"/>
+                            <constraint firstAttribute="trailing" secondItem="Fsg-2L-RVG" secondAttribute="trailing" id="shh-8h-DKZ"/>
+                            <constraint firstItem="Fsg-2L-RVG" firstAttribute="leading" secondItem="Hgr-px-w1y" secondAttribute="leading" id="slc-sW-d8p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XmJ-l0-VeU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W7c-4l-s7p"/>
+                    <connections>
+                        <outlet property="imgV" destination="edB-9J-VWU" id="GMR-0R-54Z"/>
+                        <outlet property="nameTextF" destination="spY-24-sqd" id="rT5-kl-fgP"/>
+                        <outlet property="saveNameBtn" destination="hja-a1-hyE" id="xx2-8u-5Dx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cmo-Ig-sim" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2141.25" y="-116.25"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zeU-mA-p64">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lbI-A8-lBq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="amW-2N-e5r">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TBp-qi-rjx" kind="relationship" relationship="rootViewController" id="cya-IQ-CKH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQI-qq-0Bm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143.75" y="-115.14084507042254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="扫地机图标" width="194" height="193"/>
+    </resources>
+</document>

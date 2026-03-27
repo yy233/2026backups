@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "4e7-1Y-11O"; */
+"4e7-1Y-11O.normalTitle" = "Submit";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "4u5-gR-5Na"; */
+"4u5-gR-5Na.placeholder" = "Please enter password";
+
+/* Class = "UIButton"; normalTitle = "记住密码"; ObjectID = "HSV-c5-LBA"; */
+"HSV-c5-LBA.normalTitle" = "Remember password";
+
+/* Class = "UILabel"; text = "不支持5G"; ObjectID = "LdT-Fi-wmd"; */
+"LdT-Fi-wmd.text" = "Not support 5G";
+
+/* Class = "UILabel"; text = "请输入要让机器人连接的Wi-Fi"; ObjectID = "QYS-cn-CLR"; */
+"QYS-cn-CLR.text" = "Enter the wi-fi that you want the robot connect";
+
+/* Class = "UIButton"; normalTitle = "密码密文显示"; ObjectID = "Qj8-Js-3fH"; */
+"Qj8-Js-3fH.normalTitle" = "Ciphertext display";
+
+/* Class = "UIButton"; selectedTitle = "密码密文显示"; ObjectID = "Qj8-Js-3fH"; */
+"Qj8-Js-3fH.selectedTitle" = "Ciphertext display";
+
+/* Class = "UITextField"; placeholder = "请输入Wi-Fi名（不支持5G）"; ObjectID = "xTU-Vr-etM"; */
+"xTU-Vr-etM.placeholder" = "Please enter wi-fi name（Not support 5G）";

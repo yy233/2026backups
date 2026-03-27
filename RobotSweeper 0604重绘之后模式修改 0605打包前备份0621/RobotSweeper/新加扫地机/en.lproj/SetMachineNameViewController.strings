@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "请输入机器人名称"; ObjectID = "7mT-Na-Rpj"; */
+"7mT-Na-Rpj.text" = "Please enter the name of the robot";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "hja-a1-hyE"; */
+"hja-a1-hyE.normalTitle" = "Save";
+
+/* Class = "UITextField"; placeholder = "请输入"; ObjectID = "spY-24-sqd"; */
+"spY-24-sqd.placeholder" = "Please enter the name";

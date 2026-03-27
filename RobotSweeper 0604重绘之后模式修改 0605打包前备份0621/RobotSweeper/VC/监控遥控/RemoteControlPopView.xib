@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="RemoteControlPopView" id="iN0-l3-epB" customClass="RemoteControlPopView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJs-H7-fSZ">
+                    <rect key="frame" x="10" y="10" width="355" height="355"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="nJs-H7-fSZ" secondAttribute="height" id="KRv-gL-g93"/>
+                        <constraint firstAttribute="width" secondItem="nJs-H7-fSZ" secondAttribute="height" multiplier="1:1" id="OkI-Rj-eHT"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-bo-5bA">
+                    <rect key="frame" x="10" y="375" width="355" height="282"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="风机" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Eh-JU-ABx">
+                            <rect key="frame" x="10" y="133.5" width="30" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Hsy-PN-mkP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgL-1Q-eoH">
+                            <rect key="frame" x="42" y="125.5" width="51" height="31"/>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bgL-1Q-eoH" secondAttribute="trailing" constant="1" id="AcJ-XT-aoi"/>
+                        <constraint firstItem="4Eh-JU-ABx" firstAttribute="centerY" secondItem="hfD-bo-5bA" secondAttribute="centerY" id="Lg9-ln-cP5"/>
+                        <constraint firstItem="4Eh-JU-ABx" firstAttribute="leading" secondItem="hfD-bo-5bA" secondAttribute="leading" constant="10" id="RRy-bz-NIO"/>
+                        <constraint firstItem="bgL-1Q-eoH" firstAttribute="leading" secondItem="4Eh-JU-ABx" secondAttribute="trailing" constant="2" id="drA-kQ-59b"/>
+                        <constraint firstItem="bgL-1Q-eoH" firstAttribute="centerY" secondItem="hfD-bo-5bA" secondAttribute="centerY" id="hor-1P-9fr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nJs-H7-fSZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="2g3-rj-dwB"/>
+                <constraint firstItem="nJs-H7-fSZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Lvs-qz-w4Z"/>
+                <constraint firstItem="hfD-bo-5bA" firstAttribute="top" secondItem="nJs-H7-fSZ" secondAttribute="bottom" constant="10" id="N0d-1f-xsx"/>
+                <constraint firstAttribute="trailing" secondItem="hfD-bo-5bA" secondAttribute="trailing" constant="10" id="Nva-yh-qA6"/>
+                <constraint firstItem="nJs-H7-fSZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="R8c-si-zff"/>
+                <constraint firstItem="hfD-bo-5bA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="WwU-4x-TYX"/>
+                <constraint firstItem="hfD-bo-5bA" firstAttribute="height" secondItem="nJs-H7-fSZ" secondAttribute="height" multiplier="0.2" priority="900" id="bSP-dr-a8e"/>
+                <constraint firstAttribute="bottom" secondItem="hfD-bo-5bA" secondAttribute="bottom" constant="10" id="dGc-dd-DkY"/>
+                <constraint firstAttribute="trailing" secondItem="nJs-H7-fSZ" secondAttribute="trailing" constant="10" id="nih-nv-Ql9"/>
+                <constraint firstItem="hfD-bo-5bA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ry7-uh-h08"/>
+                <constraint firstItem="hfD-bo-5bA" firstAttribute="top" secondItem="nJs-H7-fSZ" secondAttribute="bottom" constant="10" id="uNE-eO-jmk"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomBackView" destination="hfD-bo-5bA" id="X7M-8z-lSU"/>
+                <outlet property="fenJiLabel" destination="4Eh-JU-ABx" id="5Ci-8D-MpU"/>
+                <outlet property="fengSwitch" destination="bgL-1Q-eoH" id="byJ-Ej-SIk"/>
+                <outlet property="topBackView" destination="nJs-H7-fSZ" id="4RY-ar-0bw"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="156"/>
+        </view>
+    </objects>
+</document>

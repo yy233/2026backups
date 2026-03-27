@@ -1,0 +1,84 @@
+
+
+This product uses rechargeable lithium ion battery and is controlled by microcomputer, and it has various cleaning modes such as planning, reservation and remote control, which is an intelligent dust collector with automatic integration charging. 
+
+This product may be used for ground cleaning in family residence, hotel room and office and has good cleaning effects on various wooden floors, hard floors and tiles. 
+
+
+
+Rapid Operation and Charging Guide:
+
+1. Precaution
+        * Before the host machine is operated, please refer to the following contents and check cleaning area: 
+Please roll up carpet tassels or operate it on short woolen carpet; 
+The power cords or other debris scattered across the ground may trip or entangle this product, and the power cords or other debris must be removed before use; 
+
+2.  Rapid Operation 
+        1. Preparation for charging
+        * The adapter is connected to electric supply grid (220V).
+        * Connect power adapter to charging socket; 
+        2. Turn on host machine 
+        * Turn on side power switch, and the symbol “-“ denotes starting up and “O” denotes shutdown
+        3. Starting up/Pausing
+        * After the machine voice prompts completion of starting, you may press down cleaning key on the main panel and the floor cleaning machine will begin to work
+        * After the host machine has finished working, it is recommended that you do not turn off the host machine immediately; please you keep the host machine in the charge status so that it can work better next time. 
+        4. Charging to host machine
+        * Turn on the host machine and charge to it by using any of following methods
+        a. Place host machine on a prepared charging socket, and pay attention to align charging pole pieces; if the machine prompts “start charging”, this indicates to successfully enter into charging status. 
+        b. Directly insert adapter connector into power interface of the machine; if the machine prompts “start charging”, this indicates to successfully enter into charging status.
+        c. Press down “recharging” button on the machine, and then make it automatically align prepared charging socket; if the machine prompts “start charging”, this indicates to successfully enter into charging status.
+
+3.  Method of use of charging socket
+        1. Mount charging socket on a flat ground and close to wall perpendicular to the ground. 
+ 	2. There should be no any barriers or concave-convex areas within the scope of 2m in front of the charging socket and 1m of left and right of the charging socket, and there should be no any objects with strong reflectors, such as mirrors. 
+        3. If the emitting surface for infrared signal on the charging socket is obscured, the floor cleaning machine will not be able to search the charging socket. 
+
+
+
+
+Addition and binding to floor cleaning robot:
+
+1.Carry out addition and binding to floor cleaning robot through configuration of network of floor cleaning robot
+       Robot end: After pressing the “start/stop” button on the floor cleaning robot for more than 3 seconds or hearing robot broadcast “Wi-Fi reset”, release “start/stop” button. 
+	APP end:   (1) Click on “add robot” button on the “robot cleaner” interface and go to robot discovery page   
+		   (2) Connect the robot hot point found by APP and wait for access to network configuration page
+       		   (3)  Select binding network and input password, and then click on confirmation button
+	           (4) Name floor cleaning robot
+
+2. Share, add and bind floor cleaning robot by user
+
+        APP end:   (1) Click on “add robot” button on the “robot cleaner” interface and go to robot discovery page
+                   (2) Click on and scan two-dimensional code to add robot
+                   (3) Scan two-dimensional code of robot shared by other client side
+
+3. Precaution
+           Recommend using cell phone with Android version 5.0 or iOS
+           Due to different software version and cell phone model and so on, the operation interface may also be different, and the actual interface shall prevail
+           This product cannot connect to the hidden WLAN, and the use of public network is not recommended
+           When this product is bound, you need to make sure that the cell phone and this product are connected to the same network; otherwise, the binding will not be successful.
+           The ambient environment is likely to impact on the wireless network performance to cause that the wireless network cannot be normally operated
+           Several APP users can simultaneously control the same floor cleaning robot
+           When this product is repaired, disused and transferred, make sure that WLAN information has been reset
+
+
+
+
+Control of floor cleaning robot
+
+Click on binding floor cleaning robot on the “robot cleaner” page to log on control and operation page, that is, the map display page. 
+1.	Automatic cleaning
+                Directly click on “cleaning” bottom on the map display page to achieve automatic cleaning
+2.	Charging at home
+                Click on “recharging” button on the map display page to make robot enter into recharging mode
+3.	Remote operation
+                Click on “remote control” button on the map display page
+                Operate floor cleaning robot for “forward”, “left turn” and “right turn” movement on remote control and operation page
+4.	User-defined
+                Click on “mode：plan >” to select cleaning mode: planning cleaning, cleaning along edge, area cleaning and key cleaning
+               Click on “strength: standard >” to select strength of draught fan: standard, mute and mightiness.
+5.	Reservation
+                Click on “reservation” button on the map display page
+                Configure cleaning mode, cleaning strength, cleaning time and confirm saving
+
+
+

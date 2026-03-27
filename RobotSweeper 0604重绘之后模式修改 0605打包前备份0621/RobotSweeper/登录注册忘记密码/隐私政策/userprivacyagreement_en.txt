@@ -1,0 +1,214 @@
+[Key notes]: 
+Please carefully read and understand all rights and restrictions in the User Licensing Agreement (hereinafter referred to as "this agreement") before you start to use the cleanrobot product (hereinafter referred to as "this product"). 
+Beijing Robotleo Intellectual Technology Co., Ltd. (hereinafter referred to as "Robotleo" and "we") always respects and will strictly protect the legal rights and interests of users (including user privacy, user data, etc.) when using this product from any infringement. 
+This product includes but is not limited to this product software and the product related to it and developed by Robotleo. The intellectual property related to this product (including all copyrights, patent rights, trademark rights, etc.) related to this product belongs to Robotleo.
+This agreement (including the privacy policy in the last part of this text) is the final, complete and exclusive agreement between the user (including natural persons, legal persons and other organizational institutions that obtain this product through various legal approaches, hereinafter referred to as "user" or "you") and Robotleo, substituting and merging the previous discussion and agreements between the parties on the above matters. 
+This agreement will be legally binding on the user's use of this product. You have promised and guaranteed to have the right and ability to sign this agreement. The user starts to use this product, which has been deemed as having already accepted this agreement. Please carefully read and understand the terms and clauses in this agreement, including the exemption terms exempting and limiting the responsibility of Robotleo and limitation on the rights of user (minors shall be accompanied by a legal guardian when checking and approving). If you can't accept all terms in this agreement, please don't start to use this product. 
+
+1. Usage 
+1.1 Account 
+A user can use this product without the need to set up an account. If you want to use more functions of this product, you need to register an account and provide related personal information on the registration page. You shall promise and guarantee: 
+1.1.1 All registration information that you have submitted shall be true and accurate; 
+1.1.2 The behavior that you use this product shall be legal; 
+1.1.3 You can terminate using your account as per the instructions of the account of Robotleo. 
+This product will reserve or terminate your account according to the provision in Article 5 hereof. You shall promise to keep confidential for your logging information, not to be acquired and used by others and to be responsible for all behaviors under the account of this website. You shall inform this product of any behavior that may violate the law, is not authorized to use or suspected of being not authorized to use in first time. This product does not bear legal liability for the loss caused by your failure to obey the aforesaid requirements. 
+1.2 Network acceleration and fault detection service 
+When using this product, in some scenarios, this product will detect some of your network access behaviors after asking for your approval. This is designed to help you accelerate your network and perform fault detection services when necessary. This detection is completed entirely by the software program; there is no human monitoring; the relevant software program is used to match and guide you to open the corresponding third-party content or page. We promise to ensure that your privacy during the use of this product will not be disclosed. 
+
+2. End user agreement 
+2.1 License 
+This product will grant you the following non-transferable, non-exclusive licenses in accordance with this agreement: 
+2.1.1 The right to use this product; 
+2.1.2 The right to download, install, and use this product on all of your network communication devices, computer devices, and mobile communication devices. 
+2.2 Restrictive provisions 
+The authorization of this agreement to you will be subject to the following restrictions: 
+2.2.1 You shall not license, sell, lease, transfer, distribute or use this product for other commercial purposes in any form; 
+2.2.2 Except such restrictions are prohibited by law, you shall not modify, translate, adapt, merge, exploit, disassemble, reconstruct or decompile, reverse engineering any part or derivative of this product; 
+2.2.3 You shall not use the product for the purpose of creating the same or competitive services;
+2.2.4 Except as expressly provided by law, you shall not produce, copy, distribute, sell, download or display any part of this product in any form or by any means; 
+2.2.5 You shall not remove or destroy any copyright notices or other ownership marks contained in this product.
+2.3 Attribution of right 
+2.3.1 Robotleo permits you to use and download this product; 
+2.3.2 Robotleo (and its "authorizer", if any) owns all related intellectual property rights of this product. 
+2.4 Expenses 
+You shall pay for the cost of purchasing this product, personal communication or communication fees, information fees, etc. charged by third parties (including but not limited to telecommunications or mobile communication providers) by yourself. If it involves telecom value-added services, we suggest that you confirm the related cost issues with the value-added service provider. 
+2.5 Any updated or future versions, updates or other changes to this product will be bound by this agreement. 
+
+3. User contents 
+3.1 User contents 
+3.1.1 User contents refer to all contents generated when the user downloads, publishes, or otherwise uses the product (for example, your information, pictures, music, or other content).
+3.1.2 You are the sole responsible person of your user content and you will assume the risk that you or any third party will be identified as a result of the disclosure of your user content. 
+3.1.3 You shall be deemed to agree that your user content is subject to Article 4. 
+3.2 Feedback 
+3.2.1 Your suggestion (or "feedback") to Robotleo is deemed to be your right to transfer "feedback" to Robotleo and shall be considered that you agree that Robotleo has the right to use this feedback in any reasonable way and related information. We will deem such feedback as non-confidential and non-exclusive; 
+3.2.2 You shall be deemed to agree that you will not provide Robotleo with any information which is deemed as being confidential and exclusive by you; 
+3.3 We reserve the right (not the obligation) to check the content shared by users based on our judgment.
+Regardless of whether to notify or not, we reserve the right to delete and move your content shared by users at any time and for any reason. In accordance with Article 5, we have the right to retain or terminate your account. 
+
+4. Limitation of rights 
+4.1 You shall be deemed to agree to use the related services in this product by sharing or other means, and during use, you will assume all legal liabilities arising from the risks caused by the following actions: 
+4.1.1 Destroying the basic principles prescribed by the Constitution; 
+4.1.2 Damaging national security, disclosing nation secret, subverting national power and destroying national unity; 
+4.1.3 Damaging national reputation and interest; 
+4.1.4 Inciting ethnic hatred and discrimination, and undermining the national unity; 
+4.1.5 Damaging national religious policy, and propagating heresy and feudal superstition; 
+4.1.6 Spreading rumors, disturbing social order, and destroying social stability; 
+4.1.7 Spreading obscenity, pornography, gambling, violence, murder, terrorism or abetting the crime. 
+4.1.8 Insulting or slandering others, infringing the legal interest of others; 
+4.1.9 Including other contents prohibited in laws and regulations. 
+4.2 You shall be deemed to agree not to engage in the following actions in this product: 
+4.2.1 Software that publishes or shares computer viruses, worms, malicious code, deliberate destruction or change of computer systems or data; 
+4.2.2 Collect information or data of other users, such as email addresses, etc., without authorization; 
+4.2.3 Maliciously use this product in an automated manner, causing excessive burden on the server or otherwise interfering with or damaging the web server and network link; 
+4.2.4 Try to access server data or communication data of the product without authorization; 
+4.2.5 Interfere with or destroy the other users' use of this product. 
+
+5. Modification and termination 
+5.1 Modification 
+5.1.1 The Agreement is allowed to be altered. If there is any substantial alteration of the Agreement, we will inform you by e-mail or announcement on the Website. If you continue to use the product after the change notice, you are deemed to be aware of such changes and agree to be bound by the terms. 
+5.1.2 Robotleo reserves the right to modify, retain or close any service of this product at any time without notice. 
+5.1.3 You shall be deemed to agree that Robotleo will not assume any liability to you or a third party for modifying, retaining or closing any service of this product. 
+5.2 Termination 
+5.2.1 The Agreement takes into effect since the date when you accept it and will be valid during the process when you use this project until it is terminated according to the Agreement; 
+5.2.2 Notwithstanding the foregoing, if you use the product earlier than the time you accept this agreement, you hereby know and agree that this agreement will take effect at the first time you use the product, unless it is terminated earlier in accordance with this agreement; 
+5.2.3 We may reserve your right to use this product or the account of this website in accordance with the law; Notwithstanding an available notification, we will terminate this agreement at any time, for any reason, including believing that you have violated our Acceptable Use Policy or other provisions of this agreement out of goodwill; 
+5.2.4 Notwithstanding the provisions forehead, if the user infringes the copyright of the third party and Robotleo receives the notification of the copyright owner or the legal agent of the copyright owner, Robotleo reserves the right to terminate this agreement; 
+5.2.5 Once this agreement is terminated, your right to use this product will be terminated. You shall know that your product termination means that your user content will be removed from our activity database. Robotleo shall not be liable to you for terminating this agreement, including terminating your user account and deleting your user content. 
+
+6. Third party
+6.1 You have known or agreed that some of our services are obtained based on the technical support of third parties. 
+You have known that this agreement is entered into between you and Robotleo, and not between you and the above third parties. Robotleo is the sole responsible person for matters such as content, maintenance, support services, guarantees and litigation arising from this product. You shall be deemed to agree to obey and authorize the product the service of limiting you from using this product with conditions. 
+6.2 Information and service of a third party. 
+6.2.1 This product contains some information and services of third parties. Robotleo does not control and is not responsible for the information and services of third parties. 
+6.2.2 Robotleo provides such information and services only for your convenience or for the need of providing and guaranteeing third parties. 
+6.2.3 Users are responsible for the risks arising from the use of third party information and services. 
+6.2.4 When users access third party information and services, third party terms and policies apply. 
+6.3 Other users 
+6.3.1 This product contains user content provided by other users. This product does not control and does not assume legal liability for user content. This product has no obligation to inspect, monitor, approve, check, promise and guarantee user content. You shall assume legal liability for the risks arising from the use of user content and interaction with other users. 
+6.3.2 Interaction between a user with other users is solely between you and other users, and the product does not assume any legal liability for such actions. You shall be deemed to agree that this product is not legally liable for the results of such interactions. 
+
+7. Compensation 
+7.1 You shall be deemed to agree to use this product harmlessly to avoid any complaints, litigation, loss, damage, liability, costs and expenses (including attorneys' fees) from third parties arising from the following actions or related actions of Robotleo: 
+7.1.1 The user's action to use this product; 
+7.1.2 User's user content; 
+7.1.3 Other behaviors against the Agreement. 
+7.2 Robotleo reserves the right of exclusive defense and to claim for compensation.
+7.3 You shall be deemed to agree that you shall not unilaterally settle a lawsuit jointly filed by you and Robotleo against a third party unless you have obtained written consent from Robotleo. 
+7.4 Robotleo will make reasonable efforts to notify you of such litigation, litigation action or progress. 
+7.5 Under any case, this product will not assume the liability for compensating for any indirect, consequential, exemplary, incidental, special or punitive damages arising from this agreement by you or any third party. The risk of damage to the computer system or mobile communication device database caused by accessing or using this product will be assumed by you personally. 
+
+8. Disclaimer 
+8.1 This product does not assume any legal liability in case of the following circumstances: 
+8.1.1 Your personal information shall be provided as required by law or as required by relevant government departments; 
+8.1.2 Disclosure of any personal information due to your improper use; 
+8.1.3 Any interruption or obstruction caused by hacker attacks, computer virus intrusion, illegal content information, harassment information block, government regulations, and any other network, technology, communication lines, information security management measures, etc., cannot meet the requirements of users; 
+8.1.4 The user's loss caused by communication line failure, technical problems, network, computer failure, system instability of third parties such as operators and other losses caused by force majeure; 
+8.1.5 The risks incurred by the use of information that may contain threats, embarrassment, offensive or illegal content from others' anonymity or impersonation; 
+8.1.6 This product expressly declares not to guarantee the timeliness, safety and accuracy of the service of this product and its partner company in express or implied and any other form.
+8.2 This product does not assume any legal liability if the following situations occur during the use of the intelligent scenario. 
+8.2.1 Anyone who creates an intelligent scenario in any way is deemed to have accepted this statement voluntarily. 
+8.2.2 This function is currently in the experimental stage and is for experience exchange only. The defects that this function may generate will be gradually corrected by software upgrade. I have no objection against other contents. 
+8.2.3 The company does not assume any responsibility for the non-execution or false execution of intelligent scenario caused by, but not limited to, hacker attacks, network interruptions, network delays, offline devices, etc., but will try its best to reduce the loss or impact caused to the user. 
+8.2.4 For any loss caused by improper use of this function by the user, the company does not assume any legal liability. 
+
+9. Privacy policy 
+The "Robotleo Product Privacy Policy" is part of this agreement and you can find it at the end of this article. Please carefully read and understand all the contents of the privacy agreement.
+
+10. Notices
+10.1 The user shall provide a valid email address that you have recently used frequently in the Robotleo account. If the email address that you provide is unable to use or we cannot send the notice to you due to any reason, this product will not be liable for the risks arising. 
+10.2 Announcements and notices on this product published shall cover such announcements sent to you will definitely be the valid announcement. 
+
+11. Applicable laws 
+11.1 The Agreement is applicable to the law of the People's Republic of China. 
+11.2 If there is a dispute between both parties, it shall be resolved through consultation on a friendly basis; If the negotiation fails, the lawsuit shall be filed in the court of the place where Robotleo is located. 
+
+12. Independence 
+If some of the terms of this agreement are not applicable for any reason, the other terms of this agreement will continue to apply and the terms that are not applicable will be amended so that they can be applied in accordance with the law.
+
+13. Completeness
+13.1 This agreement (including the Privacy Policy) is the final, complete and exclusive agreement between you and this product regarding this product, and replaces and merges the previous discussions and agreements between the parties on such matters (including prior end user license, service terms and privacy policy). 
+13.2 The title of each part is for reading only without any legal or contractual obligations. 
+13.3 You shall not assign the rights and obligations stipulated in this agreement unless Robotleo agrees in writing. Any action of attempting to transfer in violation of the above provisions is void. 
+
+
+Robotleo Product Privacy Policy 
+You can use our services in a variety of different ways, such as logging into the official website of Robotleo to purchase intelligent cloud hardware products of Robotleo, using Robotleo software and services on different terminals. If you share information with us (for example, creating an account), we can provide you with better services, such as showing product updates and ads with a higher degree of correlation, helping you connect with others, or sharing contents with others more quickly and easily, etc. For this purpose, we will explain our collection and use methods for information to you and what kind of methods you can use to protect your own privacy right. 
+Our privacy policy contains the problems in the following aspects: 
+What information do we collect; 
+How do we collect and use information; 
+How do you selectively provide these information and how do you access and update these information;
+Sharing and safety of information and applicable scope and revision of privacy policy;
+
+Information we collect;
+We collect two kinds of information of you: Personal information (personal information is the data that can be used to solely identify or contact some person) and non-personal data (i.e., the data that will not be directly associated with any special individual). If we merge non-personal information and personal information, such information will be deemed as personal information within the period of keeping merger.
+
+How do we collect and use information
+Collection and use of personal information 
+When you and Robotleo Intellectual Technology Co., Ltd. (hereinafter referred to as "Robotleo" or "we") and its associated companies, you may be required to provide some personal information required for your agreement to use our basic product services. Such personal information may be merged with other information and used to improve our product or service, etc. 
+The following are the types of personal information that may be collected by Robotleo and some examples for how we use such information.
+
+Collection of personal information 
+When you create the Robotleo account, download and update the Robotleo software, register, participate in online investigation or participate in other interactions with us, we will require you to provide personal information, including but not limited to your name, telephone number, email address, mailing address, etc. 
+When you purchase the products and services of Robotleo, we will collect related personal information, including but not limited to: Trading details, bank account, credit card details, bill address, credit examination and other financial information, contact and exchange records, etc. 
+When you use the products of Robotleo and share your content with your family and friends, send information and products or invite others in the Robotleo forum, Robotleo will collect the personal information related to the aforesaid person that you provide, such as name, email address, email address and telephone number, etc. 
+When you first use and activate the mobile device of Robotleo, your mobile user identification information, sole identification code of mobile device and rough geographic location of your device will be sent to Robotleo. The collection of the above information may be applicable for you to update the system or software, restore factory reset, etc. 
+
+The use of personal information 
+Robotleo will use your personal information in strict obedience with this privacy policy and the content recorded in the updating. Your personal information will be used for and only for such purposes as have been confirmed and agreed by you when being gathered. For any other purposes beyond that, we will seek your approval in advance. 
+The personal information we collect will be used to provide you with Robotleo's products and services, to process your order or to perform your contract with us, so as to ensure the functions and security of our products and services and to guard against and investigate fraud or other misuses by verifying your identity. 
+The personal information we collect will be used to develop our products and services. In general, we only use general and statistical information for this purpose. 
+The personal information we collect will be used in our communication with you, including sending notice to you upon renewal and publicization of Robotleo's products or services.
+The personal information we collect will be used to customize the products, therefore providing you with more favorable services. For example, we will recommend and show you contents and ads that are specially designed for you. Or the information may be used in investigations. 
+If you participate in promotions like lottery or competition held by Robotleo, we will manage such activities with your personal information. 
+Your identifying information for mobile users, the unique identifying code of the mobile device and your location may be used to activate your warranty service and specific software licenses, through which we may invite you to take part in our surveys. In addition, we may use this information to upgrade our products and analyze how efficiently our business operates. But we will not apply your information in tracing your location. 
+
+Collection and use of non-personal information 
+Meanwhile, to operate and improve its technologies and services, Robotleo will collect and use your non-personal information at its discretion, which will help Robotleo to provide you with a better user experience and preferable services. 
+
+Collection of non-personal information 
+When you open a Robotleo account, download and update Robotleo software, register with Robotleo's mobile online retail store or take part in online investigation or other activities with Robotleo, we will collect your information, including occupation, language, postcode, area code and time zone where products of Robotleo are used. 
+Information concerning your using habit and problems -- when you use products of Robotleo, we will, based on our needs, collect part of your internet use conditions in anonymity as a way to provide a better online experience. Besides, if Robotleo system fails to work normally or breaks down, we will collect some environment information like device ID, IP address and routing data that may facilitate diagnosing problems.
+Cookies and information collected through other technologies -- your non-personal information will be collected and stored through cookies which may be used in website of Robotleo, online services, interactive applications, emails and advertising and through other technologies such as image tags and web beacon.
+Log information -- when you visit Robotleo intelligent network, our server will automatically record some log information. This type of log information recorded by the server may include, but be not limited to the following information: IP address, type of browser, language of browser, referring page, operating system, date/time stamp and clickstream data. 
+
+The use of non-personal information 
+The non-personal information collected by us, including occupation, language, postcode, area code and time zone where products of Robotleo are used, will facilitate us to know more about user behavior, accordingly to improve our products, services and advertising. 
+On the basis of statistical data collected through analyzing Robotleo's "Plan for Improving User Experience", we may keep promoting our products and services in operating experience and performance, fixing bugs and refining functions, etc. 
+We use what we collect through cookies and other technologies (such as image tags) not only to provide better user experience to you, but also to enhance our overall services. For example, upon recording your settings concerning preferable language, we can display our services in your preferred language. We may send readable emails through image tags which will notify us whether our emails have been read. Through these notices, we may send fewer emails to users or even refrain from sending emails. 
+
+How users provide information selectively. 
+As everyone has a different focus on privacy right, we will clearly indicate how we collect information so that you can choose the way of providing information. 
+You may decide whether to join the "Plan for Improving User Experience" at your discretion, that is, you may exit the "Plan for Improving User Experience" by closing its switch. 
+You may alter your settings about location through the function of the settings on your device, for example, your location provided to Robotleo may be modified if you change or forbid positioning method or locating server, or alter the accuracy of your location information. 
+You can modify your browser settings, choosing to reject or accept cookies as you wish, delete them from your storage device at any time, or make yourself notified when your information is recorded through cookies. 
+
+Personal information accessing and updating 
+Whenever you resort to our services, we will endeavor to give you access to your personal information. If there is something wrong with the information, we will try every way to let you update or delete such information as soon as possible (unless we have to retain it for legitimate business or legal reasons). When updating your personal information, you may be required to verify your identity before such request is processed. 
+We may reject requests that are unreasonably repetitive, require excessive technical input, pose risks to the privacy of others, or are extremely unrealistic. 
+We will let you access to and alter your information as long as we have the capacity and it does not require too much input. We strive to maintain our server at a perfect status to prevent information from accidental or malicious destruction. Therefore, when you delete information from our server, we may not immediately remove residual copies of this information from the server in use, nor may we delete the corresponding information from the backup system. 
+
+Sharing information with a third party 
+Except for limited sharing as set forth in this privacy policy, we will keep your personal information strictly confidential and will not share your personal information with any third parties. 
+You hereby authorize that, in the following cases, we may share your personal information with a third party without needing your approval: 
+We may share this personal information with a third party for legal investigations, litigation, enforcement or other legally forcible regulations or requirements. 
+We may provide the personal information to our subsidiaries, affiliates or other trustworthy companies or individuals so that they can process it on our behalf. We shall require the above parties to agree to process such personal information in accordance with our regulations, this Privacy Policy, and any other applicable confidentiality and security measures.
+If we are subject to reorganization, merger or selling, we shall continue to follow the current privacy policy to ensure it confidential and notify all affected users before transferring all personal information we have collected.
+We may share aggregated, non-personal information with the public and partners on the basis of the need to operate or protect users, including when we need to demonstrate the overall usage trends of our products or services. 
+
+Information security 
+We will try our best to protect our users' information saved by us from being accessed to, tampered with, disclosed or destroyed without authorization. To this end, we are to take the following measures in particular: 
+We use SSL to encrypt many services. 
+We will review practices in information collecting, saving and processing (including physical security measures) to avoid unauthorized access to various systems. 
+We only allow Robotleo's employees and personnel of companies authorized to handle this information on our behalf to access to the personal information, since they need to know it when processing. Meanwhile, they need to strictly perform confidentiality obligations stipulated in contracts. Anyone who fails to do so will be investigated for legal responsibility, or their relationship with Robotleo will be forced to terminate. 
+For us, the security of your information is very important. Therefore, with a commitment to protect the security of your personal information, we will implement several security measures such as security encryption throughout storage and transmission to prevent your information from being accessed, used or disclosed without authorization. Meanwhile, except the user himself, anyone else has no right to access to the specific content under encryption.
+
+Scope of the privacy policy 
+Our privacy policy does not apply to products and/or services of third parties. Products and services of a third party may be involved in those of Robotleo. When you use third-party products or receive services from them, they may obtain your information, so we hereby remind you to read the third-party privacy policy. 
+Besides, this privacy policy is not applicable when your data is collected by external websites after you click on the link.
+
+Collection and use of children's personal information 
+We recommend that children under the age of 13 use Robotleo products or services with the permission and guidance of their legal guardian. 
+Robotleo will not collect personal information when it knows that the counterpary is a kid, nor will it disclose his personal information to any third party. The guardian has the right to refuse Robotleo and its affiliates to further collect the personal information of the ward, or request them to delete such information. Upon finding that we have collected personal information from children under the age of 13, we will take steps to remove such information as soon as possible. 
+
+Amendments to this privacy policy 
+This privacy policy allows for adjustments. We will not diminish your rights under this privacy policy without your express consent, unless sending a notice to your email provided by you or post an announcement on the website. 

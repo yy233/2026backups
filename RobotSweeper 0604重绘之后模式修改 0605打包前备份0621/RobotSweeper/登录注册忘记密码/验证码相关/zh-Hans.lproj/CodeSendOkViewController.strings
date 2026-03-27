@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "手机号码"; ObjectID = "2I3-7e-1PE"; */
+"2I3-7e-1PE.text" = "手机号码";
+
+/* Class = "UILabel"; text = "验证码"; ObjectID = "33e-Zc-3u0"; */
+"33e-Zc-3u0.text" = "验证码";
+
+/* Class = "UIButton"; normalTitle = "提   交"; ObjectID = "C3b-Vw-7oG"; */
+"C3b-Vw-7oG.normalTitle" = "提   交";
+
+/* Class = "UILabel"; text = "接收短信"; ObjectID = "MRY-H9-lJx"; */
+"MRY-H9-lJx.text" = "接收短信";
+
+/* Class = "UILabel"; text = "请填写验证码"; ObjectID = "Rsz-ZS-RNq"; */
+"Rsz-ZS-RNq.text" = "请填写验证码";
+
+/* Class = "UILabel"; text = "短信验证码已发送"; ObjectID = "fwU-CP-mrw"; */
+"fwU-CP-mrw.text" = "短信验证码已发送";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "kqF-3T-5Im"; */
+"kqF-3T-5Im.placeholder" = "请输入验证码";

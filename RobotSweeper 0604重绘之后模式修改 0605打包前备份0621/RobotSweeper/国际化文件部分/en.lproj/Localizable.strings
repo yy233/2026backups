@@ -1,0 +1,812 @@
+/* 
+  Localizable.strings
+  RobotSweeper
+
+  Created by Joey on 2018/11/12.
+  Copyright © 2018年 余莹. All rights reserved.
+*/
+
+"机器人" = "Clean Robot";
+"搜索机器人" = "Search robot";
+"连接机器人" = "Link robot";
+"添加方式一" = "Add mode 1";
+
+"1.请注意：每一次添加机器人操作，只支持一部手机" = "1. Please note: only one mobile phone is supported each time robots are added.";
+"2.请把手机靠近要添加的机器人" = "2.Put your phone close to the robot you want to add.";
+"3.请打开机器人的电源开关，并等待启动完成，网络连接成功语音提示" = "3.Please turn on the power switch of the robot and wait for startup." ;
+"3.请打开机器人的电源开关，并等待启动完成的语音提示" = "3.Please turn on the power switch of the robot and wait for the voice prompt to start." ;//1220修改
+"5.你可以，点击开始添加，并按照提示操作" = "5. You can click to add and follow the prompts";//1220修改
+"1.请打开机器人的电源开关，并等待启动完成的语音提示" = "1.Please turn on the power switch of the robot and wait for the voice prompt to start.";//1220修改
+"3.请注意：每一次添加机器人操作，只支持一部手机" = "3. Please note: only one mobile phone is supported each time robots are added.";//1220修改
+"4.请长按机器人上的Wi-Fi重置按钮3秒以上，直到听到提示音为止 (Wi-Fi重置按钮见说明书)" = "4.Long press the Wi-Fi reset button on the robot for more than 3 seconds until you hear the prompt.(Wi-Fi reset button please see the Instruction manual)";//1220修改
+
+"4.请长按机器人上的Wi-Fi重置按钮3秒以上，直到听到提示音为止" = "4.Long press the wi-fi reset button on the robot for more than 3 seconds until you hear the prompt.";
+"5.点击切换Wi-Fi热点，将手机Wi-Fi切换到“|”热点上" = "5.Click to switch wi-fi hotspots to switch your phone's wi-fi to “|” hotspots.";
+"6.点击搜索机器人，等待手机APP出现下一步操作的页面" = "6.Click the search robot and wait for the next page of the mobile APP.";
+"无法跳转到设置页,请手动切换到系统设置界面,设置权限" = "Unable to jump to the setting page, please manually switch to the system setting interface to set permissions";
+"无法跳转到设置页,请手动切换到系统设置界面,更换Wi-Fi热点" = "Unable to jump to the Settings page, please manually switch to the system setting interface to replace the wi-fi hotspots";
+"机器人联网失败 请重新添加" = "Bot networking failed please readd";
+"正在切换网络，网络切换较慢请稍后" = "Network switching is underway. Network switching is slow, please wait";
+"连接机器人失败，请重新搜索" = "Connection bot failed. Please research";
+
+"请将手机连接到扫地机的网络" = "Please connect the phone to the net of the sweeper";
+//
+"添加方式二" = "Add mode 2";
+"1.其他客户端已绑定机器人" = "1. Other clients are bound to robots.";
+"2.该客户端通过‘设备二维码分享’进行了设备分享" = "2. The client Shared the device through “device qr code sharing“.";
+"3.你可以，通过扫描二维码添加到机器人" = "3.You can add it to the robot by scanning the qr code.";
+"连接机器人成功" = "Connect the robot successfully";
+"提示" = "prompt";
+"该机器人暂无法添加，请先升级APP" = "The robot cannot be added for the moment. Please update the APP first";
+//
+
+
+
+
+
+//
+"个人中心" = "Personal center";
+"我的账户" = "My account";
+"已经绑定了%lu台设备" =  "%lu Devices have been bound";
+"修改密码" = "Modify password";
+"请输入当前密码" = "Please input current pwd";
+"新密码" = "New PWD";
+"确认密码" = "Confirm  PWD";
+
+"密码长度 必须是字母或者数字，区分大小写" = "The length of the password must be letters or numbers, matching case ";//The length of the password is between 6 and 16 bits and the password must be letter or number, and case sensitive
+"设备管理" = "Device management";
+"添加设备" = "Add device";
+"解除绑定" = "Relieve binding";
+"您将与这台设备解除绑定" = "You will relieve binding with this device";
+"设备详情" = "Device details";
+"修改设备名称" = "Modify name of device";
+"扫描二维码，即可绑定这台设备" = "Scan two-dimensional code to bind this device";
+"绑定时间" = "Binding time";
+"消息中心" = "Message center";
+"设备信息" = "Device information";
+"系统消息" = "System message";
+"反馈问题" = "Feedback issue";
+"请输入您的反馈详情" = "Please input your feedback details";
+"联系方式" = "Contact information";
+"提交" = "Submit";//Submit Submission
+"产品指南" = "Product instruction";
+"退出登录" = "Exit";//"Log out";
+"退出" = "Exit";
+"取消" = "Cancel";
+"退出失败" = "Exit fail";
+"是否退出当前账户" = "Whether to quit current account";
+"手机号" = "Cell phone number";
+//
+"密码长度6～12位,必须是字母或数字,区分大小写" = "The length of the password is between 6 and 12 bits and the password must be letter or number, and case sensitive";
+"请输入新密码" = "Please Input new pwd";
+"输入新密码" = "Input new password";
+"确认新密码" = "Confirm new pwd";
+"当前密码" = "Current PWD";
+"请输入原密码" = "Please enter the current password";
+"原密码错误" = "Current password error";
+"修改密码成功" = "Changing password success";
+"修改密码" = "Changing password";
+//
+"绑定时间" = "Binding time";
+"设备二维码分享" = "Sharing of two-dimensional code of device";//QR code
+"设备名称" = "Device name";
+"解绑提示" = "Unbundling prompt";
+"您将与这台机器人解除绑定" = "You will unbind the robot";
+//
+"客服电话:400 1280 466" =  "Consumer hotline:400 1280 466";
+"反馈" = "Feedback";
+"请输入反馈内容" = "Please input feedback";
+"请输入联系方式" = "Please input contact information";
+"请输入正确的联系方式" = "Please input the correct contact information";
+"联系方式不支持汉字" = "Contact information does not support Chinese characters";
+//
+"全部设备信息将被删除" = "All device information will be deleted";
+".全部系统消息将被删除" = "All system messages will be deleted";
+"删除" = "delete";
+//
+"当前版本" = "Current version";
+"版权信息" = "Copyright information";
+"版本" = "Version";
+"客户端更新日志" = "App update Info";//1220新增
+"客户端更新详情" = "App update details";//1220新增
+
+"控制板更新详情" = "Control Panel Update Details";//0110更新
+"导航版更新详情" = "Navigation version update details";//0110更新
+"机器人硬件更新详情" = "Robot Hardware Update Details";//0110更新
+"机器人软件更新详情" = "Robot Software Update Details";//0110更新
+"机器人硬件"= "Robot Hardware";//0110更新
+"机器人软件"= "Robot Software";//0110更新
+"机器人更新日志" = "Robot Update Log";
+
+
+
+//txt文件名
+"产品指南1.0" = "product instruction1.0";
+"版权信息1.0" = "copyrightInfo1.0";
+
+
+//地图____________________________
+//顶部
+"清扫\n面积" = "Clean \n Area";
+"剩余\n电量" = "Battery \n reserve";//battery reserve "Remaining \n battery"
+"清扫\n时间" = "Clean \n time";
+
+/**
+
+ 
+ 
+ 
+ var arrOfModelStr = ["规划","重点","区域","沿边"]
+ //模式按钮的选择按钮
+ var arrOfModelBtnTitleStr = ["模式：规划","模式：重点","模式：区域","模式：沿边"]//初始view上的字符需要更改时更改掉
+ 
+ var arrOfStrengthBtnTitleStr = ["力度：标准","力度：静音","力度：强力"]
+ //预约所用的两种模式数组 2个模式
+ var yuyueModeArrMain:NSMutableArray = ["自动清扫","边角清扫"];
+ var yuyueModeArrO:NSMutableArray = ["自动清扫","边角清扫"];//自动
+ var yuyueModeArrT:NSMutableArray = ["规划清扫","沿边清扫"];//规划
+ 
+ //地图所用的两种模式数组 4个模式 似乎是用于弹出view的label
+ var mapModeArrMain = ["自动清扫","定点清扫","区域清扫","边角清扫"]
+ var mapModeArrO = ["自动清扫","定点清扫","区域清扫","边角清扫"]
+ var mapModeArrT = ["规划清扫","重点清扫","区域清扫","沿边清扫"]//规划
+ 
+ var mapModeBtnTitleStrMain = ["模式：自动","模式：定点","模式：区域","模式：边角"]
+ var mapModeBtnTitleStrO = ["模式：自动","模式：定点","模式：区域","模式：边角"]
+ var mapModeBtnTitleStrT = ["模式：规划","模式：重点","模式：区域","模式：沿边"]//规划
+ */
+//地图中部
+"力度：标准"  = "Strength: standard";
+"力度：静音"  = "Strength: silence";
+"力度：强力"  = "Strength: powerful";
+
+"模式：规划"  = "Mode: planning";
+"模式：自动"  = "Mode: automation";
+"模式：定点"  = "Mode: emphasis";
+"模式：重点"  = "Mode: emphasis";//fixed point
+"模式：区域"  = "Mode: area";
+"模式：边角"  = "Mode: corner";
+"模式：沿边"  = "Mode: edgewise";
+"模式：4*4" = "Mode: 4*4";//12134*4清扫模式新增
+
+"模式：专扫" = "Mode:emphasis";//20190401
+
+//20190401 翻译专扫的按钮部分
+"定点" = "point";//点
+"专扫" = "zone"; //区
+
+
+//力度选择后
+"标准" = "standard";
+"静音" = "silence";
+"强力" = "powerful";
+
+//模式选择后
+"自动清扫" = "Automatic cleaning";
+"规划清扫" = "Planned cleaning";
+"定点清扫" = "emphasis cleaning";//"Cleaning at fixed point";
+"重点清扫" = "emphasis cleaning";//"Key cleaning";
+"区域清扫" = "Regional cleaning";
+"边角清扫" = "Corner cleaning";
+"沿边清扫" = "Cleaning along side";
+"4*4清扫" = "4*4 cleaning";
+
+
+//1210 在当前模式没有具体数据时的弹出框
+"请选择模式" = "Please select mode";
+
+//地图底部
+"回充" = "Recharging";
+"预约" = "Appointment";//reservation Appointment
+"清扫" = "Cleaning";
+"虚拟墙" = "Virtual wall";
+"遥控" = "Remote control";
+"监控" = "Monitoring";
+
+"返回" = "Back";//20190325返回按钮
+//
+
+//地图升级弹出框
+"开始升级" = "Start upgrade";
+"发现机器人固件有版本更新,是否让它开始进行升级" = "Find robot firmware has updatable version,  do you want it start updating?";
+"下次再说" = "Make it another time";
+"现在升级" = "Now update";
+"暂不升级" = "Not upgrade";
+"去升级" = "To upgrade";
+//地图重绘弹出框
+//"是否清除当前地图信息" = "Whether or not to delete the current map information";
+"是否清除当前地图信息" = "Do you want to clear the current map information?";//20190301
+"确认清除" = "Clear confirmation";
+ // bottomView.clearnL.text = "清扫"
+"清扫" = "Cleaning";
+"停止" = "Stop";
+"暂停" = "Pause";//20190418
+//地图的其他view
+"清除虚拟墙" = "Delete virtual wall";
+"清除禁扫区" = "Delete all zones";
+"虚拟墙状态，可绘制最多7条虚拟墙" = "Virtual wall status, maximum 7 virtual walls may be drawn";
+"当前为编辑虚拟墙状态：\n最多可以绘制七条虚拟墙 / 三个禁扫区\n如果环境变化过大，可能导致禁区失效。\n请不要在充电座附近画虚拟墙" = "Current state of virtual wall: \n can draw up to 7 virtual walls / 3 forbidden zones \n if the environment changes too much, it may cause the forbidden zone to be invalid. Please don't draw virtual wall near the charging station";
+"当前为编辑虚拟墙状态：\n最多可以绘制七条虚拟墙 / 三个禁扫区。\n请不要在充电座附近画虚拟墙" = "Current state of virtual wall: \n can draw up to 7 virtual walls / 3 forbidden zones \n Please don't draw virtual wall near the charging station";//20190315不使用虚拟墙线了
+
+"当前为编辑虚拟墙状态：\n最多可以绘制三个禁扫区。\n请不要在充电座附近画虚拟墙" = "Current state of virtual wall: \n can draw up to 3 forbidden zones \n Please don't draw virtual wall near the charging station";
+"当前为编辑虚拟墙状态：\n最多可以绘制三个禁扫区。" = "Current state of virtual wall: \n can draw up to 3 forbidden zones.";
+"当前为编辑禁扫区状态：\n最多可以绘制五个禁扫区。" = "Current state of Forbidden area: \n can draw up to 5 Forbidden area.";
+"当前为编辑禁扫区状态：\n最多可以绘制三个禁扫区。" = "Current state of Forbidden area: \n can draw up to 3 Forbidden area.";
+"禁扫区已达上限" = "The exclusion zone has reached its limit";//20190315
+"禁扫区" = "Forbidden area";
+"添加禁扫区" = "Add zones";
+
+//0213添加
+"保存" = "Save";
+"确认" = "Confirm";
+
+//机器人设置____________________________
+"机器人设置" = "Robot settings";
+"打扫记录" = "Cleaning record";
+"通用设置" = "Common settings";
+"设备二维码分享" = "QR code";//"Sharing of two-dimensional code of device";
+"产品指南" = "Product instruction";
+"设备绑定详情" = "Binding details";
+"固件更新" = "Fireware update";
+"关于本机" = "About this machine";
+
+//
+"设备分享" = "Device share";
+"扫描二维码，即可绑定这台设备" = "Scan the qr code can bind the device";
+//
+"设备名称" = "Device name";
+"设备识别码" = "Device ID";
+"机器人编号" = "Robot ID";
+"电池状态" = "Battery status";
+"电池电量" = "Electric quantity of battery";
+"已开机时间" = "Booting time";
+"放电中" = "Discharging";
+"充电中" = "Charging";
+"关机充电中" = "Shutdown charging";//0108新增
+"暂无电量信息" = "No power info";
+"暂无昵称" = "No nickname";
+"设备型号" = "Equipment model";
+//
+"更 新" = "update now";
+"可更新" = "Updatable";
+"无更新" = "No updatable";
+"当前硬件系统版本" = "Current hardware version";//以下 长度不够删除system
+"当前软件系统版本" = "Current software version";
+"硬件系统有可更新的版本" = "Hardware have updatable versions";
+"硬件系统没有可更新的版本" = "Hardware have no updatable versions";
+"软件系统有可更新的版本" = "Software have updatable versions";
+"软件系统没有可更新的版本" = "Software have no updatable versions";
+//
+"此台设备：%@\n已绑定手机号" = "This device: %@\n Cell phone numbers have been bound";
+//
+"提示音音量：" = "Volume of warning tone:";
+"重启设备（软重启）" = "Restart device (soft restart)";
+"是否确定重启设备" =  "Whether to restart device";
+"修改设备昵称" = "Modify device nickname";
+"设备昵称" = "Device nickname";
+"提示音语种" = "Device language";//1221新增
+"无语音提示" = "No voice prompt";//0130新增
+//
+"防跌落" = "Prevent Drop";//20190411新增
+"楼梯台阶等跌落环境,请勿关闭防跌落开关" = "Stairs and other falling environments, Please don't turn off the switch.";
+//
+"最近%lu次的打扫记录详情" = "Details of the recent %lu cleaning record details";
+"清除所有记录" = "Delete all records";
+
+//"累计时长" = "Total time";
+//"累计打扫" = "Total cleaning";
+//"累计次数" = "Total number";Cumulative duration  cumulative cleaning   cumulative number
+"累计时长" = "Cumulative duration";
+"累计打扫" = "Cumulative cleaning";
+"累计次数" = "Cumulative number";
+"地图详情" = "Map details";
+
+"清除日志" = "Clear log";
+"是否清除全部记录" = "Clear all records";
+"清扫力度" = "Cleaning strength";
+"清扫模式" = "Cleaning mode";
+"清扫范围" = "Cleaning scope";
+"工作时长" = "Working hours";
+
+
+//预约
+"预约" = "Appointment";
+"开始时间" = "Starting time";
+"重复规则" = "Repetition rule";
+"目前没有预约\n可点击右上角添加" = "No appointment\nClick on the top right corner to add";
+"单次" = "Once";
+"周一" = "Monday";
+"周二" = "Tuesday";
+"周三" = "Wednesday";
+"周四" = "Thursday";
+"周五" = "Friday";
+"周六" = "Saturday";
+"周日" = "Sunday";
+"周六周日" = "SaturdaySunday";
+"周一周二周三周四周五" ="MondayTuesdayWednesdayThursdayFriday";
+"周一周二周三周四周五周六周日" = "MondayTuesdayWednesdayThursdayFridaySaturdaySunday";
+"周末" = "Weekend";
+"每天" = "Everyday";
+"工作日" = "Workday";
+
+"时" = "H";
+"分" = "M";
+"设置" = "Settings";
+
+//监控遥控
+"剩余\n电量" = "Dump \n energy";
+"遥控\n时间" = "Remote \n time";
+"视频" = "video";
+"开"= "on";
+"关" = "off";
+
+"自动清扫" = "Automatic cleaning";
+"回家充电" = "Charging";
+"是否退出遥控模式,执行自动清扫" = "Whether to exit the remote control mode and perform automatic cleaning.";//1225新增
+"是否退出遥控模式,执行回家充电" = "Whether to exit the remote control mode and perform charging.";
+
+//1225新增 遥控界面方向图标的title
+"左转" = "TURN LEFT";
+"右转" = "TURN RIGHT";
+"向前" = "MOVE FORWARD";
+"风机" = "Fan";//
+
+//注册登录________________文本待改____________
+"短信验证码已发送 请填写验证码" = "SMS verification code has been sent. Please fill in the verification code";
+"目前，仅支持中国大陆地区手机号码。" = "Currently, only mobile phone Numbers in mainland China are supported.";
+"用户许可使用协议和隐私政策" = "User license agreement and privacy policy";
+"请填写手机号" = "Please fill in your phone number";
+"注册账号" = "Registered account";
+"忘记密码" = "Forgot password";
+"注册" = "Registration";
+
+"产品指南" = "Product instruction";
+"版权信息" = "Copyright information";
+
+"权限详情" = "Permissions for details";//0103
+
+"开始时间" = "Begin time";
+"重复规则" = "Repeated rule";
+"单次" = "Once";
+
+//_______________
+//注册忘记密码
+"请输入有效的手机号" = "please enter a valid phone number";
+"请输入手机号" = "Please enter your phone number";
+"使用协议和隐私政策未同意" = "Use protocol and privacy policy disagree";
+
+"确认手机号码" = "Confirm mobile phone number";
+"我们将发送验证码到这个手机号码" = "We will send the verification code to this mobile number";
+
+"取消" = "Cancel";
+"确认" = "Confirm";
+"确定" = "Confirm";
+
+"选择国家和地区代码" = "Select country code";//0104
+//验证码页
+"再次发送验证码" = "Send verification code again";
+"请输入验证码" = "Please enter the verification code";
+//设置密码页
+"温馨提示" = "Warm prompt";
+"请输入6～12位登录密码" = "Please set 6-12 login password";
+"知道了" = "I know";
+"密码必须是数字或字母请重输" = "Passwords must be Numbers or letters please retype";
+"两次密码不同请重输" = "Two different passwords please retype";
+
+///////////////////////////////////////////////////////////
+//／／／／／／————————————http网络code字段里来取+自定文本 ／国际化
+
+"网络请求失败，请查看网络是否可用" = "Network request failed,See if the network is available";
+"网络请求失败，请稍后重试" = "The network request failed, please try again later";//重试
+"网络请求失败，请稍后再试" = "Network request failed, please try again later";//再试
+
+//验证码获取
+"获取验证码过于频繁，请稍后重试" = "Verification code is obtained too frequently, please try again later";
+"获取验证码过于频繁，请明天重试" = "Verification code is obtained too frequently, please try again tomorrow";
+"获取验证码失败，请稍后重试" = "Failed to get verification code. Please try again later";
+"手机号为空" = "The phone number is empty";
+//验证码校验
+"手机号或者验证码不能为空" = "Phone number or verification code cannot be empty" ;
+"您输入的验证码有误，请重新输入" = "The verification code you entered is incorrect, please re-enter";
+"验证码已失效，请重新获取" = "Verification code has expired, please retrieve it";
+//注册
+"该用户已存在" = "The user already exists";
+"注册失败，请稍后再试" = "Registration failed, please try again later";
+"用户名，密码不能为空" = "User name, password cannot be empty";
+//忘密码
+"修改失败，请稍后重试" = "The modification failed. Please try again later";
+//登录
+
+"网络请求失败,请稍后再试" = "Network request failed, please try again later";
+"登录失败,请稍后再试" = "Login failed, please try again later";
+"用户名，密码不能为空" = "User name, password cannot be empty";
+"登录失败，请重新登录" = "Login failed, please login again";
+"用户名或密码错误" = "User name or password error";
+"登录失败，请稍后重试" = "Login failed, please try again later";
+"用户名不存在，请先注册" = "Username does not exist, please register first";//1210新增
+"用户名不存在" = "Username does not exist";//1218新增
+
+//添加扫地机机
+"修改昵称成功" = "Modify nickname successfully";
+"扫地机编号不能为空" = "The sweeper number cannot be empty";
+"用户不存在" = "User does not exist";
+"该扫地机不存在" = "The sweeper does not exist";
+"添加失败" = "Add failure";
+"添加成功" = "Add success";
+"添加失败，请稍后重试" = "Add failed, please try again later";//1210新增
+
+//修改昵称
+"修改昵称成功" = "Modify nickname successfully";
+"修改昵称失败" = "Failed to modify nickname";
+"修改昵称失败，请查看网络是否可用" = "Failed to modify nickname, please check whether the network is available";
+//获取绑定
+"获取绑定时间成功" = "Get Bind time successful";
+"获取绑定时间失败，请查看网络是否可用" = "Failed to get binding time, please check whether the network is available.";
+"获取绑定时间失败" = "Failed to get binding time";
+//删除扫地机 解绑
+"用户名不能为空" = "User name cannot be empty";
+"扫地机编号不能为空" = "The sweeper cannot be empty";
+"该编号扫地机不存在" = "The numbered sweeper does not exist";
+"用户不存在" = "The user does not exist.";
+"解绑失败，请稍后重试" = "Unbind failed. Please try again later.";
+
+"解绑失败,请稍后再试" = "Unbind failed. Please try again later.";//0115新增
+"解绑失败,请刷新后再试" = "Unbind failed. Please refresh and try again";
+"将会解除绑定" = "will be remove the binding";
+"解绑" = "Remove the binding";
+
+//主页获取robot列表
+"获取绑定列表失败" = "Failed to get binding list";
+"获取绑定列表成功" = "Gets the list successfully";
+"用户名不能为空" = "The user name cannot be empty";
+"用户不存在，请重新注册或者联系客服" = "The user does not exist, please re-register or contact customer service";
+"暂未绑定机器人" = "Robot is not bound yet";
+
+//修改密码
+"修改密码成功" = "Password changed successfully";
+
+//消息中心
+"查询消息记录成功" = "Query message record successful";
+"查询消息记录失败" = "The query message record failed";
+"暂无设备消息" = "No device message yet";
+
+"当前删除条目id为空" = "The current deleted entry id is empty";
+"没有找到该用户" = "The user was not found";
+"删除成功" = "Delete the success";
+"删除失败" = "Delete failed";
+//"删除失败，请稍后重试" = "Deletion failed. Please try again later";//日志里也有这个数据
+
+//反馈
+"反馈信息提交成功" = "Feedback submitted successfully";
+"信息提交失败，请查看网络是否可用" = "Information submission failed. Please check whether the network is available.";
+"信息提交失败，请稍后再试" ="Information submission failed, please try again later";
+"反馈信息提交失败" = "Feedback failed to submit";
+"服务器错误" = "Server error";
+"服务器错误，请稍后重试" = "Server error, please try again later";
+"机器不存在" = "Robots don't exist";
+"没有绑定用户" = "No user is bound";
+
+//清扫记录
+"机器人不存在" = "Robots don't exist";
+"没有清扫记录" = "No cleaning record";
+"暂无打扫记录" = "No cleaning record";
+"删除记录成功" = "Record deleted successfully";
+"删除记录失败" = "Record deletion failed";
+"删除失败，请稍后重试" = "Deletion failed. Please try again later";
+
+///////////////////////////////////////////////////////////
+//mbp self.view make:和弹出框的文本相关数据_ bu chong__________________
+//登录//注册忘记密码
+"正在登录，请稍后" = "Logging in";//"Logging in, please wait";
+"登录失败" = "Login failed";
+"请输入账号和密码" = "please enter account number and password";
+
+
+//主页列表
+"等待机器人连接" = "Waiting for robot connection";
+"登出失败" = "Logout failed";
+"xmpp登录失败" = "XMPP login failed";
+"用户连接失败" = "User connection failed";
+"请刷新后再试" = "please refresh and try again";
+"用户离线"  = "user offline";
+"用户上线" = "users online";
+"连接机器人失败,请稍后重试" = "Failed to connect the robot. Please try again later";
+
+
+
+//个人中心
+"网络异常,请检查您的网络设置" = "Network exception, please check your network Settings";
+"网络异常,请检查您的网络设置!" = "Network exception, please check your network Settings";
+"正在请求绑定时间" = "Requesting binding time";
+"正在解除绑定" = "Unbinding in progress";
+"解绑失败" = "Unbundling failure";
+"解绑成功" = "Unbundling success";
+"修改昵称" = "changes nickname";
+"请输入昵称" = "Please enter nickname";
+"正在修改昵称" = "Changing nickname";
+//消息中心
+"正在加载" = "loading";
+"暂无其他数据" = "no other data available";
+"当前设备信息,已为空" = "The current device information is empty";
+"暂无系统消息功能" = " no system message function at present";
+//反馈
+"正在上传" = "Are uploading";
+//end
+
+
+//地图页
+   //0116
+"是否停止清扫去充电" = "Whether to stop cleaning and charging";
+"是否暂停清扫" = "Whether to stop cleaning";
+"是否开始清扫" = "Whether to start cleaning";
+
+//地图codeerr和状态码
+//预约
+"删除定时" = "Delete the timing";
+"正在请求预约信息" = "requesting appointment information";
+"正在删除预约" = "deleting appointment information";
+"正在修改预约" = "changing reservation information";
+"扫地机未回复预约信息" = "The sweeper did not reply to the appointment information";
+"扫地机离线，暂不可修改预约" = "The sweeper offline, cannot modify appointment temporarily";
+"预约数据有误，可添加" = "wrong appointment information, can be added";
+"扫地机离线" = "sweeper offline";
+"扫地机在线" = "sweeper online";
+"扫地机上线" = "sweeper online";
+"暂无预约数据，可添加" = "no appointment information available, you can add";
+
+"删除预约成功" = "delete appointment successful";
+"删除预约失败" = "delete appointment failed";
+"修改预约成功" = "modified appointment successful";
+"修改预约失败" = "modified appointment failed";
+
+"离线状态，暂不可预约" = "offline status, not available for appointment";
+"暂可添加一个预约" = "only one appointment supported";
+
+"正在添加预约" = "Adding an appointment";
+"发送失败" = "send failed";
+"预约成功" = "Make an appointment success";
+"预约失败" = "Make an appointment to failure";
+
+
+
+//虚拟墙
+
+
+//遥控
+"机器人处于离线状态，暂时不可控制" = "The robot is offline";
+"用户处于离线状态，暂时不可控制" = "The user is offline";
+"机器人处于离线状态,暂时不可连接监控" = "The robot is offline";
+"用户处于离线状态,暂时不可连接监控" = "The user is offline";
+"机器人处于离线状态" = "The robot is offline";
+"用户处于离线状态" = "The user is offline";
+"电量过低,暂时不可操纵" = "The power is too low and cannot control its";
+"机器人处于清扫状态，暂时不可控制" = "The robot is cleaning and cannot control its";
+"机器人处于充电状态，暂时不可控制" = "The robot is charging and cannot control its";//0108
+
+
+//升级界面
+//"升级成功" "升级失败"
+"扫地机电量不足" = "Electricity is low";
+"连接超时" = "Connection timeout";//514 1203 连接超时，请确认网络状态
+"连接超时,请确认网络状态" = "Connection timed out, please confirm network status";
+"长时间未收到升级相关数据,请确认网络状态" = "Not receiving upgrade related data for a long time,please confirm network status";//1214
+"扫地机正在升级,暂时无法返回到其他界面" = "The sweeper is being upgraded and cannot return to the other interface for the time being";
+"开始下载" = "Download now";
+"下载中" = "Downloading";
+"软件下载中" = "Software is downloading"; //1214新增文本
+"硬件下载中" = "Hardware is downloading"; //1214新增文本
+"下载成功" = "Download successful";
+"下载失败" = "Download failed";//519 1203 下载失败，请稍后重试
+"下载失败，请稍后重试" = "Download failed, please try again later";
+"解压新版本，删除旧版本" = "Extract new version, delete old version";
+"升级检测中" = "Upgrade under test";//521 1203  升级条件检测中，请稍后
+"升级条件检测中，请稍后" = "Upgrade condition detection, please wait";
+//控制板 ->硬件系统
+"控制板新包下载中" = "New package download for control panel";
+"控制板新包下载完成" = "Control panel new package download completed";
+"控制板新包烧写中" = "New package of control panel is burning and writing";
+"控制板新包烧写完成,检测升级结果" = "New package burning of control panel is completed, test and upgrade results";
+
+"硬件系统新包下载中" = "Hardware system new package download";
+"硬件系统新包下载完成" = "Hardware system new package download completed";
+"硬件系统新包烧写中" = "Hardware system new package burning";
+"硬件系统新包烧写完成,检测升级结果" = "The hardware system is successfully written and the upgrade result is detected.";
+//导航板->软件系统
+"导航板新包下载中" = "Navigation board new package download";
+"导航板新包下载成功" = "Navigation board new package downloaded successfully";
+"导航板新包烧写中" = "Navigation board new package burning";
+"检测升级结果" = "Test upgrade result";
+"机器人正在重新启动，时间可能需要三分钟，请耐心等候" = "The robot is restarting, the time may take three minutes, please be patient";
+
+"软件系统新包下载中" = "Software system new package download";
+"软件系统新包下载成功" = "Software system new package downloaded successfully";
+"软件系统新包烧写中" = "Software system new package burning";
+//
+"扫地机升级中"= "Upgrade";//扫地机---
+"升级中"= "Upgrade";//扫地机---
+//533+请稍后重试
+"更新失败" = "Update failed";
+"机器人更新失败" = "Update failed";
+"机器人下载新包失败" = "Download failed";
+"导航板更新失败" = "Update failed";
+"导航板下载新包失败" = "Download failed";
+"控制板更新失败" = "Update failed";
+"控制板下载新包失败" = "Download failed";
+
+"更新失败，请稍后重试" = "Update failed, please try again later";
+"机器人更新失败，请稍后重试" = "Robot update failed, please try again later";
+"机器人下载新包失败，请稍后重试" = "Robot new package download failed, please try again later";
+"软件系统更新失败，请稍后重试" = "Software system update failed, please try again later";
+"软件系统下载新包失败，请稍后重试" = "Software system download failed, please try again later";
+"硬件系统更新失败，请稍后重试" = "Hardware system update failed, please try again later";
+"硬件系统下载新包失败，请稍后重试" = "Hardware system download failed, please try again later";
+//-- 升级失败
+"升级失败，请确保机器人电量大于50%或在充电状态中" = "Upgrade failed, please ensure that the robot power is more than 50% or in the charging state";
+"请确保机器人电量大于50%或在充电状态中" = "please ensure that the robot power is more than 50% or in the charging state";
+
+//添加扫地机
+//在顶上全有searchvc 其他vc
+"正在提交 请稍后" = "submission in progress, please wait";
+"连接成功，可以提交Wi-Fi名和密码" = "successful connection,can submission";
+"发送Wi-Fi名和密码成功,请等待机器人账号注册" = "sent successfully, please wait for the robot account registration";
+"等待通信连接" = "Waiting for communication connection";
+"请输入Wi-Fi名" = "Please enter wi-fi name";
+"Wi-Fi密码不能为空" = "The wi-fi password cannot be empty";
+
+"您将离开添加界面" = "you will leave the add interface";
+"长时间没有接收到机器人的回复，添加失败。您将离开添加界面，可重新添加。" = "Failed to receive a reply from the robot for a long time. You will leave the add screen and can add again.";//
+"返回提示" = "return prompt";
+"xmpp登录成功" = "XMPP logged in successfully";
+"xmpp登录失败" = "XMPP login failed";
+"机器人账号连接成功，可点击按钮保存该机器人" = "The robot account has been successfully connected. Click the button to add the robot";
+"扫地机长时间未回复信息,可重新添加" = "Long time no reply message, can be added again";
+"正在登录本账号，请稍后" = "Login to this account, please wait";
+"正在连接机器人，请稍后" = "Connecting robot, please wait";
+"请输入机器人昵称" = "Please enter the robot nickname";
+//二维码添加
+
+
+"添加机器人" = "Add robot";
+"相册" = "Photo";
+"APP升级后，才能添加该扫地机" = "The sweeper can only be added after the APP is upgraded";
+"您是否要添加扫地机" = "Do you want to add the sweeper";
+"添加" = "Add";
+"正在添加扫地机"  = "Sweeper is being added";
+"将二维码放入框内,即可自动扫描" = "Put the two-dimensional code into the box, and it can be scanned automatically";
+"未发现二维码，请确认后重试" = "No QR code was found, and please try again after confirm";//0123
+
+//1205 新版的添加方式一 缺少的国际化文本 暂用此文本 以后可能有改动
+"开始添加" = "Add robot";
+"连接机器人热点" = "Connect robot wifi";
+"正在搜索当前Wi-Fi" = "searching current wi-fi";
+"机器人配对" = "Robot matching";
+"机器人配对成功" = "Robot matching successful"; //得到udp数据后的label文本
+"等待机器人回复" = "Waiting for robot reply";
+"正在请求机器人信息" = "requesting robot info";
+"暂时无法添加该机器人，请先升级APP" = "The robot cannot be added temporarily. Please upgrade the APP first";
+
+//1210添加方式一文本继续查漏补缺
+"设置机器人工作Wi-Fi" = "Set robot working Wi-Fi";
+"设置昵称" = "Set nickname";
+"配对成功,正在发送Wi-Fi数据" = "Pairing is successful, Wi-Fi data is being sent";
+"发送Wi-Fi数据成功,等待机器人返信息\n等待时间会较长" = "Send Wi-Fi data successfully, wait for the robot to return info\nWaiting time will be longer";
+"已匹配成功" = "Successfully matched";
+"下一步" = "Next step";
+
+//1210添加方式1的轮播图文本
+
+
+////////////////////___________扫地机给的数据国际化
+"充电已满" = "Full charging";//1221更换
+"回充中" = "Start recharging";//1221更换
+"异常中" = "Error state";//1221新增
+//"升级中"
+//1221新增
+"待机中" = "Standby state";//"Standby";
+//"清扫中" = "Start cleaning";//cleaning";
+"清扫中" = "Cleaning";//cleaning";
+"停止清扫" = "Stop cleaning";//"Stop clean";
+"请拔掉充电线" = "Please unplug the charging cable";
+"开始回充" = "Start recharging";
+"停止回充" = "Stop recharging";
+"充电中"  = "Charging";//"In charge";
+"充电完成" = "Full charging";//"Charge complete";
+"回充失败" = "Recharging failure";//Recharge failed";
+"未找到集尘盒" = "No dust collection box is found";//Dust box not found";
+"集尘盒已放回" ="The dust collection box has been found";// "Dust collection box has been put back";
+"集尘盒已满" = "Dust collection box has been full";//"The dust box is full";
+"定位" = "Positioning";
+"电量不足" = "Low power";
+"升级" = "upgrade";
+"开始升级" = "Start upgrade";
+"升级中" = "upgrading";
+"升级成功" = "Upgrade success";//Upgrade successful";
+"升级失败" = "Upgrade failure";//Upgrade failed ";
+
+"扫地机被抬起" = "The sweeper is lifted";
+"左轮悬空" = "Left wheel suspended";
+"右轮悬空" = "Right wheel suspended";
+"边检值固定" = "Fixed boundary value";
+"边检值异常" = "Abnormal boundary value";
+"超声波值固定" = "Fixed ultrasonic value";
+"超声波值固定" = "Abnormal ultrasonic value";
+"地检值固定" = "Fixed ground check value";
+"地检值异常" = "Abnormal ground detection value";
+"风扇锁定" = "Fan lock";
+
+"前盖碰撞装置失效" = "Front cover collision device fails";
+"红外传感器值固定" = "Fixed value of infrared sensor";
+"红外传感器值异常" = "Abnormal value of infrared sensor";
+"驱动轮不转" = "The driving wheel does not turn";
+"驱动轮过电流" = "Drive wheel overcurrent";
+"扫地机被卡主" = "The sweeper is stuck";
+"扫地机被卡住" = "The sweeper is stuck";
+
+
+"滚扫过载" = "Roller sweep overload";
+"中扫锁定" = "Middle sweep lock";
+"边刷过电流" = "Side brush current";
+"边刷锁定" = "brush lock";
+"左轮过载" = "Left wheel overload";
+"右轮过载" = "Right wheel overload";
+"左边刷过载" = "Left brush overload";
+"右边刷过载" = "Right brush overload";
+"停止充电" = "Stop charging";
+"休眠中" = "Sleep";
+"请放置到安全区域" = "Place the machine at a safe location";//"Please put it in a safe area";
+"机器人空闲时间过长,会造成无效耗电;如果已经设定预约,建议您让机器人回家充电.如果暂时不需要清扫,建议您关闭船型开关." = "The idle time of the robot is too long, which will cause inefficient power consumption; If the appointment has been set, it is suggested that you let the robot go home to charge. If cleaning is not needed temporarily, it is suggested that you turn off the boat switch.";
+//新增的67 68 code error
+"扫地机发生碰撞" = "The sweeper collided";
+"扫地机遇到悬崖" = "Sweeper meets the cliff";
+
+//例如E025的数据现在改为以下弹出框 1130已z
+"激光测距值固定" = "Fixed laser range measurement";
+"激光头损坏" = "Laser head damage";
+"视频板通信异常" = "Video board communication is abnormal";
+"惯导板通信异常" = "Inertial board communication abnormality";
+"控制板1分钟未收到导航板心跳" = "The control board did not receive the navigation board heartbeat for 1 minute";
+"导航板1分钟未收到控制板传感器数据" = "The navigation board did not receive the control panel sensor data for 1 minute";
+
+"左侧边检故障" = "Left side check failure";
+"中间边检故障" = "Intermediate edge detection failure";
+"右侧边检故障" = "Right edge check failure";
+
+"左地检值异常" = "Left ground check exception";
+"中间地检值异常" = "Intermediate ground check abnormality";
+"右地检值异常" = "Right ground check exception";
+"风扇过电流" = "Fan overcurrent";
+"电池发生故障" = "Battery failure";
+
+
+//地图状态其他非返回的码
+"离线中" = "Off line";
+"在线中" = "On line";
+
+//1130新增他地登录的离线弹出框
+"您的账号已经在其他手机客户端登录" = "Your account is already logged in to other mobile clients";
+"用户在别的地方登录" = "User logs in elsewhere";
+
+
+
+//self.view make
+"机器人正在升级" = "Robot is upgrading";
+"离线状态暂不可操作" = "Offline status temporarily unavailable";
+"当前暂处于虚拟墙操作状态" = "Currently in virtual wall operation state";
+"在清扫状态才可操作虚拟墙" = "Virtual wall can only be operated in the cleaning state";
+"区域清扫请求失败" = "Zone cleaning request failed";
+"暂无可清扫区域信息，暂不可执行区域清扫" = "No clear area information available, no clear area available";
+"当前已经是充电状态" = "The current state is charging";
+
+"关机充电状态暂不可操作" = "Shutdown charging status temporarily unavailable";//0213不
+//mbp
+"正在清扫，暂不可选择" = "Cleaning in progress, not available";
+"正在请求区域" = "Requesting area";
+//
+"重绘" = "Redraw";
+
+//按钮label等
+
+//列表页
+"您目前没有可供使用的机器人" = "You do not have a robot available";
+
+
