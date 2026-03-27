@@ -1,0 +1,101 @@
+//
+//  PrefixHeader.pch
+//  Socialize
+//
+//  Created by 余莹 on 2023/5/10.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#define  type_urlset_now                    (3)//杜峰
+//#define  type_urlset_now                    (2)//开发
+#define  type_urlset_now                    (1)//测试
+//#define  type_urlset_now                    (0) //正式
+
+#define  type_url_prod  (0)
+#define  type_url_test (1)
+#define  type_url_dev (2)
+#define  type_url_test_dufeng (3)
+ 
+
+//渐变背景色 单色 绿
+#define  kJianBianColor_Blue_Str   @"#D7FAFC"
+#define  kJianBianColor_Green_Str   @"#DAFDD3"
+//#define  kJianBianColor_Green_C     rgba(215,250,252, 1)
+//#define  kJianBianColor_Green_C     rgba(218, 253, 211, 1)
+
+
+#define  Theme_Bk_COlOR_Drak_Str  @"#1B1A27"
+#define  Theme_Bk_COlOR_Light_Str  @"#F8F8F8"
+
+#define  Theme_Nav_COlOR_Drak_Str  @"#1B1A27"
+#define  Theme_Nav_COlOR_Light_Str  @"#FFFFFF"
+
+//nav顶部状态栏
+//背景
+#define  Theme_Nav_StatusBar_BK_Color_Drak_Str  @"#1B1A27"  //暗色背景
+#define  Theme_Nav_StatusBar_BK_Color_Light_Str  @"#FFFFFF" //亮色背景
+#define  Theme_Nav_StatusBar_BK_Color_Light_green_Str  @"#D7FAFC" //rgba(218, 253, 211, 0)
+//前景
+#define  Theme_Nav_StatusBar_Thing_Color_Drak_Str  @"#FFFFFF" //亮的状态区子图标
+#define  Theme_Nav_StatusBar_Thing_Color_Light_Str  @"#1B1A27" //暗的状态区子图标
+
+#import "BaseImgTool.h"
+
+//宏定义国际化字符
+#define Y_pathForResource                       [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"Locale_Type"]] ofType:@"lproj"]
+#define Y_bundleWithPath                        [NSBundle bundleWithPath:Y_pathForResource]
+#define Y_LocaleTypeFile_NSLocalString(key)     [Y_bundleWithPath  localizedStringForKey:(key) value:@"" table:@"Locale_Type"]
+#import "SwiftLanguageDealStrHeader.h"  
+//其中key就是国际化文字，comment可以为nil，有的话就是对key的描述。
+
+#import "YTimeStamp.h"
+
+#import "ShareUserInfo.h"
+#import "UserModel.h"
+#import "ThridKeyAndOtherInfo_Header.h"
+
+
+#import "localeTool.h"
+#import "ShareLocale.h"
+#import "WebVcsTool.h"
+#import "Urls_Header.h"
+#import "Base_Header.h"
+#import "View_Header.h"
+#import "MethodsHeader.h"
+#import "PublicBase_Header.h"
+#import "ThirdTool_Header.h"
+#import "PubNetwork.h"
+
+
+#import "ImOneUserInfoViewController.h" //TA的粉友freeID
+#import "ImMainChatListViewController.h"
+#import "RecommendViewController.h"
+#import "MyDapViewController.h"//发现主页
+//#import "DiscoverViewController.h"//推荐
+#import "TUiJianWebVc.h"//推荐
+#import "MyViewController.h"
+
+
+//#define IM_userID @"dev002"
+//#define IM_sig @"eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwimpZQYGRlCZ4pTsxIKCzBQlK0MTAwNzc2NDcxOITGpFQWZRKlDc1NTUyMDAACJakpkLEjOzMDa3sDQ1MIWakpkONLgyM9c5KCTDLSK3KiNG3yMxwDvRIjHKLNmlMEbfJ7xc29I40TnLKc0kINAzNNBWqRYAhDcxlA__"
+
+//#define IM_userID @"dev003"
+//#define IM_sig @"eJwtzEELgjAYxvHvsnPIO93cFDoohhDSRQ-RbbVpL2ktHRJF3z1Tj8-vD8*HVEXpjaYnMfE9IJt5ozZ3hzXOrM0IEKxl0DdlLWoSUwYgREAFW4p5WezN5JxzHwAWddj9LZSBkBGnqw7YTMfPc8nSY5bTqKsSFXIXpqo*7CEtGvUweXvJdm92qmx7lVvy-QEC3jCw"
+
+
+//#define IM_userID @"dev004"
+//#define IM_sig @"eJwtzLEOgjAUheF36WzIbUstkDgQBwMSB9SFTdICVwMSqAVjfHcRGM93kv9DLsnZsbojAWEOkM28UenGYIEzK20B3PXp1ePWtqhIQF0AKTmV7vLoscVOTy6EYACwqMH6b1uPS88XVK4VLKdwyqu9OZpI32l*eA1N-eyrkkk-OxWG5ddYjDZOw2xI3tGOfH8s2jHo"
+
+
+//#define IM_userID @"dev005"
+//#define IM_sig @"eJwtzF0LgjAUxvHvsuuQ49yaE7qwAiGki14ouit22g6hDBWzou*eqZfP74H-hx3yfdBixRLGA2CzYZPBsqE7DWywBZDTU5vH1XsyLAkFgFJRqMT4YOepwt6llBwARm2o*Ns8jlSsJedThWwfvtijeG9tsdQuK3PMcrE*n0JXEfhO39Idd-DarPAZp-WCfX8aBzEd"
+
+
+
+
+#endif /* PrefixHeader_pch */

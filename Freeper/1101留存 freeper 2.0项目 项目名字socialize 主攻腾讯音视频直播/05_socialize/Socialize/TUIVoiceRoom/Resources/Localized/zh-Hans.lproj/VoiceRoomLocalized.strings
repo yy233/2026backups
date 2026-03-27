@@ -1,0 +1,256 @@
+/* 
+  VoiceRoomLocalized.strings
+  Pods
+
+  Created by adams on 2021/5/14.
+  Copyright © 2022 Tencent. All rights reserved.
+*/
+
+"Demo.TRTC.VoiceRoom.exit" = "退出";
+"Demo.TRTC.VoiceRoom.isvoicingandsuretoexit" = "离开会解散房间，确认离开吗？";
+"Demo.TRTC.LiveRoom.confirm" = "确定";
+"Demo.TRTC.LiveRoom.cancel" = "取消";
+"Demo.TRTC.Salon.seatmuted" = "被房主禁言";
+"Demo.TRTC.Salon.seatunmuted" = "被房主解禁";
+"Demo.TRTC.LiveRoom.accept" = "确定";
+"Demo.TRTC.LiveRoom.refuse" = "取消";
+"Demo.TRTC.Salon.pleaseselect" = "请选择";
+"Demo.TRTC.LiveRoom.cancel" = "取消";
+
+"Demo.TRTC.VoiceRoom.xxonline" = "xxx在线";
+"Demo.TRTC.VoiceRoom.presshandsup" = "点击上麦";
+"Demo.TRTC.VoiceRoom.islocked" = "已锁定";
+"Demo.TRTC.VoiceRoom.invitehandsup" = "邀人上麦";
+"Demo.TRTC.VoiceRoom.onseatmuted" = "已被房主禁言";
+"Demo.TRTC.Salon.micmuted" = "已关闭麦克风";
+"Demo.TRTC.Salon.micunmuted" = "已打开麦克风";
+"Demo.TRTC.VoiceRoom.ismuted" = "已静音";
+"Demo.TRTC.VoiceRoom.isunmuted" = "已取消静音";
+"Demo.TRTC.Salon.seatlistnotinit" = "麦位列表还未初始化哦！";
+"Demo.TRTC.Salon.enterroomsuccess" = "进房成功";
+"Demo.TRTC.Salon.enterroomfailed" = "进房失败";
+"Demo.TRTC.LiveRoom.createroomfailed" = "创建房间失败";
+"Demo.TRTC.LiveRoom.me" = "我";
+"Demo.TRTC.VoiceRoom.sendsuccess" = "发送成功";
+"Demo.TRTC.VoiceRoom.sendfailedxx" = "发送失败:xxx";
+"Demo.TRTC.Salon.hostoccupyseatsuccess" = "房主占座成功";
+"Demo.TRTC.Salon.hostoccupyseatfailed" = "房主占座失败";
+"Demo.TRTC.VoiceRoom.onlyanchorcanoperation" = "只有主播才能操作哦";
+"Demo.TRTC.VoiceRoom.seatislockedandcanthandup" = "麦位已被锁定，无法申请上麦";
+"Demo.TRTC.Salon.audience" = "下麦";
+"Demo.TRTC.VoiceRoom.otheranchor" = "其他主播";
+"Demo.TRTC.VoiceRoom.isinxxseat" = "您已经在xxx号麦位上了";
+"Demo.TRTC.VoiceRoom.seatisnotinittocanthandsup" = "麦位信息没有初始化，暂时无法申请上麦";
+"Demo.TRTC.Salon.handsup" = "请求上麦";
+"Demo.TRTC.VoiceRoom.requestmoveseat" = "申请移麦";
+"Demo.TRTC.VoiceRoom.totaxx" = "对Taxxx";
+"Demo.TRTC.VoiceRoom.unmuteone" = "解禁";
+"Demo.TRTC.VoiceRoom.muteone" = "禁言";
+"Demo.TRTC.VoiceRoom.makeoneaudience" = "请Ta下麦";
+"Demo.TRTC.VoiceRoom.banseat" = "封禁麦位";
+"Demo.TRTC.VoiceRoom.liftbanseat" = "解禁麦位";
+"Demo.TRTC.VoiceRoom.seatisbusy" = "这个座位已经有人了";
+"Demo.TRTC.VoiceRoom.sendinvitesuccess" = "发送邀请成功";
+"Demo.TRTC.Salon.reqisexpired" = "该请求已过期";
+"Demo.TRTC.Salon.acceptreqfailed" = "接受请求失败";
+"Demo.TRTC.Salon.audiencesuccess" = "下麦成功";
+"Demo.TRTC.Salon.audiencefailedxx" = "下麦失败：xxx";
+"Demo.TRTC.Salon.isbeingarchon" = "已经是上麦主播了";
+"Demo.TRTC.Salon.roomnotready" = "房间还没有准备好";
+"Demo.TRTC.VoiceRoom.reqsentandwaitforarchondeal" = "申请已发出，等待主播处理";
+"Demo.TRTC.VoiceRoom.reqsendfailedxx" = "申请发送失败：xxx";
+"Demo.TRTC.Salon.successbecomespaker" = "上麦成功";
+"Demo.TRTC.Salon.failedbecomespaker" = "上麦失败";
+"Demo.TRTC.LiveRoom.prompt" = "提示";
+"Demo.TRTC.VoiceRoom.anchorinvitexxseat" = "主播邀请你上xxx号麦";
+"Demo.TRTC.VoiceRoom.refusehandsupreq" = "您已经拒绝上麦申请";
+"Demo.TRTC.VoiceRoom.applyforxxseat" = "申请上xxx号麦";
+"Demo.TRTC.Salon.archonclosedroom" = "房主已解散房间";
+"Demo.TRTC.VoiceRoom.seatlistwentwrong" = "座位列表数据出问题了数据出问题了";
+"Demo.TRTC.VoiceRoom.xxbeyyseat" = "xxx上yyy号麦";
+"Demo.TRTC.VoiceRoom.xxaudienceyyseat" = "xxx下yyy号麦";
+"Demo.TRTC.VoiceRoom.xxisbemuted" = "xxx号位被禁言";
+"Demo.TRTC.VoiceRoom.xxisbeunmuted" = "xxx号位解除禁言";
+"Demo.TRTC.VoiceRoom.ownerxxyyseat" = "房主xxxyyy号位";
+"Demo.TRTC.VoiceRoom.ban" = "封禁";
+"Demo.TRTC.LiveRoom.xxinroom" = "xxx进房";
+"Demo.TRTC.VoiceRoom.xxexitroom" = "xxx退房";
+"Demo.TRTC.VoiceRoom.hugxxhandsupsuccess" = "抱xxx上麦成功";
+"Demo.TRTC.VoiceRoom.refusebespeaker" = "xxx拒绝上麦";
+"Demo.TRTC.VoiceRoom.saysomething" = "说点什么";
+"Demo.TRTC.LiveRoom.send" = "发送";
+"Demo.TRTC.Salon.invalidappid" = "APPID 不正确";
+"Demo.TRTC.Salon.close" = "关闭";
+"Demo.TRTC.LiveRoom.invite" = "邀请";
+"Demo.TRTC.VoiceRoom.audience" = "观众";
+"Demo.TRTC.VoiceRoom.unlock" = "解锁";
+"Demo.TRTC.VoiceRoom.lock" = "锁定";
+"Demo.TRTC.VoiceRoom.agree" = "同意";
+"Demo.TRTC.VoiceRoom.invite" = "邀请";
+"Demo.TRTC.VoiceRoom.earmonitor" = "耳返";
+"Demo.TRTC.VoiceRoom.tools" = "工具";
+"Demo.TRTC.VoiceRoom.back" = "返回";
+"ASKit.MainMenu.BGM" = "背景音乐";
+"Demo.TRTC.VoiceRoom.welcome" = "欢迎体验TRTC语聊房！\n进一步了解如何快速搭建语聊房，请点击：\nxxx";
+"Demo.TRTC.VoiceRoom.roomsubject" = "房间主题";
+"Demo.TRTC.VoiceRoom.enterroomsubject" = "请输入房间主题（最多60字）";
+"Demo.TRTC.VoiceRoom.needrequesttip" = "需要房主同意上麦";
+"Demo.TRTC.VoiceRoom.starttalking" = "开始交谈";
+"Demo.TRTC.VoiceRoom.xxxsroom" = "xxx的房间";
+"Demo.TRTC.VoiceRoom.roomname" = "房间名称";
+"Demo.TRTC.VoiceRoom.roomidxx" = "房间ID: xxx";
+"Demo.TRTC.VoiceRoom.xxenterroom" = "xxx 进入房间";
+"Demo.TRTC.VoiceRoom.exit" = "退出";
+"Demo.TRTC.VoiceRoom.isvoicingandsuretoexit" = "离开会解散房间，确认离开吗？";
+"ASKit.MainMenu.Title" = "音效设置";
+"ASKit.MainMenu.VoiceChangeTitle" = "变声";
+"ASKit.MainMenu.Reverberation" = "混响";
+"ASKit.MusicSelectMenu.Title" = "音乐试听";
+"Demo.TRTC.VoiceRoom.useearphones" = "请带上耳机获得更好体验";
+"Demo.TRTC.VoiceRoom.copyrights" = "版权曲库©";
+"ASKit.MainMenu.SelectMusic" = "选择歌曲";
+"ASKit.MainMenu.MusicVolum" = "音乐音量";
+"ASKit.MainMenu.PersonVolum" = "人声音量";
+"ASKit.MainMenu.PersonPitch" = "音乐升降调";
+"Demo.TRTC.VoiceRoom.musicname1" = "欢快";
+"Demo.TRTC.VoiceRoom.musicname2" = "忧郁";
+"Demo.TRTC.VoiceRoom.musicname3" = "神奇世界";
+"ASKit.MenuItem.No effect" = "无效果";
+"ASKit.MenuItem.Karaoke room" = "Karaoke";
+"ASKit.MenuItem.Metallic" = "金属声";
+"ASKit.MenuItem.Deep" = "低沉";
+"ASKit.MenuItem.Resonant" = "洪亮";
+"ASKit.MenuItem.Original" = "原声";
+"ASKit.MenuItem.Naughty boy" = "熊孩子";
+"ASKit.MenuItem.Little girl" = "萝莉";
+"ASKit.MenuItem.Middle-aged man" = "大叔";
+"ASKit.MenuItem.Ethereal voice" = "空灵";
+"Demo.TRTC.Buy.chatroom" = "您当前使用的云通讯账号未开通音视频聊天室功能，创建聊天室数量超过限额，请前往腾讯云官网开通【IM音视频聊天室】，地址：xxx";
+"Demo.TRTC.Buy.grouplimit" = "单个用户可创建和加入的群组数量超过了限制，请购买相关套餐,价格地址：xxx";
+"Demo.TRTC.Buy.groupmemberlimit" = "群成员数量超过限制，请参考，请购买相关套餐，价格地址：xxx";
+"Demo.TRTC.Salon.userisspeaker" = "该用户已经是上麦主播了";
+"Demo.TRTC.VoiceRoom.createvoicechatroom" = "创建语音聊天室";
+"Demo.TRTC.VoiceRoom.connecttimeout" = "连接服务器超时，您已退出房间";
+
+//分享用的
+"在Freeper，记录美好生活，来和我一起支持Ta吧。复制下方链接，打开【Freeper】，直接观看直播！" = "在Freeper，记录美好生活，来和我一起支持Ta吧。复制下方链接，打开【Freeper】，直接观看直播！";
+"直播邀请，房间密码" = "直播邀请，房间密码";
+"音效设置" = "音效设置";
+"打赏红包" = "打赏红包";
+//直播底部工具 @[@"静音",@"管理成员",@"清除弹幕",@"分享",@"聊天",@"连线设置",@"直播设置",@"管理员",@"关播"];
+"静音" = "静音";
+"管理成员" = "管理成员";
+"清除弹幕" = "清除弹幕";
+"分享" = "分享";
+"聊天" = "聊天";
+"连线设置" = "连线设置";
+"直播设置" = "直播设置";
+"管理员" = "管理员";
+"关播" = "关播";
+"确定" = "确定";
+"取消" = "取消";
+
+//
+"Web端" = "Web端";
+"Freeper APP" = "Freeper APP";
+"Freeper群" = "Freeper群";
+//
+"分享给" = "分享给";
+"关注" = "关注";
+"私信" = "私信";
+"暂无简介" = "暂无简介";
+"暂无公告" = "暂无公告";
+"管理员" = "管理员";
+"主播" = "主播";
+"同意" = "同意";
+"拒绝" = "拒绝";
+"普通在线成员" = "普通在线成员";
+"已上麦成员" = "已上麦成员";
+"全体静音" = "全体静音";
+"解除全体静音" = "解除全体静音";
+"上麦管理" = "上麦管理";
+"设置管理员" = "设置管理员";
+"敬请期待" = "敬请期待";
+//
+
+"解除静音失败" = "解除静音失败";
+"静音失败" = "静音失败";
+"解除静音成功" = "解除静音成功";
+"静音成功" = "静音成功";
+"麦序错误" = "麦序错误";
+"禁言失败" = "禁言失败";
+"禁言成功" = "禁言成功";
+"解除禁言成功" = "解除禁言成功";
+"主播无需禁言和下麦" = "主播无需禁言和下麦";
+"暂未开放" = "暂未开放";
+"关注功能，暂未开放" = "关注功能，暂未开放";
+"私信功能，暂未开放" = "私信功能，暂未开放";
+"@TA功能，暂未开放" = "@TA功能，暂未开放";
+"举报功能，暂未开放" = "举报功能，暂未开放";
+"非创建者，暂无此权限" = "非创建者，暂无此权限";
+"上麦观众已经满员，下麦后可继续设置" = "上麦观众已经满员，下麦后可继续设置";
+"申请已被拒绝" = "申请已被拒绝";
+"已发送打赏" = "已发送打赏";
+"未能成功地拒绝" = "未能成功地拒绝";
+
+//
+"房间名字" = "房间名字";
+"请输入" = "请输入";
+
+//
+"恭喜发财，大吉大利" = "恭喜发财，大吉大利";
+
+//TUILinkCellData_Minimalist
+"[%@]直播活动分享" = "[%@]直播活动分享";
+"抢【红包】" = "抢【红包】";
+"已经领取" = "已经领取";
+"抢到" = "抢到";
+"的红包" = "的红包";
+"[活动分享]" = "[活动分享]";
+"【红包】" = "【红包】";
+ 
+
+//TUILinkCell_Minimalist
+"恭喜发财，大吉大利" = "恭喜发财，大吉大利";
+"已经领取" = "已经领取";
+
+"红包金额过低" = "红包金额过低";
+"余额加载异常，请稍后再试" = "余额加载异常，请稍后再试";
+"您存在于该群组，请联系管理" = "您存在于该群组，请联系管理";
+"红包记录不存在" = "红包记录不存在";
+"您已经领取过该红包" = "您已经领取过该红包";
+"您手慢了，红包已经派完" = "您手慢了，红包已经派完";
+"定向红包，您无法领取" = "定向红包，您无法领取";
+"红包已过期" = "红包已过期";
+"红包金额不能被平均分配" = "红包金额不能被平均分配";
+"领取错误" = "领取错误";
+"钱包超时，失效了" = "钱包超时，失效了";
+"领取者重复了" = "领取者重复了";
+"验签失败" = "验签失败";
+"%@ 抢到红包 %@" = "%@ 抢到红包 %@";
+
+//TUIBaseChatViewController_Minimalist popv + TUIChatDataProvider_Minimalist
+"红包" = "红包";
+"多人红包" = "多人红包";
+"红包金额" = "红包金额";
+"红包备注" = "红包备注";
+"选择币种" = "选择币种";
+"余额" = "余额";
+"充值" = "充值";
+"单个红包金额不可超过20" = "单个红包金额不可超过20";
+"单个红包金额不可超过100" = "单个红包金额不可超过100";
+
+"全部" = "全部";
+
+"总金额" = "总金额";
+"红包个数" = "红包个数";
+"提交" = "提交";
+"发红包" = "发红包";
+
+"请填写红包金额" = "请填写红包金额";
+"请选择币种" = "请选择币种";
+"发送多人红包给%@群" = "发送多人红包给%@群";
+"发送多人红包" = "发送多人红包";
+"发送单人红包" = "发送单人红包";
+"发送单个红包" = "发送单个红包";
+

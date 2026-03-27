@@ -1,0 +1,264 @@
+/* 
+  VoiceRoomLocalized.strings
+  Pods
+
+  Created by adams on 2021/5/14.
+  Copyright © 2022 Tencent. All rights reserved.
+*/
+
+"Demo.TRTC.VoiceRoom.exit" = "Exit";
+"Demo.TRTC.VoiceRoom.isvoicingandsuretoexit" = "The room will close after you leave. Leave?";
+"Demo.TRTC.LiveRoom.confirm" = "OK";
+"Demo.TRTC.LiveRoom.cancel" = "Cancel";
+"Demo.TRTC.Salon.seatmuted" = "Muted by room owner";
+"Demo.TRTC.Salon.seatunmuted" = "Unmuted by room owner";
+"Demo.TRTC.LiveRoom.accept" = "Confirm";
+"Demo.TRTC.LiveRoom.refuse" = "Cancel";
+"Demo.TRTC.Salon.pleaseselect" = "Please Select";
+"Demo.TRTC.LiveRoom.cancel" = "Cancel";
+"Demo.TRTC.VoiceRoom.xxonline" = "xxx is online";
+"Demo.TRTC.VoiceRoom.presshandsup" = "Tap to Speak";
+"Demo.TRTC.VoiceRoom.islocked" = "Blocked";
+"Demo.TRTC.VoiceRoom.invitehandsup" = "Mic On";
+"Demo.TRTC.VoiceRoom.onseatmuted" = "Muted by room owner";
+"Demo.TRTC.Salon.micmuted" = "Mic off";
+"Demo.TRTC.Salon.micunmuted" = "Mic on";
+"Demo.TRTC.VoiceRoom.ismuted" = "Muted";
+"Demo.TRTC.VoiceRoom.isunmuted" = "Unmuted";
+"Demo.TRTC.Salon.seatlistnotinit" = "The seat list has not been initialized.";
+"Demo.TRTC.Salon.enterroomsuccess" = "Entered room successfully";
+"Demo.TRTC.Salon.enterroomfailed" = "Failed to enter room";
+"Demo.TRTC.LiveRoom.createroomfailed" = "Failed to create the room.";
+"Demo.TRTC.LiveRoom.me" = "Me";
+"Demo.TRTC.VoiceRoom.sendsuccess" = "Sent successfully";
+"Demo.TRTC.VoiceRoom.sendfailedxx" = "Failed to send: xxx";
+"Demo.TRTC.Salon.hostoccupyseatsuccess" = "Seat taken successfully";
+"Demo.TRTC.Salon.hostoccupyseatfailed" = "Failed to take a seat";
+"Demo.TRTC.VoiceRoom.onlyanchorcanoperation" = "Only an anchor can perform this operation.";
+"Demo.TRTC.VoiceRoom.seatislockedandcanthandup" = "Cannot take the seat as it is blocked.";
+"Demo.TRTC.Salon.audience" = "Mic Off";
+"Demo.TRTC.VoiceRoom.otheranchor" = "Other Anchors";
+"Demo.TRTC.VoiceRoom.isinxxseat" = "You are already in seat xxx.";
+"Demo.TRTC.VoiceRoom.seatisnotinittocanthandsup" = "Cannot take the seat as the seat information has not been initialized";
+"Demo.TRTC.Salon.handsup" = "Request to Speak";
+"Demo.TRTC.VoiceRoom.requestmoveseat" = "Request move";
+"Demo.TRTC.VoiceRoom.totaxx" = "xxx";
+"Demo.TRTC.VoiceRoom.unmuteone" = "Unmute";
+"Demo.TRTC.VoiceRoom.muteone" = "Mute";
+"Demo.TRTC.VoiceRoom.makeoneaudience" = "Mic Off";
+"Demo.TRTC.VoiceRoom.banseat" = "Block Seat";
+"Demo.TRTC.VoiceRoom.liftbanseat" = "Unblock Seat";
+"Demo.TRTC.VoiceRoom.seatisbusy" = "The seat is taken.";
+"Demo.TRTC.VoiceRoom.sendinvitesuccess" = "Invitation sent";
+"Demo.TRTC.Salon.reqisexpired" = "Request expired";
+"Demo.TRTC.Salon.acceptreqfailed" = "Failed to accept the request.";
+"Demo.TRTC.Salon.audiencesuccess" = "Mic turned off successfully";
+"Demo.TRTC.Salon.audiencefailedxx" = "Failed to turn mic off: xxx";
+"Demo.TRTC.Salon.isbeingarchon" = "Mic already on";
+"Demo.TRTC.Salon.roomnotready" = "Room not ready";
+"Demo.TRTC.VoiceRoom.reqsentandwaitforarchondeal" = "Your request has been sent. Please wait for reply from the anchor.";
+"Demo.TRTC.VoiceRoom.reqsendfailedxx" = "Failed to send request: xxx";
+"Demo.TRTC.Salon.successbecomespaker" = "Mic turned on successfully";
+"Demo.TRTC.Salon.failedbecomespaker" = "Failed to turn mic on";
+"Demo.TRTC.LiveRoom.prompt" = "Information";
+"Demo.TRTC.VoiceRoom.anchorinvitexxseat" = "The anchor invited you to take seat xxx.";
+"Demo.TRTC.VoiceRoom.refusehandsupreq" = "You declined the mic-on request.";
+"Demo.TRTC.VoiceRoom.applyforxxseat" = "requested to take seat xxx";
+"Demo.TRTC.Salon.archonclosedroom" = "Room closed";
+"Demo.TRTC.VoiceRoom.seatlistwentwrong" = "Seat list data error";
+"Demo.TRTC.VoiceRoom.xxbeyyseat" = "xxx took seat yyy";
+"Demo.TRTC.VoiceRoom.xxaudienceyyseat" = "xxx left seat yyy";
+"Demo.TRTC.VoiceRoom.xxisbemuted" = "Muted seat xxx";
+"Demo.TRTC.VoiceRoom.xxisbeunmuted" = "Unmuted seat xxx";
+"Demo.TRTC.VoiceRoom.ownerxxyyseat" = "The room owner xxx seat yyy.";
+"Demo.TRTC.VoiceRoom.ban" = "blocked";
+"Demo.TRTC.LiveRoom.xxinroom" = "xxx entered the room";
+"Demo.TRTC.VoiceRoom.xxexitroom" = "xxx left the room";
+"Demo.TRTC.VoiceRoom.hugxxhandsupsuccess" = "Placed xxx in the seat";
+"Demo.TRTC.VoiceRoom.refusebespeaker" = "xxx declined the mic-on request";
+"Demo.TRTC.VoiceRoom.saysomething" = "Send a message";
+"Demo.TRTC.LiveRoom.send" = "Send";
+"Demo.TRTC.Salon.invalidappid" = "Incorrect app ID";
+"Demo.TRTC.Salon.close" = "Hide";
+"Demo.TRTC.LiveRoom.invite" = "Invite";
+"Demo.TRTC.VoiceRoom.audience" = "Audience";
+"Demo.TRTC.VoiceRoom.unlock" = "Unblock";
+"Demo.TRTC.VoiceRoom.lock" = "Block";
+"Demo.TRTC.VoiceRoom.agree" = "Agree";
+"Demo.TRTC.VoiceRoom.invite" = "Invite";
+"Demo.TRTC.VoiceRoom.earmonitor" = "In-ear Monitor";
+"Demo.TRTC.VoiceRoom.tools" = "Tools";
+"Demo.TRTC.VoiceRoom.back" = "Back";
+"ASKit.MainMenu.BGM" = "Background music";
+"Demo.TRTC.VoiceRoom.welcome" = "Welcome to Audio Chat Room tryout\nTo quickly use the feature, visit \nxxx";
+"Demo.TRTC.VoiceRoom.roomsubject" = "Subject";
+"Demo.TRTC.VoiceRoom.enterroomsubject" = "Enter a room subject (max. 60 characters)";
+"Demo.TRTC.VoiceRoom.needrequesttip" = "Require owner's consent to speak";
+"Demo.TRTC.VoiceRoom.starttalking" = "Let's go";
+"Demo.TRTC.VoiceRoom.xxxsroom" = "xxx's room";
+"Demo.TRTC.VoiceRoom.roomname" = "Room name";
+"Demo.TRTC.VoiceRoom.roomidxx" = "Room ID: xxx";
+"Demo.TRTC.VoiceRoom.xxenterroom" = "xxx enters the room";
+"Demo.TRTC.VoiceRoom.exit" = "Exit";
+"Demo.TRTC.VoiceRoom.isvoicingandsuretoexit" = "The room will close after you leave. Leave?";
+"ASKit.MainMenu.Title" = "Sound effect settings";
+"ASKit.MainMenu.VoiceChangeTitle" = "Voice changing";
+"ASKit.MainMenu.Reverberation" = "Reverb";
+"ASKit.MusicSelectMenu.Title" = "Music";
+"Demo.TRTC.VoiceRoom.useearphones" = "Use earphones for better experience";
+"Demo.TRTC.VoiceRoom.copyrights" = "Music Library ©";
+"ASKit.MainMenu.SelectMusic" = "Select song";
+"ASKit.MainMenu.MusicVolum" = "Music volume";
+"ASKit.MainMenu.PersonVolum" = "Voice volume";
+"ASKit.MainMenu.PersonPitch" = "Music tone";
+"Demo.TRTC.VoiceRoom.musicname1" = "Happy";
+"Demo.TRTC.VoiceRoom.musicname2" = "Sad Cinematic Piano";
+"Demo.TRTC.VoiceRoom.musicname3" = "Wonder World";
+"ASKit.MenuItem.No effect" = "No effect";
+"ASKit.MenuItem.Karaoke room" = "Karaoke room";
+"ASKit.MenuItem.Metallic" = "Metallic";
+"ASKit.MenuItem.Deep" = "Deep";
+"ASKit.MenuItem.Resonant" = "Resonant";
+"ASKit.MenuItem.Original" = "Original";
+"ASKit.MenuItem.Naughty boy" = "Naughty boy";
+"ASKit.MenuItem.Little girl" = "Little girl";
+"ASKit.MenuItem.Middle-aged man" = "Middle-aged man";
+"ASKit.MenuItem.Ethereal voice" = "Ethereal voice";
+"Demo.TRTC.Buy.chatroom" = "The number of chat rooms created has reached the maximum. Please go to the Tencent Cloud website (xxx) to enable **IM Audio-Video Chat Room** for your account.";
+"Demo.TRTC.Buy.grouplimit" = "The number of groups a user is allowed to create and join has exceeded the limit. Please purchase a package. For pricing details, see xxx.";
+"Demo.TRTC.Buy.groupmemberlimit" = "The number of group members has exceeded the limit. Please purchase a package. For pricing details, see xxx.";
+"Demo.TRTC.Salon.userisspeaker" = "The user’s mic is already on.";
+"Demo.TRTC.VoiceRoom.createvoicechatroom" = "Create Audio Chat Room";
+"Demo.TRTC.VoiceRoom.connecttimeout" = "The connection to the server timed out and you have been exit of the room.";
+//分享用的
+"在Freeper，记录美好生活，来和我一起支持Ta吧。复制下方链接，打开【Freeper】，直接观看直播"  = "In Freeper, record a beautiful life, come and support Ta with me. Copy the link below, Open [Freeper] and watch the live broadcast directly";
+
+//分享用的
+"在Freeper，记录美好生活，来和我一起支持Ta吧。复制下方链接，打开【Freeper】，直接观看直播！" =  "In Freeper, record a beautiful life, come and support Ta with me. Copy the link below, Open [Freeper] and watch the live broadcast directly";
+"直播邀请，房间密码" = "Live invite, room code";
+"音效设置" = "Sound Settings";
+"打赏红包" = "Reward red envelope";
+
+
+//直播底部工具 @[@"静音",@"管理成员",@"清除弹幕",@"分享",@"聊天",@"连线设置",@"直播设置",@"管理员",@"关播"];
+"静音" = "Mute";
+"管理成员" = "Manage Members";
+"清除弹幕" = "Clear Bullet Chat";
+"分享" = "Share";
+"聊天" = "chat";
+"连线设置" = "Connection Settings";
+"直播设置" = "Live Settings";
+"管理员" = "Administrator";
+"关播" = "Off";
+"确定" = "Confirm";
+"取消" = "Cancel";
+//
+"Web端" = "Web side";
+"Freeper APP" = "Freeper APP";
+"Freeper群" = "Freeper group";
+//
+"分享给" = "Share";
+"关注" = "Follow";
+"私信" = "Message";
+"暂无简介" = "No Profile";
+"暂无公告" = "No Announcement";
+"管理员" = "Administrator";
+"主播" = "Anchor";
+"同意" = "Agree";
+"拒绝" = "Reject";
+"普通在线成员" = "Normal Online Member";
+"已上麦成员" = "Members who have been on mic";
+"全体静音" = "Mute All";
+"解除全体静音" = "Unmute All";
+"上麦管理" = "Microphone management";
+"设置管理员" = "Set Admin";
+"敬请期待" = "Stay tuned";
+
+//
+"解除静音失败" = "Unmute failed";
+"静音失败" = "Mute failed";
+"解除静音成功" = "Unmute successfully";
+"静音成功" = "Mute successfully";
+"麦序错误" = "wrong sequence";
+"禁言失败" = "Muting failed";
+"禁言成功" = "Banned successfully";
+"解除禁言成功" = "Unbanned successfully";
+"主播无需禁言和下麦" = "Anchor doesn't need to ban or mic";
+"暂未开放" = "Not yet open";
+"关注功能，暂未开放" = "Follow function, not available yet";
+"私信功能，暂未开放" = "The private message function is not available yet";
+"@TA功能，暂未开放" = "@TA function, not available yet";
+"举报功能，暂未开放" = "The reporting function is not available yet";
+"非创建者，暂无此权限" = "Non-creator, no such permission";
+"上麦观众已经满员，下麦后可继续设置" = "The mic audience is full, you can continue to set up after mic";
+"申请已被拒绝" = "Application rejected";
+"已发送打赏" = "已发送打赏";
+"未能成功地拒绝" = "Failed to reject";
+
+//
+"房间名字" = "Name of the room";
+"请输入" = "Please enter";
+
+
+//
+
+//TUILinkCellData_Minimalist
+"[%@]直播活动分享" = "[% @] Live Activity Sharing";
+"抢【红包】" = "Snatch [red envelope]";
+"已经领取" = "Received";
+"抢到" = "Seize";
+"的红包" = "Red envelope";
+"[活动分享]" = "[Activity Sharing]";
+"【红包】" = "[Red envelope]";
+
+//TUILinkCell_Minimalist
+"恭喜发财，大吉大利" = "Congratulations on making a fortune, good luc";
+"已经领取" = "Received";
+
+"红包金额过低" = "The red envelope amount is too low";
+"余额加载异常，请稍后再试" = "Abnormal balance loading. Please try again later";
+"您存在于该群组，请联系管理" = "You exist in this group, please contact the management";
+"红包记录不存在" = "Red envelope record does not exist";
+"您已经领取过该红包" = "You have already received the red envelope";
+"您手慢了，红包已经派完" = "Your hand is slow, the red envelope has been sent out";
+"定向红包，您无法领取" = "Directional red envelope, you cannot claim it";
+"红包已过期" = "The red envelope has expired";
+"红包金额不能被平均分配" = "The red envelope amount cannot be evenly distributed";
+"领取错误" = "Claim error";
+"钱包超时，失效了" = "The wallet has timed out and is no longer valid";
+"领取者重复了" = "The recipient is duplicate";
+"验签失败" = "Verification failed";
+"%@ 抢到红包 %@" = "%@ snatched the red envelope of %@";
+
+//TUIBaseChatViewController_Minimalist popv + TUIChatDataProvider_Minimalist
+"红包" = "Red envelope";
+"多人红包" = "Multiple red envelopes";
+"红包金额" = "Red envelope amount";
+"红包备注" = "Red envelope remarks";
+"选择币种" = "Select Currency";
+"余额" = "Balance";
+"充值" = "Recharge";
+"单个红包金额不可超过20" = "The amount of a single red envelope cannot exceed 20";
+"单个红包金额不可超过100" = "The amount of a single red envelope cannot exceed 100";
+"全部" = "whole";
+
+"总金额" = "Total amount";
+"红包个数" = "Number of red envelopes";
+"提交" = "Submit";
+"发红包" = "Send red envelopes";
+
+"请填写红包金额" = "Please fill in the red envelope amount";
+"请选择币种" = "Please select a currency";
+"发送多人红包给%@群" = "Send multiple red envelopes to the %@ group";
+"发送多人红包" = "Send multiple red envelopes";
+"发送单人红包" = "Send single person red envelope";
+"发送单个红包" = "Send a single red packet";
+
+
+
+
+
+
+
+
+

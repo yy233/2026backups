@@ -1,0 +1,515 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.7.1)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
+  - CWStatusBarNotification (2.3.5)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - Kingfisher (6.3.1)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - MyLayout (1.9.8)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.15.8):
+    - SDWebImage/Core (= 5.15.8)
+  - SDWebImage/Core (5.15.8)
+  - SGQRCode (4.1.0)
+  - SnapKit (5.6.0)
+  - SQLCipher (4.5.3):
+    - SQLCipher/standard (= 4.5.3)
+  - SQLCipher/common (4.5.3)
+  - SQLCipher/standard (4.5.3):
+    - SQLCipher/common
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.2.5)
+  - TIMCommon (7.2.4146):
+    - TIMCommon/BaseCell (= 7.2.4146)
+    - TIMCommon/CommonModel (= 7.2.4146)
+    - TIMCommon/UI_Classic (= 7.2.4146)
+    - TIMCommon/UI_Minimalist (= 7.2.4146)
+  - TIMCommon/BaseCell (7.2.4146):
+    - TIMCommon/BaseCell/CellData (= 7.2.4146)
+    - TIMCommon/BaseCell/CellUI (= 7.2.4146)
+  - TIMCommon/BaseCell/CellData (7.2.4146):
+    - TIMCommon/CommonModel
+  - TIMCommon/BaseCell/CellUI (7.2.4146):
+    - TIMCommon/BaseCell/CellData
+  - TIMCommon/CommonModel (7.2.4146):
+    - ReactiveObjC
+    - SDWebImage
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TIMCommon/UI_Classic (7.2.4146):
+    - TIMCommon/UI_Classic/Cell (= 7.2.4146)
+  - TIMCommon/UI_Classic/Cell (7.2.4146):
+    - TIMCommon/UI_Classic/Cell/CellData (= 7.2.4146)
+    - TIMCommon/UI_Classic/Cell/CellUI (= 7.2.4146)
+  - TIMCommon/UI_Classic/Cell/CellData (7.2.4146):
+    - TIMCommon/BaseCell
+  - TIMCommon/UI_Classic/Cell/CellUI (7.2.4146):
+    - TIMCommon/UI_Classic/Cell/CellData
+  - TIMCommon/UI_Minimalist (7.2.4146):
+    - TIMCommon/UI_Minimalist/Cell (= 7.2.4146)
+  - TIMCommon/UI_Minimalist/Cell (7.2.4146):
+    - TIMCommon/UI_Minimalist/Cell/CellData (= 7.2.4146)
+    - TIMCommon/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TIMCommon/UI_Minimalist/Cell/CellData (7.2.4146):
+    - TIMCommon/BaseCell
+  - TIMCommon/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TIMCommon/UI_Minimalist/Cell/CellData
+  - Toast-Swift (5.0.1)
+  - TUIAudioEffect/TRTC (1.0.0):
+    - Masonry
+    - TUICore
+    - TXLiteAVSDK_TRTC
+  - TUIBarrage (1.0.0):
+    - Masonry
+    - MJExtension
+    - SDWebImage
+    - TUICore
+  - TUIBeauty (1.0.0):
+    - Masonry
+    - SSZipArchive
+    - TUIBeauty/Default (= 1.0.0)
+    - TUICore
+  - TUIBeauty/Default (1.0.0):
+    - Masonry
+    - SSZipArchive
+    - TUICore
+    - XMagic (= 2.5.0.250)
+  - TUICallEngine/TRTC (1.6.1.411):
+    - TXIMSDK_Plus_iOS (~> 7.2.4123)
+    - TXLiteAVSDK_TRTC (>= 11.0.14028)
+  - TUICallKit (1.6.1.410):
+    - Masonry
+    - TUICallKit/TRTC (= 1.6.1.410)
+    - TUICore (~> 7.2.4123)
+  - TUICallKit/TRTC (1.6.1.410):
+    - Masonry
+    - TUICallEngine/TRTC (~> 1.6.1.410)
+    - TUICore (~> 7.2.4123)
+    - TXLiteAVSDK_TRTC
+  - TUIChat/BaseCell (7.2.4146):
+    - TUIChat/BaseCell/CellData (= 7.2.4146)
+    - TUIChat/BaseCell/CellUI (= 7.2.4146)
+  - TUIChat/BaseCell/CellData (7.2.4146):
+    - TUIChat/CommonModel
+  - TUIChat/BaseCell/CellUI (7.2.4146):
+    - TUIChat/BaseCell/CellData
+  - TUIChat/BaseDataProvider (7.2.4146):
+    - TUIChat/BaseCell
+  - TUIChat/CommonModel (7.2.4146):
+    - ReactiveObjC
+    - SDWebImage
+    - TIMCommon (= 7.2.4146)
+    - TUIChat/VoiceConvert
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUIChat/CommonUI (7.2.4146):
+    - TUIChat/CommonUI/Camera (= 7.2.4146)
+    - TUIChat/CommonUI/Pendency (= 7.2.4146)
+    - TUIChat/CommonUI/Pop (= 7.2.4146)
+  - TUIChat/CommonUI/Camera (7.2.4146):
+    - TUIChat/BaseDataProvider
+  - TUIChat/CommonUI/Pendency (7.2.4146):
+    - TUIChat/BaseDataProvider
+  - TUIChat/CommonUI/Pop (7.2.4146):
+    - TUIChat/BaseDataProvider
+  - TUIChat/UI_Minimalist (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Chat (= 7.2.4146)
+    - TUIChat/UI_Minimalist/DataProvider (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Header (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Input (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Service (= 7.2.4146)
+  - TUIChat/UI_Minimalist/Cell (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TUIChat/UI_Minimalist/Cell/CellData (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData/Base (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellData/Chat (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellData/Custom (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellData/Reply (= 7.2.4146)
+  - TUIChat/UI_Minimalist/Cell/CellData/Base (7.2.4146):
+    - TUIChat/CommonUI
+  - TUIChat/UI_Minimalist/Cell/CellData/Chat (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData/Base
+  - TUIChat/UI_Minimalist/Cell/CellData/Custom (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData/Chat
+  - TUIChat/UI_Minimalist/Cell/CellData/Reply (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData/Custom
+  - TUIChat/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellUI/Base (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellUI/Chat (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellUI/Custom (= 7.2.4146)
+    - TUIChat/UI_Minimalist/Cell/CellUI/Reply (= 7.2.4146)
+  - TUIChat/UI_Minimalist/Cell/CellUI/Base (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellData
+  - TUIChat/UI_Minimalist/Cell/CellUI/Chat (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellUI/Base
+  - TUIChat/UI_Minimalist/Cell/CellUI/Custom (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellUI/Chat
+  - TUIChat/UI_Minimalist/Cell/CellUI/Reply (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell/CellUI/Custom
+  - TUIChat/UI_Minimalist/Chat (7.2.4146):
+    - TUIChat/UI_Minimalist/Input
+  - TUIChat/UI_Minimalist/DataProvider (7.2.4146):
+    - TUIChat/UI_Minimalist/Cell
+  - TUIChat/UI_Minimalist/Header (7.2.4146):
+    - TUIChat/UI_Minimalist/Service
+  - TUIChat/UI_Minimalist/Input (7.2.4146):
+    - TUIChat/UI_Minimalist/DataProvider
+  - TUIChat/UI_Minimalist/Service (7.2.4146):
+    - TUIChat/UI_Minimalist/Chat
+  - TUIChat/VoiceConvert (7.2.4146)
+  - TUIContact/BaseCell (7.2.4146):
+    - TUIContact/BaseCell/CellData (= 7.2.4146)
+    - TUIContact/BaseCell/CellUI (= 7.2.4146)
+  - TUIContact/BaseCell/CellData (7.2.4146):
+    - ReactiveObjC
+    - TIMCommon (= 7.2.4146)
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUIContact/BaseCell/CellUI (7.2.4146):
+    - TUIContact/BaseCell/CellData
+  - TUIContact/BaseDataProvider (7.2.4146):
+    - TUIContact/BaseCell
+  - TUIContact/CommonUI (7.2.4146):
+    - TUIContact/BaseDataProvider
+  - TUIContact/UI_Minimalist (7.2.4146):
+    - TUIContact/UI_Minimalist/Cell (= 7.2.4146)
+    - TUIContact/UI_Minimalist/DataProvider (= 7.2.4146)
+    - TUIContact/UI_Minimalist/Header (= 7.2.4146)
+    - TUIContact/UI_Minimalist/Service (= 7.2.4146)
+    - TUIContact/UI_Minimalist/UI (= 7.2.4146)
+  - TUIContact/UI_Minimalist/Cell (7.2.4146):
+    - TUIContact/UI_Minimalist/Cell/CellData (= 7.2.4146)
+    - TUIContact/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TUIContact/UI_Minimalist/Cell/CellData (7.2.4146):
+    - TUIContact/CommonUI
+  - TUIContact/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TUIContact/UI_Minimalist/Cell/CellData
+  - TUIContact/UI_Minimalist/DataProvider (7.2.4146):
+    - TUIContact/UI_Minimalist/Cell
+  - TUIContact/UI_Minimalist/Header (7.2.4146):
+    - TUIContact/UI_Minimalist/Service
+  - TUIContact/UI_Minimalist/Service (7.2.4146):
+    - TUIContact/UI_Minimalist/UI
+  - TUIContact/UI_Minimalist/UI (7.2.4146):
+    - TUIContact/UI_Minimalist/DataProvider
+  - TUIConversation/BaseCell (7.2.4146):
+    - TUIConversation/BaseCell/CellData (= 7.2.4146)
+    - TUIConversation/BaseCell/CellUI (= 7.2.4146)
+  - TUIConversation/BaseCell/CellData (7.2.4146):
+    - TUIConversation/CommonModel
+  - TUIConversation/BaseCell/CellUI (7.2.4146):
+    - TUIConversation/BaseCell/CellData
+  - TUIConversation/BaseDataProvider (7.2.4146):
+    - TUIConversation/BaseCell
+  - TUIConversation/CommonModel (7.2.4146):
+    - ReactiveObjC
+    - TIMCommon (= 7.2.4146)
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUIConversation/UI_Minimalist (7.2.4146):
+    - TUIConversation/UI_Minimalist/Cell (= 7.2.4146)
+    - TUIConversation/UI_Minimalist/DataProvider (= 7.2.4146)
+    - TUIConversation/UI_Minimalist/Header (= 7.2.4146)
+    - TUIConversation/UI_Minimalist/Service (= 7.2.4146)
+    - TUIConversation/UI_Minimalist/UI (= 7.2.4146)
+  - TUIConversation/UI_Minimalist/Cell (7.2.4146):
+    - TUIConversation/UI_Minimalist/Cell/CellData (= 7.2.4146)
+    - TUIConversation/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TUIConversation/UI_Minimalist/Cell/CellData (7.2.4146):
+    - TUIConversation/BaseDataProvider
+  - TUIConversation/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TUIConversation/UI_Minimalist/Cell/CellData
+  - TUIConversation/UI_Minimalist/DataProvider (7.2.4146):
+    - TUIConversation/UI_Minimalist/Cell
+  - TUIConversation/UI_Minimalist/Header (7.2.4146):
+    - TUIConversation/UI_Minimalist/Service
+  - TUIConversation/UI_Minimalist/Service (7.2.4146):
+    - TUIConversation/UI_Minimalist/UI
+  - TUIConversation/UI_Minimalist/UI (7.2.4146):
+    - TUIConversation/UI_Minimalist/DataProvider
+  - TUICore (7.2.4146):
+    - ReactiveObjC
+    - SDWebImage
+    - TUICore/ImSDK_Plus (= 7.2.4146)
+  - TUICore/Base (7.2.4146):
+    - ReactiveObjC
+    - SDWebImage
+  - TUICore/ImSDK_Plus (7.2.4146):
+    - ReactiveObjC
+    - SDWebImage
+    - TUICore/Base
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUIGift (1.0.0):
+    - lottie-ios (~> 2.5.3)
+    - Masonry
+    - SDWebImage
+    - TUICore
+  - TUIGroup/BaseCell (7.2.4146):
+    - TUIGroup/BaseCell/CellData (= 7.2.4146)
+    - TUIGroup/BaseCell/CellUI (= 7.2.4146)
+  - TUIGroup/BaseCell/CellData (7.2.4146):
+    - TUIGroup/CommonModel
+  - TUIGroup/BaseCell/CellUI (7.2.4146):
+    - TUIGroup/BaseCell/CellData
+  - TUIGroup/BaseDataProvider (7.2.4146):
+    - TUIGroup/BaseCell
+  - TUIGroup/CommonModel (7.2.4146):
+    - ReactiveObjC
+    - TIMCommon (= 7.2.4146)
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUIGroup/CommonUI (7.2.4146):
+    - TUIGroup/BaseDataProvider
+  - TUIGroup/UI_Minimalist (7.2.4146):
+    - TUIGroup/UI_Minimalist/Cell (= 7.2.4146)
+    - TUIGroup/UI_Minimalist/DataProvider (= 7.2.4146)
+    - TUIGroup/UI_Minimalist/Header (= 7.2.4146)
+    - TUIGroup/UI_Minimalist/Service (= 7.2.4146)
+    - TUIGroup/UI_Minimalist/UI (= 7.2.4146)
+  - TUIGroup/UI_Minimalist/Cell (7.2.4146):
+    - TUIGroup/UI_Minimalist/Cell/CellData (= 7.2.4146)
+    - TUIGroup/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TUIGroup/UI_Minimalist/Cell/CellData (7.2.4146):
+    - TUIGroup/CommonUI
+  - TUIGroup/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TUIGroup/UI_Minimalist/Cell/CellData
+  - TUIGroup/UI_Minimalist/DataProvider (7.2.4146):
+    - TUIGroup/UI_Minimalist/Cell
+  - TUIGroup/UI_Minimalist/Header (7.2.4146):
+    - TUIGroup/UI_Minimalist/Service
+  - TUIGroup/UI_Minimalist/Service (7.2.4146):
+    - TUIGroup/UI_Minimalist/UI
+  - TUIGroup/UI_Minimalist/UI (7.2.4146):
+    - TUIGroup/UI_Minimalist/DataProvider
+  - TUILiveRoom/TRTC (1.0.0):
+    - Alamofire
+    - CWStatusBarNotification (~> 2.3.5)
+    - Kingfisher (<= 6.3.1)
+    - Masonry
+    - MBProgressHUD (~> 1.2.0)
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SnapKit
+    - SSZipArchive
+    - Toast-Swift
+    - TUIAudioEffect/TRTC
+    - TUIBarrage
+    - TUIBeauty
+    - TUICore
+    - TUIGift
+    - TXAppBasic
+    - TXLiteAVSDK_TRTC
+  - TUIOfflinePush (7.2.4146):
+    - TUIOfflinePush/APNS (= 7.2.4146)
+  - TUIOfflinePush/APNS (7.2.4146):
+    - TUIOfflinePush/Base
+  - TUIOfflinePush/Base (7.2.4146):
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUISearch/BaseCell (7.2.4146):
+    - TUISearch/BaseCell/CellData (= 7.2.4146)
+    - TUISearch/BaseCell/CellUI (= 7.2.4146)
+  - TUISearch/BaseCell/CellData (7.2.4146):
+    - TIMCommon (= 7.2.4146)
+    - TUICore (= 7.2.4146)
+    - TXIMSDK_Plus_iOS (= 7.2.4146)
+  - TUISearch/BaseCell/CellUI (7.2.4146):
+    - TUISearch/BaseCell/CellData
+  - TUISearch/BaseDataProvider (7.2.4146):
+    - TUISearch/BaseCell
+  - TUISearch/UI_Minimalist (7.2.4146):
+    - TUISearch/UI_Minimalist/Cell (= 7.2.4146)
+    - TUISearch/UI_Minimalist/Header (= 7.2.4146)
+    - TUISearch/UI_Minimalist/Service (= 7.2.4146)
+    - TUISearch/UI_Minimalist/UI (= 7.2.4146)
+  - TUISearch/UI_Minimalist/Cell (7.2.4146):
+    - TUISearch/UI_Minimalist/Cell/CellUI (= 7.2.4146)
+  - TUISearch/UI_Minimalist/Cell/CellUI (7.2.4146):
+    - TUISearch/BaseDataProvider
+  - TUISearch/UI_Minimalist/Header (7.2.4146):
+    - TUISearch/UI_Minimalist/Service
+  - TUISearch/UI_Minimalist/Service (7.2.4146):
+    - TUISearch/UI_Minimalist/UI
+  - TUISearch/UI_Minimalist/UI (7.2.4146):
+    - TUISearch/UI_Minimalist/Cell
+  - TUIVoiceRoom/TRTC (1.0.0):
+    - Alamofire
+    - Kingfisher (<= 6.3.1)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SnapKit
+    - Toast-Swift
+    - TUICore
+    - TXAppBasic
+    - TXLiteAVSDK_TRTC
+  - TXAppBasic (1.0.0)
+  - TXIMSDK_Plus_iOS (7.2.4146)
+  - TXLiteAVSDK_TRTC (11.1.14143):
+    - TXLiteAVSDK_TRTC/TRTC (= 11.1.14143)
+  - TXLiteAVSDK_TRTC/TRTC (11.1.14143)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - XMagic (2.5.0.250)
+  - ZYCornerRadius (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BRPickerView
+  - FMDB/SQLCipher
+  - MyLayout
+  - SGQRCode
+  - SVProgressHUD
+  - TUIAudioEffect/TRTC (from `./TUILiveRoom/TUIAudioEffect/`)
+  - TUIBarrage (from `./TUILiveRoom/TUIBarrage/`)
+  - TUIBeauty (from `./TUILiveRoom/TUIBeauty/`)
+  - TUICallKit
+  - TUIChat/UI_Minimalist
+  - TUIContact/UI_Minimalist
+  - TUIConversation/UI_Minimalist
+  - TUIGift (from `./TUILiveRoom/TUIGift/`)
+  - TUIGroup/UI_Minimalist
+  - TUILiveRoom/TRTC (from `./TUILiveRoom/TUILiveRoom.podspec`)
+  - TUIOfflinePush
+  - TUISearch/UI_Minimalist
+  - TUIVoiceRoom/TRTC (from `TUIVoiceRoom/`)
+  - TXAppBasic (from `./TUILiveRoom/TXAppBasic/`)
+  - "UITableView+FDTemplateLayoutCell"
+  - ZYCornerRadius
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - SGQRCode
+    - SQLCipher
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - BRPickerView
+    - CWStatusBarNotification
+    - Kingfisher
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MyLayout
+    - ReactiveObjC
+    - SDWebImage
+    - SnapKit
+    - SSZipArchive
+    - SVProgressHUD
+    - TIMCommon
+    - Toast-Swift
+    - TUICallEngine
+    - TUICallKit
+    - TUIChat
+    - TUIContact
+    - TUIConversation
+    - TUICore
+    - TUIGroup
+    - TUIOfflinePush
+    - TUISearch
+    - TXIMSDK_Plus_iOS
+    - TXLiteAVSDK_TRTC
+    - "UITableView+FDTemplateLayoutCell"
+    - XMagic
+    - ZYCornerRadius
+
+EXTERNAL SOURCES:
+  TUIAudioEffect:
+    :path: "./TUILiveRoom/TUIAudioEffect/"
+  TUIBarrage:
+    :path: "./TUILiveRoom/TUIBarrage/"
+  TUIBeauty:
+    :path: "./TUILiveRoom/TUIBeauty/"
+  TUIGift:
+    :path: "./TUILiveRoom/TUIGift/"
+  TUILiveRoom:
+    :path: "./TUILiveRoom/TUILiveRoom.podspec"
+  TUIVoiceRoom:
+    :path: TUIVoiceRoom/
+  TXAppBasic:
+    :path: "./TUILiveRoom/TXAppBasic/"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
+  SGQRCode: 6ad664d63f38f2842503bc5087812c5a3136d924
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SQLCipher: 57fa9f863fa4a3ed9dd3c90ace52315db8c0fdca
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TIMCommon: 6888da3920e7d2fa2be6e67c06507e7ffe6b45ab
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TUIAudioEffect: c57bcf135ccd6f58a8dd3a544ae1b883e6918266
+  TUIBarrage: f2b8810d5d8ba34abe01e9b1ab35b7c4da02f00a
+  TUIBeauty: c0026a741ae9379c8b6839496b9adcac162c6cd5
+  TUICallEngine: 882aaae1d2e9ea976fbb085ebd1f313372d2b796
+  TUICallKit: 0429ea7fb96211f813595bb014e753cbca6b5d3c
+  TUIChat: acb2c9c36f8aa26e3c50cdb1bef6441a932bbf38
+  TUIContact: f2723e73d37d2bba033a5853497bee01afab53af
+  TUIConversation: 557e9a00ba9f845dd746e65f40d4fe878ea2b2a9
+  TUICore: 4133d303a749d5c29aa1f7e03f5d787855b2c4e9
+  TUIGift: a7bcaf096c5d6fbc45277ac84e94cfae33ae8dba
+  TUIGroup: c03e6aef5864b5aa0ba4e6126aa2148884e0453b
+  TUILiveRoom: d1f7aed8f1b22a093619ec85e62daf11e81238d3
+  TUIOfflinePush: 7ec4972afd3ce0e47a2b68206d5cbe7d82ed0759
+  TUISearch: efea3f99eeab054fa306457555b2fd2ac4ecf148
+  TUIVoiceRoom: a17ecc507a888cec81fba48974cb21b9655d83b5
+  TXAppBasic: f72fd658cb2cec20f0368158752b82226cb6cdec
+  TXIMSDK_Plus_iOS: 560464285b93add271d5fd7a2a26434293821c11
+  TXLiteAVSDK_TRTC: 15b46120bfb5227c4f07a03d7b73b2530a4034bf
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  XMagic: 8150a6fb1a0743a582e39eea60ad75c007dbe3b3
+  ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
+
+PODFILE CHECKSUM: 73bfc1c19d475e2e302cf51774a1a51b006444d7
+
+COCOAPODS: 1.12.0

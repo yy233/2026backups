@@ -1,0 +1,9 @@
+//"TUIBarrageView.Send" = "Send";
+//"TUIBarrageView.Placeholder" = "Say something";
+//"TUIBarrageView.EnterBtnTitle" = "Say something";
+//"TUIBarrageView.me" = "Me";
+
+"TUIBarrageView.Send" = "보내기";
+"TUIBarrageView.Placeholder" = "말해 보세요";
+"TUIBarrageView.EnterBtnTitle" = "말해 보세요";
+"TUIBarrageView.me" = "나";

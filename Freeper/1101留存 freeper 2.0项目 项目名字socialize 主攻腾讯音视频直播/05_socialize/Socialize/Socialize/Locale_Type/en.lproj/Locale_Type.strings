@@ -1,0 +1,221 @@
+/*
+  LocalizablelocalLaugeChatVcs.strings
+  Socialize
+
+  Created by 余莹 on 2023/5/17.
+  
+*/
+
+"加载中" = "Loading";
+"跳过" = "skip over";
+"Login" = "Login";
+"请登录" = "please sign in";
+//"我的友圈" = "My friends circle";
+//"我的粉圈" = "My pinky";
+//"web3名片" = "web3 business card";
+//"我的FreeID" = "My FreeID";
+//"我的收藏" = "My collection ";
+//"Token入驻申请" = "Token Application";
+//"设置" = "Settings";
+//"聊天" = "chat";
+//"推荐" = "recommend";
+//"发现" = "discovery";
+//"我的" = "My";
+//---
+"我的友圈" = "My S Circle";
+"我的粉圈" = "My G Circle";
+"web3名片" = "Web3 identity";
+"我的FreeID" = "My FreeID";
+"我的收藏" = "My Favorites";
+"Token入驻申请" = "Token Listing Application";
+"设置" = "Settings";
+
+"聊天" = "Chat";
+"推荐" = "Market";
+"发现" = "Explore";
+"我的" = "My";
+//---
+//
+"拍照" = "take a picture";
+"相册" = "album";
+//
+"取消" = "Cancel";
+"确定" = "Confirm";
+//
+"刷新" = "Refresh";
+"收藏" = "Collection";
+"复制链接" = "Copy link";
+"分享" = "Share";
+"浏览器打开" = "Browser open";
+
+//
+"系统公告" = "System bulletin";
+"欢迎来到Freeper" = "Welcome to the Freeper";
+"我们发布了最新版本,一起体验吧!" = "We have released the latest version, let's play together!";
+"系统消息" = "System Message";
+"服务通知" = "Service Notice";
+ 
+//
+"加入" = "Join";
+"请完成验证" = "Please complete verification";
+"请输入正确答案" = "Please enter the correct answer";
+"欢迎来到" = "Welcome to the";
+
+//vmdata msgStr
+"获取成功" = "Acquisition Success";
+"获取失败" = "Get failed";
+"暂无数据" = "No Data";
+"暂无更多数据" = "No More Data";
+"加载成功" = "Successfully Loaded";
+ 
+
+//直播 title
+"创建直播" = "Create Live";
+"我的直播" = "My Live";
+
+"报名人数" = "person signed up";
+"正在直播" = "Live streaming";
+"预约直播" = "Make an appointment";
+"推荐_直播" = "Hot";
+"语音直播" = "Voice Live";
+"视频直播" = "Live Video";
+"创建活动前，请先创建一个友圈或者粉圈" = "Before creating an event, please create a circle of friends or fans";
+"封面图库 >" = "Cover Gallery>";
+"输入房间标题" = "Enter Room Title";
+"选择直播类型" = "Select live broadcast type";
+"选择开播时间" = "Select start time";
+"立即开播" = "Start Broadcasting Now";
+"延时开播" = "Delayed start";
+"选择开播类型" = "Select broadcast type";
+
+"在Freeper，记录美好生活，来和我一起支持Ta吧。复制下方链接，打开【Freeper】，直接观看直播"  = "In Freeper, record a beautiful life, come and support Ta with me. Copy the link below, Open [Freeper] and watch the live broadcast directly";
+"完成" = "Done";
+"在Freeper，记录美好生活#【 %@】来NFT详情和我一起支持Ta吧。复制下方链接，打开NFT详情" = "In Freeper, record a beautiful life#【%@】Come to NFT details and support Ta with me. Copy the link below to open NFT details";
+
+
+
+//直播各状态
+"私密" = "Private";
+"公开" = "Public";
+"语音" = "Voice";
+"视频" = "Video";
+"直播中" = "is live";
+"待直播" = "Waiting live";//Waiting for live broadcast
+"已结束" = "Closed";
+"已报名" = "Enrolled";
+"未报名" = "Unregistered";
+"直播已结束" = "Live has ended";
+"开始时间" = "Start Time";
+"距离开播" = "Start broadcasting distance";
+"距离开播还剩下" = "There is still time left before the broadcast";
+
+//直播提示文本相关
+"直播间" = "Live Room";
+"直播" = "Live";
+"开播情况" = "Starting situation";
+"知道了" = "Got it";
+"类型" = "Type";
+"报名" = "Registration";
+"成功" = "Success";
+"继续" = "Continue";
+"去开启" = "Go to open";
+"去看" = "Go to see";
+"无房间ID，不能开播" = "No room ID, cannot broadcast";
+
+
+//直播创建提示相关文本
+"没有设置标题" = "No title set";
+"没有设置封面" = "No cover set";
+"请选择开播的日期" = "Please select a start date";
+"私密直播" = "Private Live";
+"提交成功" = "Submit successfully";
+"地址缺失" = "Missing address";
+"上传失败" = "Upload Failed";
+
+//scanQR
+"温馨提示" = "Note";
+"由于系统原因, 无法访问相册" = "The album cannot be accessed due to system problems";
+"获取摄像头权限失败，请前往隐私-相机设置里面打开应用权限" = "Failed to get camera permission. Please go to Privacy > Camera to grant the permission.";
+
+
+
+//系统消息其他部分
+"消息详情>" = "Message Details>";
+"恭喜您创建%@圈成功,快去邀请朋友加入吧!" = "Congratulations on successfully creating a %@ circle, go and invite friends to join!";
+"报价信息!" = "Quotation information!";
+"交易通知" = "Transaction Notification";
+"报名直播成功!" = "Registration for live broadcast successful!";
+"直播通知" = "Live Notification";
+"恭喜您报名%@直播成功,记得准时加入哦！" = "Congratulations on successfully signing up for the %@ live broadcast, remember to join on time!";
+"您参与的%@直播开始了，快去观看吧！" = "The %@ live broadcast you participated in has started, go and watch it!";
+
+//多值拼接的部分
+"恭喜%@出售%@到市场成功" = "Congratulations %@ sold %@ to the market successfully";
+"恭喜%@拍卖出售%@到市场成功" = "Congratulations %@ auction sold %@ to the market successfully";
+"%@报价%@" = "%@ quote %@";
+"恭喜%@向%@赠予%@成功" = "Congratulations to %@ for successfully gifting %@ to %@";
+"恭喜%@向%@定向销售%@成功" = "Congratulations to %@ for successfully selling %@ to %@";
+//
+"恭喜%@与%@交易%@成功" = "Congratulations to %@ for successfully trading %@ with %@.";
+"很遗憾%@竞拍%@失败" = "It is a pity that %@ bidding %@ failed";
+
+
+"群聊二维码" = "Group Chat QR Code";
+"群通知" = "Group Notification";
+"申请加入" = "Apply to Join";
+"欢迎加入我们%@群" = "Welcome to our %@ group";
+
+//创群相关
+"创建群聊" = "Create Group Chat";
+"扫一扫" = "Scan";
+"通讯录" = "Contacts";
+"请输入群名称" = "Please enter a group name";
+"请输入群名称(1-12字符)" = "Please enter the group name (1-12 characters)";
+"进群验证" = "Enter group verification";
+"开启后，需要群主审核进群" = "When enabled, the group owner needs to review and enter the group";
+"立即创建" = "Create Now";
+
+//加群详情页
+"群成员信息" = "Group member information";
+"管理员" = "administrator";
+"群聊资料" = "Group chat information";
+"申请加入群聊" = "Application to join group chat";
+"钱包正在加载，请等待" = "Wallet is loading, please wait";
+"申请加群" = "Apply to join the group";
+"验证消息" = "verification message";
+"发送" = "send";
+
+//系统消息 nft域名相关"交易通知"
+"恭喜%@注册FreeID%@成功" =  "Congratulations %@ successfully registered FreeID%@";
+"恭喜%@FreeID%@上架成功" =  "Congratulations for %@FreeID%@ for successful listing";
+"恭喜%@向%@出售FreeID%@成功" = "Congratulations to %@ for successfully selling FreeID%@ to %@";
+"恭喜%@出售FreeID%@成功" =  "Congratulations %@ sold FreeID%@ successfully";
+ 
+ 
+//直播报名相关
+"请输入房间密码" = "Please enter the room password";
+"请输入密码" = "Please enter password";
+"密码错误" = "Password error";
+"报名%@成功" = "Registration %@ success";
+"报名成功" = "successful registration";
+"确定报名" = "Confirm enrolment";
+
+//ImMainConversationListVc_Minimalist
+
+//
+"[活动分享]" = "[Activity Sharing]";
+"【红包】" = "[Red envelope]";
+"抢【红包】" = "snatch [red envelope]";
+//
+ 
+
+//
+"该分享数据有误" = "The shared data is incorrect";
+
+"是否开启该直播" = "Do you want to enable this live broadcast";
+
+"是否去看该直播" = "Do you want to watch the live broadcast";
+
+"该直播已经结束" = "The live broadcast has ended";
+
+

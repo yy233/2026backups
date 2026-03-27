@@ -1,0 +1,72 @@
+/* 
+  AudioEffectLocalized.strings
+  TUIAudioEffectView
+
+  Created by jack on 2021/9/27.
+*/
+
+//"TUIKit.AudioEffectView.title" = "Sound effect settings";
+//"TUIKit.AudioEffectView.VoiceChange.title" = "Voice changing";
+//"TUIKit.AudioEffectView.VoiceReverb.title" = "Reverb";
+//"TUIKit.AudioEffectView.MusicBackground.title" = "Background music";
+//"TUIKit.AudioEffectView.MusicBackground.earMonitor" = "Ear monitor";
+//"TUIKit.AudioEffectView.MusicBackground.useEarphones" = "Use earphones for better experience";
+//"TUIKit.AudioEffectView.MusicSelect.copyrights" = "Music Library ©";
+//"TUIKit.AudioEffectView.MusicSelect.select" = "Select song";
+//"TUIKit.AudioEffectView.MusicVolum.title" = "Music volume";
+//"TUIKit.AudioEffectView.VoiceVolum.title" = "Voice volume";
+//"TUIKit.AudioEffectView.MusicRiseFall.title" = "Music tone";
+
+"TUIKit.AudioEffectView.title" = "サウンドエフェクト設定";
+"TUIKit.AudioEffectView.VoiceChange.title" = "音声変更";
+"TUIKit.AudioEffectView.VoiceReverb.title" = "リバーブ";
+"TUIKit.AudioEffectView.MusicBackground.title" = "バックグラウンド ミュージック";
+"TUIKit.AudioEffectView.MusicBackground.earMonitor" = "イヤーモニター";
+"TUIKit.AudioEffectView.MusicBackground.useEarphones" = "より良いエクスペリエンスを得るにはイヤホンを使用してください";
+"TUIKit.AudioEffectView.MusicSelect.copyrights" = "ミュージック ライブラリ ©";
+"TUIKit.AudioEffectView.MusicSelect.select" = "曲を選択";
+"TUIKit.AudioEffectView.MusicVolum.title" = "音楽の音量";
+"TUIKit.AudioEffectView.VoiceVolum.title" = "声の音量";
+"TUIKit.AudioEffectView.MusicRiseFall.title" = "音楽トーン";
+
+//// 变声
+//"TUIKit.AudioEffectView.VoiceChange.Original" = "Original";
+//"TUIKit.AudioEffectView.VoiceChange.Naughty boy" = "Naughty boy";
+//"TUIKit.AudioEffectView.VoiceChange.Little girl" = "Little girl";
+//"TUIKit.AudioEffectView.VoiceChange.Middle-aged man" = "Middle-aged man";
+//"TUIKit.AudioEffectView.VoiceChange.Ethereal voice" = "Ethereal voice";
+
+"TUIKit.AudioEffectView.VoiceChange.Original" = "オリジナル";
+"TUIKit.AudioEffectView.VoiceChange.Naughty boy" = "いたずらっ子";
+"TUIKit.AudioEffectView.VoiceChange.Little girl" = "Little girl";
+"TUIKit.AudioEffectView.VoiceChange.Middle-aged man" = "中年男性";
+"TUIKit.AudioEffectView.VoiceChange.Ethereal voice" = "Ethereal voice";
+
+
+//// 混响
+//"TUIKit.AudioEffectView.VoiceReverb.No effect" = "No effect";
+//"TUIKit.AudioEffectView.VoiceReverb.Karaoke room" = "Karaoke room";
+//"TUIKit.AudioEffectView.VoiceReverb.Metallic" = "Metallic";
+//"TUIKit.AudioEffectView.VoiceReverb.Deep" = "Deep";
+//"TUIKit.AudioEffectView.VoiceReverb.Resonant" = "Resonant";
+
+"TUIKit.AudioEffectView.VoiceReverb.No effect" = "効果なし";
+"TUIKit.AudioEffectView.VoiceReverb.Karaoke room" = "カラオケルーム";
+"TUIKit.AudioEffectView.VoiceReverb.Metallic" = "メタリック";
+"TUIKit.AudioEffectView.VoiceReverb.Deep" = "ディープ";
+"TUIKit.AudioEffectView.VoiceReverb.Resonant" = "レゾナント";
+
+
+//// 音乐曲目
+//"TUIKit.AudioEffectView.MusicSelect.musicname1" = "Happy";
+//"TUIKit.AudioEffectView.MusicSelect.musicname2" = "Sad Cinematic Piano";
+//"TUIKit.AudioEffectView.MusicSelect.musicname3" = "Wonder World";
+
+"TUIKit.AudioEffectView.MusicSelect.musicname1" = "ハッピー";
+"TUIKit.AudioEffectView.MusicSelect.musicname2" = "悲しい映画のようなピアノ";
+"TUIKit.AudioEffectView.MusicSelect.musicname3" = "ワンダーワールド";
+
+//
+//
+//"TUIKit.AudioEffectView.Back" = "Back";
+"TUIKit.AudioEffectView.Back" = "戻る";

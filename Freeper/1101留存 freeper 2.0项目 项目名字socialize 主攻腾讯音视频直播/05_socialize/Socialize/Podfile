@@ -1,0 +1,84 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+# 防止 TUIKit 组件里的 *.xcassets 与您项目里面冲突。
+install! 'cocoapods', :disable_input_output_paths => true
+
+
+target 'Socialize' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Socialize
+
+	
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  pod 'MyLayout'
+  pod 'ZYCornerRadius'
+  pod 'UITableView+FDTemplateLayoutCell'
+  pod 'BRPickerView'
+  #pod 'FMDB'
+  pod 'FMDB/SQLCipher'
+  pod 'SGQRCode'
+
+
+#--------接入视频直播
+# :path => "指向TUILiveRoom.podspec的相对路径"
+pod 'TUILiveRoom', :path => "./TUILiveRoom/TUILiveRoom.podspec", :subspecs => ["TRTC"]
+# :path => "指向TXAppBasic.podspec的相对路径"
+pod 'TXAppBasic', :path => "./TUILiveRoom/TXAppBasic/"
+# :path => "指向TUIBeauty.podspec的相对路径"
+pod 'TUIBeauty', :path => "./TUILiveRoom/TUIBeauty/"      #美颜挂件
+# :path => "指向TUIAudioEffect.podspec的相对路径"
+pod 'TUIAudioEffect', :path => "./TUILiveRoom/TUIAudioEffect/", :subspecs => ["TRTC"]   #音效挂件
+# :path => "指向TUIBarrage.podspec的相对路径"
+pod 'TUIBarrage', :path => "./TUILiveRoom/TUIBarrage/"    #弹幕挂件
+# :path => "指向TUIGift.podspec的相对路径"
+pod 'TUIGift', :path => "./TUILiveRoom/TUIGift/"          #礼物挂件
+
+
+
+#--------接入语音直播
+#path 为TXAppBasic.podspec相对于Podfile文件的相对路径
+#pod 'TXAppBasic', :path => "TUIVoiceRoom/TXAppBasic/"
+# path 为TUIVoiceRoom.podspec相对于Podfile文件的相对路径
+pod 'TUIVoiceRoom', :path => "TUIVoiceRoom/", :subspecs => ["TRTC"]   
+
+
+
+#-------接入即时通讯
+  # 集成简约版本聊天功能
+  pod 'TUIChat/UI_Minimalist' 
+  # 集成会话功能
+  pod 'TUIConversation/UI_Minimalist'
+  # 集成关系链功能
+  pod 'TUIContact/UI_Minimalist'
+  # 集成群组功能
+  pod 'TUIGroup/UI_Minimalist' 
+  # 集成搜索功能（需要购买旗舰版套餐）
+  pod 'TUISearch/UI_Minimalist' 
+  # 集成离线推送
+  pod 'TUIOfflinePush'
+  # 集成音视频通话功能
+  pod 'TUICallKit'
+
+
+end
+
+
+
+
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+      config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+      config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+    end
+  end
+end
+ 

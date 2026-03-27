@@ -1,0 +1,8 @@
+//"TUIBarrageView.Send" = "Send";
+//"TUIBarrageView.Placeholder" = "Say something";
+//"TUIBarrageView.EnterBtnTitle" = "Say something";
+//"TUIBarrageView.me" = "Me";
+"TUIBarrageView.Send" = "送信";
+"TUIBarrageView.Placeholder" = "何か言ってください";
+"TUIBarrageView.EnterBtnTitle" = "何か言ってください";
+"TUIBarrageView.me" = "私";

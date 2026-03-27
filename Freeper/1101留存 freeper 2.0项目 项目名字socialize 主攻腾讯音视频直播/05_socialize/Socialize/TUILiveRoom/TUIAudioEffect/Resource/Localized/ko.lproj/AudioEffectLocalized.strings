@@ -1,0 +1,68 @@
+/* 
+  AudioEffectLocalized.strings
+  TUIAudioEffectView
+
+  Created by jack on 2021/9/27.
+*/
+//
+//"TUIKit.AudioEffectView.title" = "Sound effect settings";
+//"TUIKit.AudioEffectView.VoiceChange.title" = "Voice changing";
+//"TUIKit.AudioEffectView.VoiceReverb.title" = "Reverb";
+//"TUIKit.AudioEffectView.MusicBackground.title" = "Background music";
+//"TUIKit.AudioEffectView.MusicBackground.earMonitor" = "Ear monitor";
+//"TUIKit.AudioEffectView.MusicBackground.useEarphones" = "Use earphones for better experience";
+//"TUIKit.AudioEffectView.MusicSelect.copyrights" = "Music Library ©";
+//"TUIKit.AudioEffectView.MusicSelect.select" = "Select song";
+//"TUIKit.AudioEffectView.MusicVolum.title" = "Music volume";
+//"TUIKit.AudioEffectView.VoiceVolum.title" = "Voice volume";
+//"TUIKit.AudioEffectView.MusicRiseFall.title" = "Music tone";
+//// 变声
+//"TUIKit.AudioEffectView.VoiceChange.Original" = "Original";
+//"TUIKit.AudioEffectView.VoiceChange.Naughty boy" = "Naughty boy";
+//"TUIKit.AudioEffectView.VoiceChange.Little girl" = "Little girl";
+//"TUIKit.AudioEffectView.VoiceChange.Middle-aged man" = "Middle-aged man";
+//"TUIKit.AudioEffectView.VoiceChange.Ethereal voice" = "Ethereal voice";
+//// 混响
+//"TUIKit.AudioEffectView.VoiceReverb.No effect" = "No effect";
+//"TUIKit.AudioEffectView.VoiceReverb.Karaoke room" = "Karaoke room";
+//"TUIKit.AudioEffectView.VoiceReverb.Metallic" = "Metallic";
+//"TUIKit.AudioEffectView.VoiceReverb.Deep" = "Deep";
+//"TUIKit.AudioEffectView.VoiceReverb.Resonant" = "Resonant";
+//// 音乐曲目
+//"TUIKit.AudioEffectView.MusicSelect.musicname1" = "Happy";
+//"TUIKit.AudioEffectView.MusicSelect.musicname2" = "Sad Cinematic Piano";
+//"TUIKit.AudioEffectView.MusicSelect.musicname3" = "Wonder World";
+//
+//
+//"TUIKit.AudioEffectView.Back" = "Back";
+
+"TUIKit.AudioEffectView.title" = "사운드 효과 설정";
+"TUIKit.AudioEffectView.VoiceChange.title" = "음성 변경";
+"TUIKit.AudioEffectView.VoiceReverb.title" = "반향";
+"TUIKit.AudioEffectView.MusicBackground.title" = "배경 음악";
+"TUIKit.AudioEffectView.MusicBackground.earMonitor" = "이어 모니터";
+"TUIKit.AudioEffectView.MusicBackground.useEarphones" = "더 나은 경험을 위해 이어폰을 사용하십시오";
+"TUIKit.AudioEffectView.MusicSelect.copyrights" = "음악 라이브러리 ©";
+"TUIKit.AudioEffectView.MusicSelect.select" = "노래 선택";
+"TUIKit.AudioEffectView.MusicVolum.title" = "음악 볼륨";
+"TUIKit.AudioEffectView.VoiceVolum.title" = "음성 볼륨";
+"TUIKit.AudioEffectView.MusicRiseFall.title" = "음악 톤";
+// 变声
+"TUIKit.AudioEffectView.VoiceChange.Original" = "원본";
+"TUIKit.AudioEffectView.VoiceChange.Naughty boy" = "장난꾸러기 소년";
+"TUIKit.AudioEffectView.VoiceChange.Little girl" = "어린 소녀";
+"TUIKit.AudioEffectView.VoiceChange.Middle-aged man" = "중년 남성";
+"TUIKit.AudioEffectView.VoiceChange.Ethereal voice" = "Ethereal 음성";
+//混响
+"TUIKit.AudioEffectView.VoiceReverb.No effect" = "효과 없음";
+"TUIKit.AudioEffectView.VoiceReverb.Karaoke room" = "노래방";
+"TUIKit.AudioEffectView.VoiceReverb.Metallic" = "메탈릭";
+"TUIKit.AudioEffectView.VoiceReverb.Deep" = "깊음";
+"TUIKit.AudioEffectView.VoiceReverb.Resonant" = "공명";
+// 오디오 曲目
+"TUIKit.AudioEffectView.MusicSelect.musicname1" = "행복함";
+"TUIKit.AudioEffectView.MusicSelect.musicname2" = "슬픈 영화 피아노";
+"TUIKit.AudioEffectView.MusicSelect.musicname3" = "원더 월드";
+
+
+"TUIKit.AudioEffectView.Back" = "뒤로";
