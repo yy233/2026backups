@@ -1,0 +1,33 @@
+# Xcode
+*.pbxproj
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+!default.xcconfig
+
+# Build output
+build/
+DerivedData/
+*.dSYM.zip
+*.xcarchive
+
+# CocoaPods
+Pods/
+*.podspec.json
+
+# Swift Package Manager
+Package.resolved
+Package.pins
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.swift
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.quick
+fastlane/screenshots/
+
+
+
+*/AliyunPlayer.framework
+*/libiPhone-lib.a
+
+
